@@ -36,7 +36,8 @@ const Nav=(porps)=> {
                             <a className="text-two nav-link text-secondary font-weight-bold" href="#">Acompañamiento</a>
                         </li>
                         <li className="nav-item">
-                            <a className="text-two nav-link text-secondary font-weight-bold" href="#">Iniciar Sesión</a>
+                            <Link to='/InicioSesion' className="text-two nav-link text-secondary font-weight-bold">Inicio Sesión</Link>
+
                         </li>
                     </ul>
                 </div>

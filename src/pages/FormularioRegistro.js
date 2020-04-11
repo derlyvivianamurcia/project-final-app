@@ -1,14 +1,17 @@
 import React from 'react';
-import Header from '../components/Header';
 import MainFormularioRegistro from '../components/MainFormularioRegistro';
+import Footer from '../components/Footer';
+import Nav from '../components/Navbar'
 
 
 
 const FormularioRegistro = () => {
   return (
     <>
-    <Header />
+    <Nav />
     <MainFormularioRegistro />
+    <Footer />
+
     </>
 
   );
