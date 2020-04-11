@@ -22,16 +22,16 @@ const Header=(porps)=> {
                 <div className="collapse container navbar-collapse" id="navbarSupportedContent-555">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link text" href="#">Inicio
+                            <Link className="nav-link text" to='/'>Inicio
                             <span> |</span>
                                 <span className="sr-only">(current)</span>
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <a className="text-two nav-link text-secondary font-weight-bold" href="#">Cursos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="text-two nav-link text-secondary font-weight-bold" href="#">Acompañamiento</a>
+                            <Link className="text-two nav-link text-secondary font-weight-bold" to='/Acompanamiento'>Acompañamiento</Link>
                         </li>
                         <li className="nav-item">
                             <a className="text-two nav-link text-secondary font-weight-bold" href="#">Empleabilidad</a>
