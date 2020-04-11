@@ -1,5 +1,4 @@
 import React from 'react';
-import MainPrincipalBanner from './MainPrincipalBanner';
 import cardempleo from '../images/cardempleo.png'
 import cardcurso from '../images/cardcurso.png'
 import cardacompanamiento from '../images/cardacompanamiento.png'
@@ -9,11 +8,7 @@ import { Link } from 'react-router-dom';
 const MainPrincipal = () => {
     return (
         <>
-            <MainPrincipalBanner />
-
-            <section className="container">
-                <div className=" display-4 mt-5 text-justify"><span>¡Una vez estés registrado en nuestra plataforma podrás accerder de los siguientes beneficios!</span></div>
-                <div className="container mt-5">
+           <section className="container mt-5">
                     <div className="card-group">
                         <div className="card">
                             <img src={cardcurso} className="card-img-top " alt="Image responsive" />
@@ -37,7 +32,6 @@ const MainPrincipal = () => {
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         </>
     )
