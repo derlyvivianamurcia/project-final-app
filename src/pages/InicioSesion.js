@@ -1,5 +1,6 @@
 import React from 'react';
 import MainInicioSesion from '../components/MainInicioSesion';
+import Header from '../components/Header';
 
 
 
@@ -7,6 +8,8 @@ import MainInicioSesion from '../components/MainInicioSesion';
 const InicioSesion = () => {
   return (
     <>
+        <Header />
+
     <MainInicioSesion />
     </>
 
