@@ -28,7 +28,6 @@ const Header = (porps) => {
 
                         </li>
                         <li className="nav-item">
-                            <a className="text-two nav-link text-secondary font-weight-bold" href="#">Cursos</a>
                         </li>
                         <li className="nav-item">
                             <Link className="text-two nav-link text-secondary font-weight-bold" to='/Acompanamiento'>Acompañamiento</Link>
