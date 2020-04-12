@@ -2,23 +2,20 @@ import React from 'react';
 import logo from '../images/Logo.png'
 
 const Footer = () => {
-    
-   
+
+
     return (
-        <footer className="container-fluid bg-light"> 
+        <footer className="container-fluid bg-light">
             <nav className="d-flex justify-content-center">
-                <ul className="navbar sticky-top navbar-light">   
-                   <a className="nav-link" href="#"> <img src="https://img.icons8.com/nolan/64/twitter.png"/></a>                  
-                   <a className="nav-link" href="#">  <img src="https://img.icons8.com/nolan/64/instagram-new.png"/></a>
-                   <a className="nav-link" href="#">  <img src="https://img.icons8.com/nolan/64/linkedin.png"/></a>
-                    
+                <ul className="navbar sticky-top navbar-light">
+                    <a className="nav-link anime" target="_blanck" href="https://twitter.com/"> <img src="https://img.icons8.com/nolan/64/twitter.png" /></a>
+                    <a className="nav-link" href="https://www.instagram.com/" target="_blanck">  <img src="https://img.icons8.com/nolan/64/instagram-new.png" /></a>
+                    <a className="nav-link" href="https://www.linkedin.com/"  target="_blanck">  <img src="https://img.icons8.com/nolan/64/linkedin.png" /></a>
                 </ul>
-                </nav>
-                <div className="d-flex justify-content-center">
+            </nav>
+            <div className="d-flex justify-content-center">
                 <span className="font-italic">Copyright©  | EduSkill especializada en educación PMR  </span>
-                </div>
-               
-            
+            </div>
         </footer>
     )
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import '../Style/Formulario.css'
 
 class MainFormularioRegistro extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class MainFormularioRegistro extends React.Component {
       <>
         <div className="container">
           <div className="row">
-            <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div className="col-sm-9 col-md-7 col-lg-8 mx-auto">
               <div className="card card-signin my-5">
                 <div className="card-body">
                   <h5 className="card-title text-center">Formulario de Registro </h5>
@@ -16,8 +17,8 @@ class MainFormularioRegistro extends React.Component {
                     <div class="col">
                       <label className="inputPassword">Nombre</label>
                       <input type="text" class="form-control" placeholder="Nombre"></input>
-
                     </div>
+
                     <div class="col">
                       <label className="inputPassword">Apellidos</label>
                       <input type="text" class="form-control" placeholder="Apellidos"></input>
@@ -25,22 +26,20 @@ class MainFormularioRegistro extends React.Component {
                     </div>
                   </div>
 
-                  <div className="form-label-group">
-                    <label className="inputPassword">Correo electrónico</label>
-                    <input type="password" id="inputPassword" className="form-control" placeholder="Ingrese su correo" required></input>
+                  <div class="form-group">
+                    <label className="inputAddress">Correo</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Correo electronico"></input>
                   </div>
 
 
                   <div class="form-row">
                     <div class="col">
                       <label className="inputPassword">Contraseña</label>
-
                       <input type="text" class="form-control" placeholder="Contraseña"></input>
-
                     </div>
-                    <div class="col">
-                      <label className="inputPassword">Confirmación contraseña</label>
 
+                    <div class="col">
+                      <label className="inputPassword">Confirmación</label>
                       <input type="text" class="form-control" placeholder="Confirmación"></input>
 
                     </div>
@@ -68,7 +67,6 @@ class MainFormularioRegistro extends React.Component {
                     <div class="col">
                       <label className="inputPassword">Puesto</label>
                       <input type="text" class="form-control" placeholder="Puesto deseado"></input>
-
                     </div>
                     <div class="col">
                       <label className="inputPassword">Celular</label>
@@ -88,9 +86,12 @@ class MainFormularioRegistro extends React.Component {
                     <label class="form-check-label" for="inlineRadio2">Mujer</label>
                   </div>
 
+                  <div class="col center">
+                    <button className="btn btn-small btn-btn btn-info buttonForm text-uppercase text-align:center" type="submit">Registrar</button>
+
+                  </div>
 
 
-                  <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Registrar</button>
 
 
                   <hr className="my-4"></hr>

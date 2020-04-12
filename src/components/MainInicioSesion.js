@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import '../Style/Formulario.css'
 
 class MainInicioSesion extends React.Component {
     render() {
@@ -23,7 +24,7 @@ class MainInicioSesion extends React.Component {
                                     </div>
 
                                   
-                                    <button className="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Iniciar Sesión</button>
+                                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Iniciar Sesión</button>
 
                                     <div className="form-label-group">
                                     <div className="card-title text-center">¿Primera vez en EduSkill?</div>

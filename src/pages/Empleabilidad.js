@@ -1,15 +1,15 @@
 import React from 'react';
-import MainFormularioRegistro from '../components/MainFormularioRegistro';
 import Footer from '../components/Footer';
 import Header from '../components/Header'
+import MainEmpleabilidad from '../components/MainEmpleabilidad';
 
 
 
-const FormularioRegistro = () => {
+const Empleabilidad = () => {
   return (
     <>
     <Header />
-    <MainFormularioRegistro />
+    <MainEmpleabilidad />
     <Footer />
 
     </>
@@ -18,4 +18,4 @@ const FormularioRegistro = () => {
 }
 
 
-export default FormularioRegistro;
+export default Empleabilidad;
