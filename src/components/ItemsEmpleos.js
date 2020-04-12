@@ -9,9 +9,9 @@ function ItemsEmpleos(props) {
                     <div className="row justify-content-center ">
                         <div className="col-lg-8 text-center ">
                             <div className="main_title ">
-                                <h2>Experiencia </h2>
+                                <h2>Empleos </h2>
                                 <p>
-                                    En está sección se encuentra la experiencia laboral y academica en diferentes campos del área de Ingeniería a fin de aplicar los conocimientos adquiridos en el trancurso de mi formación profesional.
+                                    Encuentra más de 20 millones de empleos
                                 </p>
                             </div>
                         </div>
@@ -19,16 +19,16 @@ function ItemsEmpleos(props) {
                     <div className="row feature_inner ">
                         {ItemsEmpleos.map((item, index) => {
                             return (
-                                <div className="col-lg-3 col-md-6" key={`ItemsExperiencia-item-${index}`}>
-                                    <div className=" feature_item ">
-                                        <img src={item.icono}></img>
-                                        <h4>{item.nombreExperiencia}</h4>
-                                        <p>{item.descripcion}</p>
-                                        <p><strong>Empresa:</strong>{item.empresa} </p>
-                                        <p><strong>Periodo:</strong> {item.periodo} </p>
-                                        <div className="col-lg-3 col-md-6">
+                                <div className="col-lg-3 col-md-6" key={`ItemsEmpleos-item-${index}`}>
+                                    <div class="card" key={`ItemsEmpleos-item-${index}`}>
+                                        <img src={item.imgEmpleo} class="card-img-top" alt="..."></img>
+                                        <div class="card-body">
+                                            <h5 class="card-title">{item.nameEmpleo}</h5>
+                                            <p>{item.ubicacionEmpleo}</p>
+                                            <p class="card-text"><strong>Descripción: </strong>{item.descripcionEmpleo}</p>
+                                            <p><strong>Tipo empleo:</strong> {item.tipoEmpleo} </p>
+                                            <a href="#" class="btn btn-primary">VER EMPLEO</a>
                                         </div>
-
                                     </div>
                                 </div>
                             );
@@ -40,4 +40,4 @@ function ItemsEmpleos(props) {
     );
 }
 
-export default ItemsExperiencia;
+export default ItemsEmpleos;

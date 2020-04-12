@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import '../Style/Nav.css'
-import logo from '../images/Logo.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import "../Style/Nav.css";
+import logo from "../images/Logo.png";
 
 
 
@@ -47,5 +47,6 @@ const Header = (porps) => {
 
     );
 }
+
 export default Header;
 
