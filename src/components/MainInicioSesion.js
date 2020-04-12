@@ -17,22 +17,15 @@ class MainInicioSesion extends React.Component {
                                         <input type="email" id="inputEmail" className="form-control" placeholder="Ingrese su usuario" required ></input>
                                         <label className="inputEmail">Usuario</label>
                                     </div>
-
                                     <div className="form-label-group">
                                         <input type="password" id="inputPassword" className="form-control" placeholder="Ingrese su contraseña" required></input>
                                         <label className="inputPassword">Contraseña</label>
                                     </div>
-
-                                  
-                                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Iniciar Sesión</button>
-
+                                    <button className="btn btn-lg  btn-block btn-btn btn-info buttonForm text-uppercase" type="submit">Iniciar Sesión</button>
                                     <div className="form-label-group">
-                                    <div className="card-title text-center">¿Primera vez en EduSkill?</div>
+                                        <div className="card-title text-center">¿Primera vez en EduSkill?</div>
                                     </div>
-
-                                
-                                       <Link to='/FormularioRegistro' className="nav-link  text-center">¡Registrate aquí!</Link>
-
+                                    <Link to='/FormularioRegistro' className="nav-link  text-center">¡Registrate aquí!</Link>
                                     <hr className="my-4"></hr>
                                     <div className="card-title text-center">Copyright © 2020 EduSkill</div>
                                     <div className="card-title text-center">Área de desarrollo</div>
@@ -41,7 +34,6 @@ class MainInicioSesion extends React.Component {
                         </div>
                     </div>
                 </div>
-
             </>
         );
     }
