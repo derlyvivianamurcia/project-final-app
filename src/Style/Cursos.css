@@ -1,0 +1,10 @@
+.filtroCursos {
+  background-image: url("../images/banner.png");
+}
+
+.mensajeFiltroCursos {
+  font-family: "Gotu", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+}
