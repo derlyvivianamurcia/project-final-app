@@ -14,7 +14,7 @@ const MainPrincipal = () => {
                             <img src={cardcurso} className="card-img-top " alt="Image responsive" />
                             <div className="card-body">
                                 <a className="text-decoration-none text-secondary mb-4 h4" to="" >CURSOS</a>
-                                <p className="card-text text-justify mt-2">En esta sección encontrará cursos, de diferentes modalidades que están a su disposición. </p>
+                                <p className="card-text text-justify mt-2">En esta sección encontrarás cursos, de diferentes modalidades que están a tu disposición. </p>
                             </div>
                         </div>
                         <div className="card">
@@ -28,7 +28,7 @@ const MainPrincipal = () => {
                             <img src={cardempleo} className="card-img-top" alt="Image responsive" />
                             <div className="card-body">
                                 <a className="text-decoration-none text-secondary mb-4 h4">EMPLEABILIDAD</a>
-                                <p className="card-text text-justify mt-2">En esta sección podrá encontrar vacantes de empleo, afines a su experiencia o conocimientos.</p>
+                                <p className="card-text text-justify mt-2">En esta sección podrás encontrar vacantes de empleo, afines a tu experiencia o conocimientos.</p>
                             </div>
                         </div>
                     </div>

@@ -24,4 +24,8 @@
       margin:12px;
       width: 500px;   
   }
+  .card:hover{
+    opacity: 0.7;
+    background: rgba(247, 244, 245, 0.164);
+  }
  

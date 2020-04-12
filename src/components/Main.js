@@ -12,7 +12,7 @@ const Main = () => {
         <main>
          <MainPrincipalBanner />
             <div className="container">
-                <div className=" display-4 mt-5 text-justify"><span>¡Una vez estés registrado en nuestra plataforma podrás accerder de los siguientes beneficios!</span></div>
+                <div className="h1 mt-5 text-center"><span>¡Una vez estés registrado en nuestra plataforma podrás accerder de los siguientes beneficios!</span></div>
                 <MainPrincipal />
             </div>
            
