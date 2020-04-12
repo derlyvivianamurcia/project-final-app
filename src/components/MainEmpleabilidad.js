@@ -15,39 +15,78 @@ class MainEmpleabilidad extends React.Component {
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Encuentra tu siguiente empleo </h5>
                                     <form className="form-signin"></form>
-                                    <div className="row">
-                                        <div className="col">
-                                            <select id="inputState" className="form-control">
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <select id="inputState" class="form-control">
                                                 <option selected>Tipo de Contrato...</option>
-                                                <option>Hola</option>
+                                                <option>...</option>
+
                                             </select>
                                         </div>
-                                        <div className="col">
-                                            <input type="text" className="form-control" placeholder="Puesto deseado"></input>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Puesto deseado"></input>
                                         </div>
-                                        <div className="col">
-                                            <select id="inputState" className="form-control">
+                                        <div class="col">
+                                            <select id="inputState" class="form-control">
                                                 <option selected>Municipio...</option>
-                                                <option>hola</option>
+                                                <option>...</option>
                                             </select>
                                         </div>
-                                        <div className="col">
-                                            <button className="btn btn-lg btn-btn btn-info buttonForm text-uppercase" type="submit">Buscar empleo</button>
-                                        </div>
+                                        <div class="col">
+                                        <button className="btn btn-lg btn-btn btn-info buttonForm text-uppercase" type="submit">Buscar empleo</button>
+                                        </div>                                      
                                     </div>
+
                                     <div className="container">
                                         <div className="row">
-                                            <div className="col">
+                                            <div class="col">
                                                 <label className="inputState">Mis postulaciones</label>
-                                                <div className="col">
+                                                <div class="col">
                                                     <button className="btn btn-lg btn-btn btn-info buttonForm text-uppercase" type="submit">Ingrese su hoja de vida</button>
                                                 </div>
+
                                             </div>
                                         </div>
+
+
+
                                         <ItemsEmpleos ItemsEmpleos={data.ItemsEmpleos} />
+
+                                        <section className="banner_area">
+                                            <div className="banner_inner d-flex align-items-center">
+                                                <div className="container">
+                                                    <div className="banner_content text-center">
+                                                        <div className="page_link">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+
                                     </div>
-                                    <div className="form-row">
-                                        <div className="col">
+
+
+                                    <div class="form-row">
+                                        <div class="col">
                                         </div>
                                     </div>
                                 </div>
@@ -55,6 +94,7 @@ class MainEmpleabilidad extends React.Component {
                         </div>
                     </div>
                 </div>
+
             </>
         );
     }
