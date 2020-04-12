@@ -34,7 +34,7 @@ const Header = (porps) => {
                             <Link className="text-two nav-link text-secondary font-weight-bold" to='/Acompanamiento'>Acompañamiento</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="text-two nav-link text-secondary font-weight-bold" href="#">Empleabilidad</a>
+                        <Link to='/Empleabilidad' className="text-two nav-link text-secondary font-weight-bold">Empleabilidad</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/InicioSesion' className="text-two nav-link text-secondary font-weight-bold">Inicio Sesión</Link>

@@ -5,6 +5,7 @@ import Principal from '../pages/Principal';
 import FormularioRegistro from '../pages/FormularioRegistro';
 
 import Acompanamiento from '../pages/Acompanamiento'
+import Empleabilidad from '../pages/Empleabilidad';
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
               <Route path='/InicioSesion' component={InicioSesion} />
               <Route path='/FormularioRegistro' component={FormularioRegistro} />
               <Route path='/Acompanamiento' component={Acompanamiento} />
+              <Route path='/Empleabilidad' component={Empleabilidad} />
+
           </Switch>
       </BrowserRouter>
   );
