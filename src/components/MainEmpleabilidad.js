@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Style/Formulario.css";
-import ItemsEmpleos from "./ItemsEmpleos";
+import ItemsEmpleos from "./itemsEmpleos";
 import { data } from "../utils/mocks/data.js";
 
 class MainEmpleabilidad extends React.Component {
