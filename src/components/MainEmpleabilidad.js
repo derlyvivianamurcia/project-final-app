@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Style/Formulario.css";
-import ItemsEmpleos from "./itemsEmpleos";
 import { data } from "../utils/mocks/data.js";
+import Empleos from "./empleos";
 
 class MainEmpleabilidad extends React.Component {
 
@@ -46,7 +46,7 @@ class MainEmpleabilidad extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ItemsEmpleos ItemsEmpleos={data.ItemsEmpleos} />
+                                        <Empleos Empleos={data.Empleos} />
                                     </div>
                                 </div>
                             </div>

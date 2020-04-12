@@ -1,7 +1,7 @@
 import React from "react";
 
-function ItemsEmpleos(props) {
-    const { ItemsEmpleos } = props;
+function Empleos(props) {
+    const { Empleos } = props;
     return (
         <>
             <section className=" features_area ">
@@ -17,7 +17,7 @@ function ItemsEmpleos(props) {
                         </div>
                     </div>
                     <div className="row feature_inner ">
-                        {ItemsEmpleos.map((item, index) => {
+                        {Empleos.map((item, index) => {
                             return (
                                 <div className="col-lg-3 col-md-6" key={`ItemsEmpleos-item-${index}`}>
                                     <div class="card" key={`ItemsEmpleos-item-${index}`}>
@@ -40,4 +40,4 @@ function ItemsEmpleos(props) {
     );
 }
 
-export default ItemsEmpleos;
+export default Empleos;

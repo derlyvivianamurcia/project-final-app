@@ -1,6 +1,6 @@
 
 export const data = {
-  ItemsEmpleos: [
+  Empleos: [
     {
       imgEmpleo: 'https://media-exp1.licdn.com/dms/image/C5103AQEIZ795G85ZYQ/profile-displayphoto-shrink_100_100/0?e=1592438400&v=beta&t=4JpNRXVWTcjJw5ptawYBJ4YLZooarHHnoRECp7tZIFs',
       nameEmpleo: "Junior Front end Designer",
