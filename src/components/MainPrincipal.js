@@ -16,9 +16,9 @@ const MainPrincipal = () => {
               alt="Image responsive"
             />
             <div className="card-body">
-              <a className="text-decoration-none text-secondary mb-4 h4" to="">
+              <Link className="text-decoration-none text-secondary mb-4 h4" to="/Cursos">
                 CURSOS
-              </a>
+              </Link>
               <p className="card-text text-justify mt-2">
                 En esta sección encontrarás cursos, de diferentes modalidades
                 que están a tu disposición.{" "}
@@ -51,7 +51,7 @@ const MainPrincipal = () => {
               alt="Image responsive"
             />
             <div className="card-body">
-              <a className="card-title h4">EMPLEABILIDAD</a>
+              <Link to='/Empleabilidad' className="text-decoration-none text-secondary mb-4 h4">EMPLEABILIDAD</Link>
               <p className="card-text text-justify mt-2">
                 En esta sección podrá encontrar vacantes de empleo, afines a su
                 experiencia o conocimientos.
