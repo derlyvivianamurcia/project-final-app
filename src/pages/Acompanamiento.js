@@ -1,23 +1,22 @@
-import React from 'react';
-import Footer from '../components/Footer';
-import Header from '../components/Header'
-import HeroAcompanamiento from '../components/HeroAcompañamiento';
-import Heroseccioncitas from '../components/Heroseccioncitas';
-
-
+import React from "react";
+import Header from "../components/Header";
+import ParticleComponent from "../components/ParticleComponent";
+import HeroAcompanamiento from "../components/HeroAcompanamiento";
+import Heroseccioncitas from "../components/Heroseccioncitas";
+import Footer from "../components/Footer";
 
 const FormularioRegistro = () => {
   return (
     <>
-    <Header />
-   <HeroAcompanamiento/>
-   <Heroseccioncitas/>
-    <Footer />
-
+      <Header />
+      <div className="particles-js">
+        <ParticleComponent />
+        <HeroAcompanamiento />
+      </div>
+      <Heroseccioncitas />
+      <Footer />
     </>
-
   );
-}
-
+};
 
 export default FormularioRegistro;

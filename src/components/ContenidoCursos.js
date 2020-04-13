@@ -79,7 +79,7 @@ class ContenidoCursos extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container marginTop">
         <div className="row">
           <TarjetaCursos InfoCursos={this.InformacionCurso} />
         </div>

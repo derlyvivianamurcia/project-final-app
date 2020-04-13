@@ -1,38 +1,55 @@
-import React from 'react';
+import React from "react";
+import Calendario from "../components/Calendario";
 
 const Heroseccioncitas = () => {
-    return (
-        <section className="container">
-            <div className="row">
-                <div className="col-12">
-                    <h1 className="text-center">Para nosotros es muy importante que puedas acceder a estos espacios de ayudas.</h1>
-                    <p className="text-center">Ques estás esperando agenda tu cita ya!!!</p>
-                </div>
+  return (
+    <section className="container">
+      <div className="row">
+        <div className="col-12">
+          <h2 className="text-center">
+            Para nosotros es muy importante que puedas acceder a estos espacios
+            de ayudas.
+          </h2>
+          <p className="text-center">
+            Que estás esperando agenda tu cita ya!!!
+          </p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6">
+          <form>
+            <div class="form-group">
+              <label>Nombre:</label>
+              <input type="text" className="form-control" />
+            </div>
 
+            <div class="form-group">
+              <label>Celular:</label>
+              <input type="text" className="form-control" />
             </div>
-            <div className="row">
-                <div className="col-6">
-                    <form className="form">
-                        <div>
-                            <label>Nombre:</label>
-                            <input type="text" className="form-control" placeholder="Nombre"></input>
-                        </div>
-                        <div>
-                            <label>Celular:</label>
-                            <input type="text" className="form-control" placeholder="Celular"></input>
-                        </div>
-                        <div>
-                            <label>Em@il:</label>
-                            <input type="email" className="form-control" placeholder="Em@il"></input>
-                        </div>
-                    </form>
-                    <button type="" className="btn btn-primary">Submit</button>
-                    <div className="col-6">
-                        <div></div>
-                    </div>
-                </div>
+
+            <div class="form-group">
+              <label>Email:</label>
+              <input type="text" className="form-control" />
             </div>
-        </section>
-    )
-}
-export default Heroseccioncitas
+
+            <button type="" className="btn btn-primary">
+              Submit
+            </button>
+          </form>
+        </div>
+
+        <div className="col-1"></div>
+
+        <div className="col-4">
+          <div className="">
+            <Calendario />
+          </div>
+        </div>
+
+        <div className="col-1"></div>
+      </div>
+    </section>
+  );
+};
+export default Heroseccioncitas;

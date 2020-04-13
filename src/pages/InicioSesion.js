@@ -1,10 +1,7 @@
-import React from 'react';
-import MainInicioSesion from '../components/MainInicioSesion';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
-
-
+import React from "react";
+import MainInicioSesion from "../components/MainInicioSesion";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const InicioSesion = () => {
   return (
@@ -13,9 +10,7 @@ const InicioSesion = () => {
       <MainInicioSesion />
       <Footer />
     </>
-
   );
-}
-
+};
 
 export default InicioSesion;

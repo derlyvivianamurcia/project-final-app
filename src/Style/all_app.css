@@ -1,0 +1,21 @@
+.marginTop {
+  margin-top: 30px;
+}
+
+.textMain {
+  color: paleturquoise;
+}
+
+.colorText {
+  color: orange;
+}
+
+.bgColor {
+  margin-top: 50px;
+  background-color: #0e294b;
+}
+
+.imagenBanner {
+  width: 380px;
+  margin-left: 80px;
+}

@@ -1,16 +1,19 @@
 import React from "react";
 import Header from "../components/Header";
-import "../Style/Cursos.css";
-import Footer from "../components/Footer";
+import ParticleComponent from "../components/ParticleComponent";
 import FiltroCursos from "../components/FiltroCursos";
 import ContenidoCursos from "../components/ContenidoCursos";
+import Footer from "../components/Footer";
 
 class Cursos extends React.Component {
   render() {
     return (
       <div>
         <Header />
-        <FiltroCursos />
+        <div className="particles-js">
+          <ParticleComponent />
+          <FiltroCursos />
+        </div>
         <ContenidoCursos />
         <Footer />
       </div>
