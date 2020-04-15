@@ -9,9 +9,9 @@ const MainPrincipalBanner = () => {
           <div className="col">
             <h1 className="textMain">Bienvenid@</h1>
             <h4 className="text-justify text-white">
-              Esta página esta creada pensando ti, si eres una persona que
+            Esta página esta creada pensando ti, si eres una persona que
               pertenece al grupo de PMR (Personas con Movilidad Reducida) eres
-              bienvenid@ conócenos ¡Te va a encantar!.
+              bienvenida(o) conócenos ¡Te va a encantar!.
             </h4>
           </div>
 

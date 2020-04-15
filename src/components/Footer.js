@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="row d-flex justify-content-center">
-        <span className="font-italic">
+        <span className="font-italic text-secondary">
           Copyright© | EduSkill especializada en educación PMR{" "}
         </span>
       </div>
