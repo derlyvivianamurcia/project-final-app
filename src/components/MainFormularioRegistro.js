@@ -36,7 +36,7 @@ class MainFormularioRegistro extends React.Component {
                     <label className="inputAddress">Correo</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="inputAddress"
                       placeholder="Correo electronico"
                     ></input>
@@ -95,8 +95,7 @@ class MainFormularioRegistro extends React.Component {
                   </div>
                   <div className="form-check form-check-inline">
                     <label className="form-check-label" for="inlineRadio3">
-                      {" "}
-                      Genero{" "}
+                      Genero
                     </label>
                     <input
                       className="form-check-input"

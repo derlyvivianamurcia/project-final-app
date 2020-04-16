@@ -3,14 +3,16 @@ import MainInicioSesion from "../components/MainInicioSesion";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const InicioSesion = () => {
-  return (
-    <>
-      <Header />
-      <MainInicioSesion />
-      <Footer />
-    </>
-  );
-};
+class InicioSesion extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <MainInicioSesion />
+        <Footer />
+      </div>
+    );
+  }
+}
 
 export default InicioSesion;

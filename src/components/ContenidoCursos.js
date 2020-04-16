@@ -9,9 +9,25 @@ import CursoExcel from "../images/cursos/CursoExcel.PNG";
 import ClasesDeInglesBasico from "../images/cursos/ClasesDeInglésBásico.PNG";
 import DeNovatoDesarrolladoExitoso from "../images/cursos/DeNovatoDesarrolladoExitoso.PNG";
 import TarjetaCursos from "../components/TarjetaCursos";
+import axios from "axios";
 
 class ContenidoCursos extends React.Component {
-  InformacionCurso = [
+  state = {
+    cursos: [],
+  };
+
+  componentDidMount() {
+    this.traerCursosDeApi();
+  }
+
+  traerCursosDeApi() {
+    axios.get("http://localhost:3001/cursos").then((respuesta) => {
+      console.log(respuesta.data);
+      this.setState({ cursos: respuesta.data });
+      console.log(this.state.cursos);
+    });
+  }
+  /*   InformacionCurso = [
     {
       id: "1",
       imagen: ProgramarHTMLyCSS,
@@ -75,13 +91,13 @@ class ContenidoCursos extends React.Component {
       profesor: "Julio Liarte",
       duracion: "6 h 12 min de vídeo bajo demanda",
     },
-  ];
+  ]; */
 
   render() {
     return (
       <div className="container marginTop">
         <div className="row">
-          <TarjetaCursos InfoCursos={this.InformacionCurso} />
+          <TarjetaCursos EjemploDAlgoQueMando={this.state.cursos} />
         </div>
       </div>
     );

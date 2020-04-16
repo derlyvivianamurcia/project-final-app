@@ -1,0 +1,34 @@
+{
+  "cursos": [
+    {
+      "nombreCurso": "editado",
+      "profesor": "editado 2",
+      "duracion": "editado 2",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nombreCurso": "Criptomonedas",
+      "profesor": "editado",
+      "duracion": "editado"
+    },
+    {
+      "id": "4",
+      "nombreCurso": "Criptomonedas",
+      "profesor": "editado",
+      "duracion": "editado"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "email": "eduard@hotmail.com",
+      "contrasena": "12345xxxxxx"
+    },
+    {
+      "id": "2",
+      "email": "luisa@hotmail.com",
+      "contrasena": "12345"
+    }
+  ]
+}

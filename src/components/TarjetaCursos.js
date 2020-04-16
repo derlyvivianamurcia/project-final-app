@@ -1,12 +1,13 @@
 import React from "react";
+import AprenderReactJS from "../images/cursos/AprenderReactJS.PNG";
 
 function InformacionCurso(props) {
-  const datos = props.InfoCursos;
+  const datos = props.EjemploDAlgoQueMando;
   return datos.map((DatoCurso) => {
     return (
       <div key={DatoCurso.id} className="col-sm-4 col-md-4 col-lg-4">
         <div className="card" style={{ width: "18rem" }}>
-          <img src={DatoCurso.imagen} className="card-img-top" />
+          <img src={AprenderReactJS} className="card-img-top" />
           <div className="card-body">
             <h5 className="card-title">{DatoCurso.nombreCurso}</h5>
             <p className="card-text">
