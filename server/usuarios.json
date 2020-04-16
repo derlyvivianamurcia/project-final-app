@@ -1,0 +1,16 @@
+{
+  "usuarios": [
+    {
+      "id": 2,
+      "nombre": "EDITADO",
+      "apellido": "SERRANO HENAO",
+      "identificacion": 34567893
+    },
+    {
+      "id": 5,
+      "nombre": "RODOLFO",
+      "apellido": "SERRANO HENAO",
+      "identificacion": 33
+    }
+  ]
+}

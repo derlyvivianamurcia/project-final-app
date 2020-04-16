@@ -32,7 +32,7 @@ class MainInicioSesion extends React.Component {
     //console.log("formulario enviado");
     console.log("email para buscar " + this.state.form.email);
     axios
-      .get(`http://localhost:3001/usuarios?email=${this.state.form.email}`)
+      // .get(`http://localhost:3001/usuarios?email=${this.state.form.email}`)
       .then((respuesta) => {
         this.setState({ consultado: respuesta.data });
         this.ValidarPassword();
