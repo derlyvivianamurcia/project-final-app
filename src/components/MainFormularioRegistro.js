@@ -26,6 +26,8 @@ class MainFormularioRegistro extends React.Component {
       nivelIdioma: "",
     },
   };
+
+  
   handleChange = (e) => {
     this.setState({
       form: {
@@ -40,15 +42,19 @@ class MainFormularioRegistro extends React.Component {
     console.log("boton presionado");
   };
 
+
+
+
   handleSubmit = (e) => {
-    e.preventDefault();
-    //console.log("formulario enviado");
-    console.log("email para buscar " + this.state.form.email);
-    axios
-      // .get(`http://localhost:3001/usuarios?email=${this.state.form.email}`)
-      .then((respuesta) => {
-        this.setState({ consultado: respuesta.data });
-      });
+    // e.preventDefault();
+    axios({
+      method: 'post',
+      url: 'http://localhost:3001/usuarios',
+      data: {
+      
+      }
+    });
+     
   };
 
   render() {
@@ -147,7 +153,7 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   name="celularUsuario"
                   type="tel"
-                  class="form-control"
+                  className="form-control"
                   value={this.state.form.celularUsuario}
                 />
               </div>
@@ -168,33 +174,19 @@ class MainFormularioRegistro extends React.Component {
               </div>
 
               <h6>Genero</h6>
-              <div class="form-check form-check-inline">
-                <input
-                  className="form-check-input"
+              <div className="form-check form-check-inline">
+              <select
                   onChange={this.handleChange}
-                  type="radio"
-                  name="genero1"
-                  id="inlineRadio1"
-                  value={this.state.form.genero1}
-                />
-                <label for="inlineRadio1" className="form-check-label">
-                  Mujer
-                </label>
+                  className="form-control"
+                  name="genero"
+                  value={this.state.form.genero}>
+                  <option>Femenino</option>
+                  <option>Masculino</option>
+                  <option>Bisexual</option>
+                  <option>Homosexual</option>
+                </select>
               </div>
-
-              <div class="form-check form-check-inline">
-                <input
-                  className="form-check-input"
-                  onChange={this.handleChange}
-                  type="radio"
-                  name="genero2"
-                  id="inlineRadio2"
-                  value={this.state.form.genero2}
-                />
-                <label for="inlineRadio2" className="form-check-label">
-                  Hombre
-                </label>
-              </div>
+             
 
               <div className="form-group">
                 <br />
@@ -203,7 +195,7 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   name="direccion"
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   value={this.state.form.direccion}
                 />
               </div>
@@ -228,7 +220,7 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   name="descripcionPerfil"
                   rows="6"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Ej: Amplia experiencia en la área financiera analista de crédito (énfasis en el manejo, identificación, clasificación, análisis y evaluación de operaciones de crédito). Análisis y aplicación de políticas financieras para la toma de decisiones en productos financieros y riesgo crediticio. Análisis de peticiones, quejas y reclamos."
                   value={this.state.form.descripcionPerfil}
                 ></textarea>
@@ -254,7 +246,7 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   type="text"
                   name="empresaExperiencia"
-                  class="form-control"
+                  className="form-control"
                   value={this.state.form.empresaExperiencia}
                 />
               </div>
@@ -279,7 +271,7 @@ class MainFormularioRegistro extends React.Component {
                 <input
                   onChange={this.handleChange}
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   name="cargoEmpresa"
                   value={this.state.form.cargoEmpresa}
                 />
