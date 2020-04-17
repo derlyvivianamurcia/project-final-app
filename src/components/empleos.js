@@ -1,10 +1,10 @@
 import React from "react";
 
 function Empleos(props) {  
-  const { listaEmpleos } = props;
+  const datos= props.listaEmpleos;
   return (
     <>
-      {listaEmpleos.map((item) => {
+      {datos.map((item) => {
         return (
           <div className="card-deck" key={item.id}>
             <div className="card mt-2">
@@ -30,7 +30,7 @@ function Empleos(props) {
                     </p>
                 </div>
                 <div className="mx-auto ">
-                <a href="#" className="btn mb-1 btn-secondary ">
+                <a href="#" className="btn mb-1 btn-orange ">
                   Postularme
                 </a>
                 </div>
