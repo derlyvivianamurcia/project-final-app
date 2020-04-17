@@ -1,9 +1,12 @@
 import React from "react";
-import cardempleo from "../images/cardempleo.png";
-import cardcurso from "../images/cardcurso.png";
-import cardacompanamiento from "../images/cardacompanamiento.png";
+import cardempleo from "../images/principal/cardempleo .png";
+import cardcurso from "../images/principal/cardcursos.png";
+import cardacompanamiento from "../images/principal/cardacompanamiento.png";
 import '../Style/all_app.css'
 import Acercade from "./MainAcercade";
+import imagenuno from '../images/principal/personadiscapitadauno.jpg'
+import imagendos from '../images/principal/personadiscapacitadados.jpg'
+
 
 
 const MainPrincipal = () => {
@@ -11,12 +14,18 @@ const MainPrincipal = () => {
     <>
       <div className="container">
         <div className=" mt-5 text-justify ">
-          <h2>
-            ¡Una vez estés registrado en nuestra plataforma podrás acceder a
-            los siguientes beneficios!
-          </h2>
+          <h3 className="colorTextAzul">Bienvenido<span>(a)</span> a la plataforma creada para personas en condición de movilidad reducida.</h3>
+        </div>
+        <div className="row" >
+          <div className="col-6 contenedor">
+            <img className="img-fluid imagen shadow-lg p-3 mb-3 mt-3 rounded" src={imagenuno}></img>
+          </div>
+          <div className="col-6 contenedor">
+          <img className="img-fluid imagen shadow-lg p-3 mb-3 mt-3 rounded" src={imagendos}></img>
+          </div>
         </div>
 
+        <h2 className="text-center mt-5 colorTextAzul">Nuestros servicios</h2>
         <div className="row marginTop">
           <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
             <div className="card shadow-lg p-3 mb-5 bg-white rounded">
@@ -32,10 +41,7 @@ const MainPrincipal = () => {
                   CURSOS<span>:</span>
                 </h4>
                 <p className="card-text text-justify mt-2">
-                  Esta sección esta diseñada, para que puedas realizar los cursos que desees <span>✌</span>, cuenta con
-                sistema de búsqueda y filtrado así podrás seleccionar los cursos que sean de tu agrado y afines a tus habilidades, esto con el fin mejorar tus
-                destrezas, así podrás capacitarte de forma virtual en el área de conocimiento que más te agrade, esta información será
-                anexada a tu hoja de vida. {" "}
+                  Esta sección esta diseñada, para que puedas realizar los cursos que desees <span>✌</span> {" "}
                 </p>
               </div>
             </div>
@@ -56,9 +62,7 @@ const MainPrincipal = () => {
                 </h4>
 
                 <p className="card-text text-justify mt-2  overflow-auto">
-                  Esta área es vital <span>🙂</span>, puesto que podemos aprender a conocernos, manejar nuestros miedos,
-                explotar y fortalece nuestras habilidades del ser, etc<span>...</span> es por esto por lo que queremos incluirla en tu proceso,
-                aquí podrás agendar citas con especialistas que te apoyaran y ayudaran, en el momento que lo requieras.
+                En este espacio podrá recibir ayuda de profesionales
                 </p>
               </div>
             </div>
@@ -78,11 +82,7 @@ const MainPrincipal = () => {
                   EMPLEABILIDAD<span>:</span>
                 </h4>
                 <p className="card-text text-justify mt-2">
-                  Sección de oportunidades, aquí podrás buscar las ofertas laborales que sean afines a tu perfil,
-                  las búsquedas se realizan por medio de filtros, para que los resultados sean los solicitados.
-                  Además puedes acceder a tu hoja de vida, la cual se encuentra en un formato sugerido por la
-                  plataforma, allí podrás agregar o quitar información, y lo mejor puedes acceder a estas ofertas
-                laborales sin necesidad de ingresar a otras plataformas <span>👌</span> Extraordinario
+                Sección de oportunidades, aquí podrás buscar las ofertas laborales que sean afines a tu perfil
                 </p>
               </div>
             </div>

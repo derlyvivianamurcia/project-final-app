@@ -1,8 +1,7 @@
 import React from "react";
 
-class FiltroEmpleos extends React.Component {
-  render() {
-    return (
+function FiltroEmpleos (props){
+     return (
       <div className="btext">
         <div className="container">
           <div className="row">
@@ -16,7 +15,7 @@ class FiltroEmpleos extends React.Component {
           <form className="form-row">
             <div className="col-md-3 form-group">
               <select className="form-control">
-                <option>Tipo de Contrato..</option>
+                <option >Tipo de Contrato..</option>
               </select>
             </div>
 
@@ -29,8 +28,11 @@ class FiltroEmpleos extends React.Component {
             </div>
 
             <div className="col-md-3 form-group">
-              <select className="form-control">
-                <option>Municipio...</option>
+              <select className="form-control" >
+                <option value="ContratoFijo">Contrato Indefinido</option>
+                <option value="ContratoIndefinido">Contrato Fijo</option>
+                <option value="ContratoAprendizaje">Contrato de Aprendizaje</option>
+                <option value="ContratoHoras">Contrato por Horas</option>               
               </select>
             </div>
 
@@ -42,6 +44,5 @@ class FiltroEmpleos extends React.Component {
       </div>
     );
   }
-}
 
 export default FiltroEmpleos;
