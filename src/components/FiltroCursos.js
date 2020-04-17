@@ -22,8 +22,21 @@ class FiltroCursos extends React.Component {
           <div className="col-12">
             <form className="form-row">
               <div className="col-md-4 form-group">
-                <select className="form-control">
-                  <option>Categorías</option>
+                <select
+                  onChange={this.props.onChangeFiltro}
+                  className="form-control"
+                >
+                  <option value="">Todos</option>
+                  <option value="Desarrollo">Desarrollo</option>
+                  <option value="Negocios">Negocios</option>
+                  <option value="Finanzas">Finanzas</option>
+                  <option value="Informatica">Informática</option>
+                  <option value="DesarrolloPersonal">
+                    Desarrollo Personal
+                  </option>
+                  <option value="Diseño">Diseño</option>
+                  <option value="EstiloVida">Estilo De Vida</option>
+                  <option value="Idiomas">Idiomas</option>
                 </select>
               </div>
 

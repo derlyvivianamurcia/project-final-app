@@ -1,5 +1,4 @@
 import React from "react";
-import MovilidadReducida from "../images/MovilidadReducida.png";
 
 const MainPrincipalBanner = () => {
   return (

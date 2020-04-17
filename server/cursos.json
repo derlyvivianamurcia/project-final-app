@@ -6,7 +6,7 @@
       "nombreCurso": "Desarrollo web ",
       "autor": "Todo tendencias ",
       "duracion": "64 videos ",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=0qOG_ZaNAO0&list=PLE8uP447fYpjqOXrkDcr5IzRlkBre2e_O"
     },
     {
@@ -15,7 +15,7 @@
       "nombreCurso": "Aprende a crear una página web (PHP para principiantes, curso completo) ",
       "autor": "Java Dev One ",
       "duracion": "85 videos ",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=9d2BJsxff-g&list=PLN9W6BC54TJI6mlpAT-b7nDkpHbZp73i4"
     },
     {
@@ -24,7 +24,7 @@
       "nombreCurso": "Cómo empezar en Desarrollo Web",
       "autor": "Fazt ",
       "duracion": "1 video ",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=s_lUd8mhPpQ"
     },
     {
@@ -33,7 +33,7 @@
       "nombreCurso": "Desarrollo de Aplicaciones Web con JSP y MySQL",
       "autor": "Formando código ",
       "duracion": "24 videos ",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=6ixCNV7kS3k&list=PLnWAzeXp9V4k74VKqXOsuWIWetveAUp_F"
     },
     {
@@ -42,7 +42,7 @@
       "nombreCurso": "Curso de diseño y desarrollo web",
       "autor": " Yoney Gallardo",
       "duracion": "1 video ",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=bYOjmW-740M"
     },
     {
@@ -51,7 +51,7 @@
       "nombreCurso": "Curso Javascript para Principiantes",
       "autor": "Fazt",
       "duracion": "1 video",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=RqQ1d1qEWlE"
     },
     {
@@ -60,7 +60,7 @@
       "nombreCurso": "Curso Aprender a Programar en C++ desde Cero",
       "autor": "Empieza A Programar ",
       "duracion": "45 videos ",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=9idgIGmQvAQ&list=PLw8RQJQ8K1ySN6bVHYEpDoh-CKVkL_uOF"
     },
     {
@@ -69,7 +69,7 @@
       "nombreCurso": "HTML Y CSS Completo ",
       "autor": "Bluuweb",
       "duracion": "56 videos",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=rr2H086z16s&list=PLPl81lqbj-4LKo66cEts5yC_AjOvqKptm"
     },
     {
@@ -78,7 +78,7 @@
       "nombreCurso": "Curso de ReactJs",
       "autor": "Raul Palacios",
       "duracion": "38 videos ",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=yFAIMEupsuo&list=PLIddmSRJEJ0vEBB6ECegg35IQ-sWjSDdo"
     },
     {
@@ -87,7 +87,7 @@
       "nombreCurso": "Base de datos",
       "autor": "Código compilado",
       "duracion": "15 videos",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=yoeV4Ex8C8U&list=PLs1sXiNvW4OyJCZs5WR3OjPZTlIqNcvQi"
     },
     {
@@ -96,7 +96,7 @@
       "nombreCurso": "Diseño de bases de datos",
       "autor": "Yacklyion",
       "duracion": "15 videos",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=JKMEDTfUZ58&list=PLg9145ptuAig5eqBYvOuMdpTP2ORUNXbf"
     },
     {
@@ -105,7 +105,7 @@
       "nombreCurso": "Ingeniería de software",
       "autor": "Orel Sokol",
       "duracion": "25 videos",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=31q9hNrd3U0&list=PLZw74zHcqsrbMU00VnVgfCXEaZdA7p73E"
     },
     {
@@ -114,7 +114,7 @@
       "nombreCurso": "9 herramientas de desarrollo indispensables",
       "autor": "MRR",
       "duracion": "1",
-      "categoria": "desarrollo",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=qmODZUTK4BM"
     },
     {
@@ -123,7 +123,7 @@
       "nombreCurso": "Curso práctico de comercio electrónico",
       "autor": "Dimuagui",
       "duracion": "25 videos",
-      "categoria": "desarrollo ",
+      "categoria": "Desarrollo",
       "video": "https://www.youtube.com/watch?v=0jRJjBBCZQ4&list=PLElsO52gc_twKsTI_lHdECKHdJIj13HA3"
     },
     {
@@ -132,7 +132,7 @@
       "nombreCurso": "Curso de inteligencia de negocios",
       "autor": "AddKw",
       "duracion": "15 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=QuCGCWbsNv0&list=PLts9PaJOt1l8KcKg_T7icqoPPZhxmo4iI"
     },
     {
@@ -141,7 +141,7 @@
       "nombreCurso": "Negocios internacionales",
       "autor": "WepWo",
       "duracion": "18 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=dXMbx9TIaWw&list=PL_81J7rjgRMZxLoSioK7Ak6oWO8C3jS1g"
     },
     {
@@ -150,7 +150,7 @@
       "nombreCurso": "Curso básico de contabilidad",
       "autor": "Academia Jaf ",
       "duracion": "44 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=luIweQmHq94&list=PLuQITQSfEnlJTIhGdNg6l424ZFpV1_3vU"
     },
     {
@@ -159,7 +159,7 @@
       "nombreCurso": "Educación financiera y liderazgo integral",
       "autor": "Oportunity channel",
       "duracion": "1 video",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=2CJMyFSy6L0"
     },
     {
@@ -168,7 +168,7 @@
       "nombreCurso": "Como emprender",
       "autor": "Angel Hernandez",
       "duracion": "220 videos ",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=-IXYw4CiK0U&list=PL_bhd7nkpa-vn3B5VqxMekscMBH_SL0og"
     },
     {
@@ -177,7 +177,7 @@
       "nombreCurso": "Como vender",
       "autor": "Jurgen Klaric",
       "duracion": "12 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=SpF4PNRv8QU&list=PLhIcGTU5VSHcDLURIt9JctfsxrNqkgybV"
     },
     {
@@ -186,7 +186,7 @@
       "nombreCurso": "Técnicas de venta",
       "autor": "Fernando Pena",
       "duracion": "16 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=xqTTBD8NpXI&list=PLZZroTwsnVzZJ4y_XO1iGLeCViEMJ6oKT"
     },
     {
@@ -195,7 +195,7 @@
       "nombreCurso": "Recursos humanos",
       "autor": "Paola Moreira",
       "duracion": "77 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=waeKEAbDcUI&list=PL5N_1ymwEmKCRbBdG9ZLNyA7jZxNklIuA"
     },
     {
@@ -204,7 +204,7 @@
       "nombreCurso": "Vender lo que sea",
       "autor": "Paola Herrera",
       "duracion": "1 video",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=84jzjKmX9fw"
     },
     {
@@ -213,7 +213,7 @@
       "nombreCurso": "Curso de inteligencia emocional",
       "autor": "Cultus colere",
       "duracion": "23 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=NsbVRnjEXIM&list=PLK3J9IzePUdAQ4JFiKo-WF4c4dBrB_B2-"
     },
     {
@@ -222,7 +222,7 @@
       "nombreCurso": "Crecimiento personal",
       "autor": "Samuel Gavilán",
       "duracion": "11 videos",
-      "categoria": "negocios",
+      "categoria": "Negocios",
       "video": "https://www.youtube.com/watch?v=5_zY2Zh9gcA&list=PL_WZQpo8BKJAcULurjmlCyqgl-sT-DMlG"
     },
     {
@@ -231,7 +231,7 @@
       "nombreCurso": "Curso básico de contabilidad",
       "autor": "Academia JAF",
       "duracion": "44 videos",
-      "categoria": "finanzas",
+      "categoria": "Finanzas",
       "video": "https://www.youtube.com/watch?v=luIweQmHq94&list=PLuQITQSfEnlJTIhGdNg6l424ZFpV1_3vU"
     },
     {
@@ -240,7 +240,7 @@
       "nombreCurso": "Lecciones de economia",
       "autor": "JHS Oficial",
       "duracion": "37 videos",
-      "categoria": "finanzas",
+      "categoria": "Finanzas",
       "video": "https://www.youtube.com/watch?v=IOtoyVhtElQ&list=PLPwIfdLw5T_RC3T1qJVd5mbsF4eO5ANIW"
     },
     {
@@ -249,7 +249,7 @@
       "nombreCurso": "Curso de bolsa",
       "autor": "Fibonacci",
       "duracion": "47 videos",
-      "categoria": "finanzas",
+      "categoria": "Finanzas",
       "video": "https://www.youtube.com/watch?v=bQcGwH91tMg&list=PLByTZ2SK-Pk25UXoUoI5UZXOcHmsYkntU"
     },
     {
@@ -258,7 +258,7 @@
       "nombreCurso": "Curso de impuestos",
       "autor": "Alejandro Terrones",
       "duracion": "20 videos",
-      "categoria": "finanzas",
+      "categoria": "Finanzas",
       "video": "https://www.youtube.com/watch?v=NviPtwD0G8w&list=PLNeqfIXANYlwN36M66cDfaN_t11UCSLhe"
     },
     {
@@ -267,7 +267,7 @@
       "nombreCurso": "Cursos de redes",
       "autor": "Aulaclic",
       "duracion": "175 videos",
-      "categoria": "informatica",
+      "categoria": "Informatica",
       "video": "https://www.youtube.com/watch?v=BrqH4PVyYF4&list=PLomN84AdULIBcoI8Rb98dnompliIktJk9"
     },
     {
@@ -276,7 +276,7 @@
       "nombreCurso": "Curso de hardware y reparación de PC",
       "autor": "Jairo Ezequías",
       "duracion": "62 videos",
-      "categoria": "informatica",
+      "categoria": "Informatica",
       "video": "https://www.youtube.com/watch?v=guWAXxClemk&list=PLbMXWFqeZAMg-ABPXqPGQ1WHWgAbXMQ5q"
     },
     {
@@ -285,7 +285,7 @@
       "nombreCurso": "Técnico de computadoras",
       "autor": "GabakTech",
       "duracion": "71 videos",
-      "categoria": "informatica",
+      "categoria": "Informatica",
       "video": "https://www.youtube.com/watch?v=irNnucKqH28&list=PLz2hfao1E1ESN7uf9BDF3CBZ3t5PDv-lY"
     },
     {
@@ -294,7 +294,7 @@
       "nombreCurso": "Curso de sistemas operativos",
       "autor": "Indigo",
       "duracion": "12 videos",
-      "categoria": "informatica",
+      "categoria": "Informatica",
       "video": "https://www.youtube.com/watch?v=F3Gaqufyyi4&list=PLrL464HO43mCxgPzZ1kJwJo-xElBF-GX2"
     },
     {
@@ -303,7 +303,7 @@
       "nombreCurso": "Administración de sistemas operativos Linux",
       "autor": "Tkapacito TIC",
       "duracion": "48 videos",
-      "categoria": "informatica",
+      "categoria": "Informatica",
       "video": "https://www.youtube.com/watch?v=YNWYp08QNe8&list=PLXFOGHLLtDHv48oaTwtbR5LoTA_nUGCnW"
     },
     {
@@ -429,7 +429,7 @@
       "nombreCurso": "Diseño gráfico",
       "autor": "Design",
       "duracion": "19 videos",
-      "categoria": "diseño",
+      "categoria": "Diseño",
       "video": "https://www.youtube.com/watch?v=8E65Xl00ce4&list=PLDztup4PBlFT2ospyEvrHr2zfsY6iNq_3"
     },
     {
@@ -438,7 +438,7 @@
       "nombreCurso": "¿Qué es Diseño Gráfico?",
       "autor": "Trino",
       "duracion": "48 videos",
-      "categoria": "diseño",
+      "categoria": "Diseño",
       "video": "https://www.youtube.com/watch?v=7mgxFa-3T0Q&list=PLHOYuNSVc0nQL16H44EQCTtzsooglESQX"
     },
     {
@@ -447,7 +447,7 @@
       "nombreCurso": "Principios de animación 3d",
       "autor": "Domestika",
       "duracion": "5 videos",
-      "categoria": "diseño",
+      "categoria": "Diseño",
       "video": "https://www.youtube.com/watch?v=_tKUZgemkSg"
     },
     {
@@ -456,7 +456,7 @@
       "nombreCurso": "Diseño de modas",
       "autor": "Laura Páez",
       "duracion": "30 videos",
-      "categoria": "diseño",
+      "categoria": "Diseño",
       "video": "https://www.youtube.com/watch?v=GCI2_Z6JDUc&list=PLMlAt-n_qylE2En0WVQW3hnNuotpnUNZD"
     },
     {
@@ -465,7 +465,7 @@
       "nombreCurso": "Patronaje, corte y confección",
       "autor": "Talia",
       "duracion": "75 videos",
-      "categoria": "diseño",
+      "categoria": "Diseño",
       "video": "https://www.youtube.com/watch?v=MEw_RFEfyNs&list=PLITqKJsEFUlLWQ5_fjyM9aWPNLUsOIavX"
     },
     {
@@ -474,7 +474,7 @@
       "nombreCurso": "Escuela de cocina",
       "autor": "Jaime Gutierrez",
       "duracion": "578 videos",
-      "categoria": "estiloVida",
+      "categoria": "EstiloVida",
       "video": "https://www.youtube.com/watch?v=pOHTNjkBtr8&list=PLv9j97NzVZv3MhVd_TP1rpEuMXPy2MPbl"
     },
     {
@@ -483,7 +483,7 @@
       "nombreCurso": "Comida rapida",
       "autor": "Alvaro Carvajal",
       "duracion": "31 de videos",
-      "categoria": "estiloVida",
+      "categoria": "EstiloVida",
       "video": "https://www.youtube.com/watch?v=SWv0O1aCwYc&list=PLuW1_NzD52IzQN97VEBeq2x1fx4dXdtly"
     },
     {
@@ -492,7 +492,7 @@
       "nombreCurso": "Curso de maquillaje",
       "autor": "Naty Gloss",
       "duracion": "20 de videos",
-      "categoria": "estiloVida",
+      "categoria": "EstiloVida",
       "video": "https://www.youtube.com/watch?v=YasB0CBBwUo&list=PLD1OdOTWur2DE_Z0u2exJuZfP_qGp65_W"
     },
     {
@@ -501,7 +501,7 @@
       "nombreCurso": "Maquillaje básico",
       "autor": "Anatassia",
       "duracion": "12 videos",
-      "categoria": "estiloVida",
+      "categoria": "EstiloVida",
       "video": "https://www.youtube.com/watch?v=i1DZjvlRqlA&list=PLMllUncNtGiaYj9MJg4bR7lAm7XS5v8Do"
     },
     {
@@ -510,7 +510,7 @@
       "nombreCurso": "Aprende a dibujar",
       "autor": "Arte vivo y divertido",
       "duracion": "122 videos",
-      "categoria": "estiloVida",
+      "categoria": "EstiloVida",
       "video": "https://www.youtube.com/watch?v=_d5e8UOYFCs&list=PLrDxMf3us-KQUUZZQ2mkeeT1FiSr9JUK6"
     },
     {
@@ -519,7 +519,7 @@
       "nombreCurso": "Artes plasticas",
       "autor": "Casa de la cultura ",
       "duracion": "34 videos",
-      "categoria": "estiloVida",
+      "categoria": "EstiloVida",
       "video": "https://www.youtube.com/watch?v=iJqAjuge_nE&list=PL3TBUemL1PXHN7Kr_3d_3DOihHaJg1OU1"
     },
     {
@@ -528,7 +528,7 @@
       "nombreCurso": "Idioma chino",
       "autor": "Alfonso L.",
       "duracion": "35 videos",
-      "categoria": "idiomas",
+      "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=qJGaBRgnhOI&list=PLm3tNCfvzkWSVQA_asKxySFzcIZoiZr7Q"
     },
     {
@@ -537,7 +537,7 @@
       "nombreCurso": "Lenguaje de señas",
       "autor": "Ayudas para todos",
       "duracion": "20 videos",
-      "categoria": "idiomas",
+      "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=-8e3FaA-Rak&list=PLI7rDimYXOdhyty-lEXsxQgiLfYKnnqmY"
     },
     {
@@ -546,7 +546,7 @@
       "nombreCurso": "Aprende español",
       "autor": "Tu escuela español",
       "duracion": "75 videos",
-      "categoria": "idiomas",
+      "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=IIkXK7ezRuA&list=PL_JdwZWnDhAXgk0VA0d95JPQWO2jW651_"
     },
     {
@@ -555,7 +555,7 @@
       "nombreCurso": "Aprende ingles",
       "autor": "Francisco ochoa",
       "duracion": "114 videos",
-      "categoria": "idiomas",
+      "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78"
     },
     {
@@ -564,7 +564,7 @@
       "nombreCurso": "Aprende Frances",
       "autor": "En simples palabras",
       "duracion": "92 videos",
-      "categoria": "idiomas",
+      "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=pP-m3Lr74Vk&list=PL3EB4F17D44A0F078"
     },
     {
@@ -573,7 +573,7 @@
       "nombreCurso": "Aprende Portugués",
       "autor": "Tus clases",
       "duracion": "291 videos",
-      "categoria": "idiomas",
+      "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=TyiAN14pmVE&list=PLgXzk50PHvvXAVhFkXT8nhhHT753eeFjP"
     }
   ]
