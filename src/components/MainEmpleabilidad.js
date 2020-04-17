@@ -31,5 +31,4 @@ class MainEmpleabilidad extends React.Component {
     );
   }
 }
-
 export default MainEmpleabilidad;

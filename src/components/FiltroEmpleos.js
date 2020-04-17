@@ -29,10 +29,7 @@ class FiltroEmpleos extends React.Component {
             ></input>
           </div>
             <div className="col-md-3 form-group">
-              <select className="form-control"
-              
-              >
-                
+              <select className="form-control">
               <option>Municipio...</option>
                 <option value="Medellin">Medellín</option>
                 <option value="Sabaneta">Sabaneta</option>
@@ -42,9 +39,7 @@ class FiltroEmpleos extends React.Component {
                 <option value="Rionegro">Rionegro</option>
                 <option value="Jerico">Jerico</option>
                 <option value="LaEstrella">La estrella</option>   
-                <option value="Salgar">Salgar</option>  
-
-                        
+                <option value="Salgar">Salgar</option>        
               </select>
             </div>
           <div className="col-md-2 form-group">

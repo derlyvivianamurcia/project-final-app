@@ -15,7 +15,7 @@ class Empleabilidad extends React.Component {
     this.traerEmpleosDeApi();
   }
   traerEmpleosDeApi() {
-    axios.get("http://localhost:3001/empleos").then((respuesta) => {
+    axios.get("http://localhost:3004/empleos").then((respuesta) => {
       this.setState({empleos: respuesta.data,});
     });
   }
