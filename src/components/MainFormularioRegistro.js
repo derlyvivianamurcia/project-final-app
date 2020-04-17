@@ -10,22 +10,22 @@ class MainFormularioRegistro extends React.Component {
       apellidoUsuario: "",
       password: "",
       passwordConfirmacion: "",
-      identificacionUsuer: "",
-      fechaNacimiento: "",
+      tipoId:"",
+      identificacionUser: "",
       celularUsuario: "",
-      departamento: "",
-      muncipio: "",
+      municipio: "",
       genero: "",
       direccion: "",
       titulo: "",
       descripcionPerfil: "",
       empresaExperiencia: "",
+      rangoEmpresa:"",
       tiempoEmpresa: "",
       cargoEmpresa: "",
       idioma: "",
+      nivelIdioma: "",
     },
   };
-
   handleChange = (e) => {
     this.setState({
       form: {
@@ -118,12 +118,16 @@ class MainFormularioRegistro extends React.Component {
 
               <div className="form-group">
                 <label>Tipo de identificación</label>
-                <select className="form-control">
-                  <option value="1">Cédula de ciudadanía</option>
-                  <option value="2">Cédula de extranjería</option>
-                  <option value="3">Tarjeta de identidad</option>
-                  <option value="4">Pasaporte</option>
-                  <option value="5">Número de Identificación</option>
+                <select
+                  onChange={this.handleChange}
+                  className="form-control"
+                  name="tipoId"
+                  value={this.state.form.tipoId}>
+                  <option>Cédula de ciudadanía</option>
+                  <option>Cédula de extranjería</option>
+                  <option>Tarjeta de identidad</option>
+                  <option>Pasaporte</option>
+                  <option>Número de Identificación</option>
                 </select>
               </div>
 
@@ -133,7 +137,7 @@ class MainFormularioRegistro extends React.Component {
                   name="identificacionUser"
                   className="form-control"
                   type="text"
-                  value={this.state.form.identificacionUsuer}
+                  value={this.state.form.identificacionUser}
                 />
               </div>
 
@@ -150,12 +154,16 @@ class MainFormularioRegistro extends React.Component {
 
               <div className="form-group">
                 <label>Municipio</label>
-                <select className="form-control">
-                  <option value="1">Cédula de ciudadanía</option>
-                  <option value="2">Cédula de extranjería</option>
-                  <option value="3">Tarjeta de identidad</option>
-                  <option value="4">Pasaporte</option>
-                  <option value="5">Número de Identificación</option>
+                <select
+                  onChange={this.handleChange}
+                  className="form-control"
+                  name="municipio"
+                  value={this.state.form.municipio}>
+                  <option>Medellín</option>
+                  <option>Bello</option>
+                  <option>Envigado</option>
+                  <option>El retiro</option>
+                  <option>Itaguí</option>
                 </select>
               </div>
 
@@ -253,12 +261,16 @@ class MainFormularioRegistro extends React.Component {
 
               <div className="form-group">
                 <label>Rango de tiempo en la empresa</label>
-                <select className="form-control">
-                  <option value="1">Cédula de ciudadanía</option>
-                  <option value="2">Cédula de extranjería</option>
-                  <option value="3">Tarjeta de identidad</option>
-                  <option value="4">Pasaporte</option>
-                  <option value="5">Número de Identificación</option>
+                <select
+                  onChange={this.handleChange}
+                  className="form-control"
+                  name="rangoEmpresa"
+                  value={this.state.form.rangoEmpresa}>
+                  <option>1 a 3 meses</option>
+                  <option>3 a 6 meses</option>
+                  <option>1 año</option>
+                  <option>2 años</option>
+                  <option>3 años</option>
                 </select>
               </div>
 
@@ -275,23 +287,28 @@ class MainFormularioRegistro extends React.Component {
 
               <div className="form-group">
                 <label>Idiomas</label>
-                <select className="form-control">
-                  <option value="1">Cédula de ciudadanía</option>
-                  <option value="2">Cédula de extranjería</option>
-                  <option value="3">Tarjeta de identidad</option>
-                  <option value="4">Pasaporte</option>
-                  <option value="5">Número de Identificación</option>
+                <select
+                  onChange={this.handleChange}
+                  className="form-control"
+                  name="idioma">
+                  <option>Inglés</option>
+                  <option>Español</option>
+                  <option>Frances</option>
+                  <option>Portugués</option>
+                  <option>Alemán</option>
                 </select>
               </div>
 
               <div className="form-group">
                 <label>Nivel</label>
-                <select className="form-control">
-                  <option value="1">Cédula de ciudadanía</option>
-                  <option value="2">Cédula de extranjería</option>
-                  <option value="3">Tarjeta de identidad</option>
-                  <option value="4">Pasaporte</option>
-                  <option value="5">Número de Identificación</option>
+                <select
+                  onChange={this.handleChange}
+                  className="form-control"
+                  name="nivelIdioma"
+                  value={this.state.form.nivelIdioma}>
+                  <option>Alto</option>
+                  <option>Intermedio</option>
+                  <option>Bajo</option>
                 </select>
               </div>
 

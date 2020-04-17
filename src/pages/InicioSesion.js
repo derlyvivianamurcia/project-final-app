@@ -1,12 +1,13 @@
 import React from "react";
 import MainInicioSesion from "../components/MainInicioSesion";
+
 import Footer from "../components/Footer";
 
 class InicioSesion extends React.Component {
   render() {
     return (
       <div>
-        <MainInicioSesion />
+         <MainInicioSesion />
         <Footer />
       </div>
     );
