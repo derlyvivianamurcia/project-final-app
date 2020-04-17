@@ -1,24 +1,42 @@
+
 {
   "usuarios": [
     {
-      "id": 2,
-      "nombre": "EDITADO",
-      "apellido": "SERRANO HENAO",
-      "identificacion": 34567893
+      "id": "1",
+      "email": "eduard@hotmail.com",
+      "contrasena": "12345xxxxxx"
     },
     {
-      "id": 5,
-      "nombre": "RODOLFO",
-      "apellido": "SERRANO HENAO",
-      "identificacion": 33
+      "id": "2",
+      "email": "luisa@hotmail.com",
+      "contrasena": "12345"
     }
   ],
-
+  "cursos": [
+    {
+      "nombreCurso": "editado",
+      "profesor": "editado 2",
+      "duracion": "editado 2",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nombreCurso": "Criptomonedas",
+      "profesor": "editado",
+      "duracion": "editado"
+    },
+    {
+      "id": "4",
+      "nombreCurso": "Criptomonedas",
+      "profesor": "editado",
+      "duracion": "editado"
+    }
+  ],
   "registro": [
     {
       "nombreUsuario": "nicol dayana",
       "apellidoUsuario": "endo ruiz",
-      "password":12345,
+      "password": 12345,
       "passwordConfirmacion": 12345,
       "identificacionUsuer": 11756468,
       "fechaNacimiento": "",
