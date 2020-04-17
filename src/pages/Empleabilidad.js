@@ -14,6 +14,7 @@ const Empleabilidad = () => {
       </div>
       <FiltroEmpleos />
       <MainEmpleabilidad />
+      
       <Footer />
     </>
   );

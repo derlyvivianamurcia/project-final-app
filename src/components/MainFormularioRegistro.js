@@ -304,7 +304,7 @@ class MainFormularioRegistro extends React.Component {
                 </select>
               </div>
 
-              <button className="btn btn-success btn-block" type="submit">
+              <button className="btn btn-orange font-weight-bold btn-block" type="submit">
                 Registrar
               </button>
             </form>
