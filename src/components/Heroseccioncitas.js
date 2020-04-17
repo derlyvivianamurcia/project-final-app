@@ -2,6 +2,7 @@ import React from "react";
 import imageacompanamiento from "../images/acompañamiento/acompañamiento.jpg";
 import pregunta from "../images/acompañamiento/signo.jpg";
 
+
 const Heroseccioncitas = () => {
   return (
     <section className="container btext marginTop">
@@ -101,4 +102,4 @@ const Heroseccioncitas = () => {
     </section>
   );
 };
-export default Heroseccioncitas;
+export default Heroseccioncitas

@@ -32,5 +32,4 @@ function InformacionCurso(props) {
     );
   });
 }
-
 export default InformacionCurso;

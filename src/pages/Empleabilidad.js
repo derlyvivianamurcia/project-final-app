@@ -10,7 +10,7 @@ const Empleabilidad = () => {
     <>
       <Header />
       <div className="particles-js">
-        <ParticleComponent />
+        <ParticleComponent /> 
       </div>
       <FiltroEmpleos />
       <MainEmpleabilidad />

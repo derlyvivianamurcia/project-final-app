@@ -23,7 +23,10 @@
   color: orange;
   margin-left: 12px;
 }
-.colorTextLink:hover {
+.colorTextAzul{
+  color: #0e294b;
+}
+.colorTextLink:hover{
   color: #0e294b;
 }
 .grow:hover {
@@ -40,4 +43,20 @@
   font-size: 30px;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+.image:hover {opacity: 0.5;}
+
+.contenedor:hover .imagen {-webkit-transform:scale(1.3);
+  transform:scale(1.3); }
+.contenedor {overflow:hidden; border-radius: 3%;}
+.imagen{
+
+  border-radius: 3%;
+}
+
+.tamano{
+  height: 100vh;
+}
+.botonColor{
+  background-color: orange;
 }

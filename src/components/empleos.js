@@ -1,34 +1,45 @@
 import React from "react";
 
-function Empleos(props) {
-  const { Empleos } = props;
+function Empleos(props) {  
+  const { listaEmpleos } = props;
   return (
     <>
-      {Empleos.map((item, index) => {
+      {listaEmpleos.map((item) => {
         return (
-          <div className="col-lg-3" key={`ItemsEmpleos-item-${index}`}>
-            <div class="card" key={`ItemsEmpleos-item-${index}`}>
-              <img src={item.imgEmpleo} class="card-img-top" alt="..."></img>
-              <div class="card-body">
-                <h5 class="card-title">{item.nameEmpleo}</h5>
-                <p>{item.ubicacionEmpleo}</p>
-                <p class="card-text">
-                  <strong>Descripción: </strong>
-                  {item.descripcionEmpleo}
-                </p>
-                <p>
-                  <strong>Tipo empleo:</strong> {item.tipoEmpleo}{" "}
-                </p>
-                <a href="#" class="btn btn-orange font-weight-bold">
-                  VER EMPLEO
+          <div className="card-deck" key={item.id}>
+            <div className="card mt-2">
+              <div className="row">
+                <div className="col-2 justify-content-center align-items-center d-flex">
+                  <img
+                    src={item.imgEmpleo}
+                    alt="..."
+                  ></img>
+                </div>
+                <div className="col-10">             
+                    <h5 className="card-title">{item.nameEmpleo}</h5>
+                    <p>{item.ubicacionEmpleo}</p>
+                    <p className="card-text">
+                      <strong>Descripción: </strong>
+                      {item.descripcionEmpleo}
+                    </p>
+                    <p>
+                      <strong>Tipo empleo:</strong> {item.tipoEmpleo}{"  "}
+                      <strong>Tipo de contrato:</strong>{item.tipoContrato}{"  "}
+                      <strong>Salario:</strong>
+                      {item.salario}
+                    </p>
+                </div>
+                <div className="mx-auto ">
+                <a href="#" className="btn mb-1 btn-secondary ">
+                  Postularme
                 </a>
+                </div>
               </div>
             </div>
           </div>
         );
       })}
-    </>
+      </>
   );
 }
-
 export default Empleos;
