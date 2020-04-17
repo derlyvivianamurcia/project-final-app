@@ -6,6 +6,7 @@ import MainEmpleabilidad from "../components/MainEmpleabilidad";
 import Header from "../components/Header";
 import axios from "axios";
 
+
 class Empleabilidad extends React.Component {
   state = {
     empleos: [],
@@ -24,7 +25,6 @@ class Empleabilidad extends React.Component {
   };
   render() {
     let resultadosfiltro = [];
-    let resultadosfiltrodos=[];
     if (this.state.selectSeleccionadoContrato) {
       const contratoSeleccionada = this.state.selectSeleccionadoContrato;
       resultadosfiltro = this.state.empleos.filter(
@@ -33,7 +33,6 @@ class Empleabilidad extends React.Component {
     } else {
       resultadosfiltro = this.state.empleos;
     }
-
     return (
       <div>
         <Header />

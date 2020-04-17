@@ -1,14 +1,18 @@
 import React from "react";
 import MainInicioSesion from "../components/MainInicioSesion";
-import Header from "../components/Header";
+import ParticleComponent from "../components/ParticleComponent";
 import Footer from "../components/Footer";
 
 class InicioSesion extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <MainInicioSesion />
+
+<div className="particles-js">
+        <ParticleComponent /> 
+      </div>
+         <MainInicioSesion />
+         <div></div>
         <Footer />
       </div>
     );
