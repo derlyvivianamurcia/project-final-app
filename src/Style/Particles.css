@@ -1,18 +1,18 @@
 .particles-js {
   background: #0e294b;
-  height: 300px;
+  height: 100px;
+
   background: -webkit-linear-gradient(to bottom, #0e294b, #0e294b, #0e294b);
   background: linear-gradient(to bottom, #0e294b, #0e294b, #0e294b);
 }
 
 .btext {
-  position: absolute;
-  top: 25%;
+  position: sticky;
   width: 100%;
 }
 
-@media screen and (max-width: 780px) {
+/* @media screen and (max-width: 780px) {
   .particles-js {
     height: 500px;
   }
-}
+} */

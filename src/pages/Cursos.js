@@ -12,8 +12,8 @@ class Cursos extends React.Component {
         <Header />
         <div className="particles-js">
           <ParticleComponent />
-          <FiltroCursos />
         </div>
+        <FiltroCursos />
         <ContenidoCursos />
         <Footer />
       </div>

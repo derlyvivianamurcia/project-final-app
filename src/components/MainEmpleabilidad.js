@@ -10,10 +10,12 @@ class MainEmpleabilidad extends React.Component {
           <div className="row">
             <div className="col-md-6"></div>
             <div className="col-md-3">
-              <h5>Mis postulaciones</h5>
+              <button className="btn btn-orange font-weight-bold ">
+                Mis postulaciones
+              </button>
             </div>
             <div className="col-md-3">
-              <button className="btn btn-info btn-lg">
+              <button className="btn btn-orange font-weight-bold">
                 Ingrese su hoja de vida
               </button>
             </div>

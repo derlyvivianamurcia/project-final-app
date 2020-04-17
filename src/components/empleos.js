@@ -19,7 +19,7 @@ function Empleos(props) {
                 <p>
                   <strong>Tipo empleo:</strong> {item.tipoEmpleo}{" "}
                 </p>
-                <a href="#" class="btn btn-primary">
+                <a href="#" class="btn btn-orange font-weight-bold">
                   VER EMPLEO
                 </a>
               </div>

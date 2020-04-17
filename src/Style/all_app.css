@@ -3,7 +3,7 @@
 }
 
 .textMain {
-  color: paleturquoise;
+  color: orange;
 }
 
 .colorText {
@@ -15,21 +15,29 @@
   background-color: #0e294b;
 }
 
-.imagenBanner {
-  width: 380px;
-  margin-left: 80px;
+.btn-orange {
+  background-color: orange;
 }
-.colorTextLink{
+
+.colorTextLink {
   color: orange;
   margin-left: 12px;
 }
-.colorTextLink:hover{
+.colorTextLink:hover {
   color: #0e294b;
 }
-.grow:hover
-{
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
+.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
-.image:hover {opacity: 0.5;}
+.image:hover {
+  opacity: 0.5;
+}
+.icono {
+  color: orange;
+  margin-right: 15px;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}

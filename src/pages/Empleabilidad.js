@@ -11,8 +11,8 @@ const Empleabilidad = () => {
       <Header />
       <div className="particles-js">
         <ParticleComponent />
-        <FiltroEmpleos />
       </div>
+      <FiltroEmpleos />
       <MainEmpleabilidad />
       <Footer />
     </>

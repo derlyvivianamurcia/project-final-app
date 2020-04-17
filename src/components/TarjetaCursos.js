@@ -18,7 +18,7 @@ function InformacionCurso(props) {
               Duración del curso
               <span className="font-weight-bold"> {DatoCurso.duracion}</span>
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="#" className="btn btn-orange font-weight-bold">
               Comenzar
             </a>
           </div>
