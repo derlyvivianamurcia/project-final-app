@@ -11,6 +11,7 @@ import PlayCursos from "../components/PlayCursos";
 // import EmpleosDetalle from "../pages/CursosDetalle";
 
 import ConAutenticacion from "../utils/autenticacion/conAutenticacion";
+import PageHojaVida from "../pages/PageHojaVida";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
           path="/cursos/detalle"
           component={ConAutenticacion(PlayCursos)}
         />
+        <Route exact path="/hojadevida/" component={PageHojaVida} />
 
       </Switch>
     </BrowserRouter>

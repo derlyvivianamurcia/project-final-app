@@ -8,6 +8,7 @@ import "../Style/all_app.css";
 import Acercade from "./MainAcercade";
 import imagenuno from "../images/principal/personadiscapitadauno.jpg";
 import imagendos from "../images/principal/personadiscapacitadados.jpg";
+import { Link } from "react-router-dom";
 
 const MainPrincipal = () => {
   return (
@@ -90,7 +91,7 @@ const MainPrincipal = () => {
         </div>
         </div>
         <Acercade />
-      
+
     </div>
   );
 };

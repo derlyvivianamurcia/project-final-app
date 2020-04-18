@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class MainFormularioRegistro extends React.Component {
+class HojaVida extends React.Component {
   state = {
     loading: false,
     error: null,
@@ -43,12 +43,12 @@ class MainFormularioRegistro extends React.Component {
   };
 
   handleSubmit = (e) => {
-    e.preventDefault();
-       axios.post(`http://localhost:3001/registro/`, { ...this.state.form })
-      .then(res => {
-        console.log(res);
-        console.log('------' + res.data);
-      })
+    // e.preventDefault();
+    //    axios.post(`http://localhost:3001/registro/`, { ...this.state.form })
+    //   .then(res => {
+    //     console.log(res);
+    //     console.log('------' + res.data);
+    //   })
   }
 
 
@@ -59,7 +59,7 @@ class MainFormularioRegistro extends React.Component {
           <div className="col"></div>
 
           <div className="col-6 border">
-          <h5 className="text-center">Formulario de Registro</h5>
+            <h6 className="text-center">Datos</h6>
 
             <form onSubmit={this.handleSubmit}>
               <div className="form-group">
@@ -302,7 +302,7 @@ class MainFormularioRegistro extends React.Component {
               <button
               onClick={this.handleClick}
                 className="btn btn-orange  btn-block" type="submit">
-                Registrar
+                Actualizar hoja de vida
               </button>
             </form>
             <br />
@@ -314,4 +314,4 @@ class MainFormularioRegistro extends React.Component {
   }
 }
 
-export default MainFormularioRegistro;
+export default HojaVida;

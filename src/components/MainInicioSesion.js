@@ -25,6 +25,17 @@ class MainInicioSesion extends React.Component {
   handleClick = (e) => {
     //
   };
+  handleSubmitEditar = (e) => {
+    e.preventDefault();
+    axios
+      .get(`http://localhost:3004/usuarios}`)
+      .then((respuesta) => {
+        this.setState({ usuarioConsultado: respuesta.data[0] });
+        this.state();
+      });
+  };
+
+
 
   handleSubmit = (e) => {
     e.preventDefault();
@@ -44,7 +55,7 @@ class MainInicioSesion extends React.Component {
     }
   }
 
-  render() {
+   render() {
     return (
       <div className="container">
         <div className="row">
@@ -94,12 +105,17 @@ class MainInicioSesion extends React.Component {
             <Link to="/FormularioRegistro" className="btn btn-info btn-block">
               ¡Registrate aquí!
             </Link>
-
+            {/* hoja de vida  */}
+            <Link to="/hojadevida" className="btn btn-info btn-block">
+              Editar hoja de vida
+            </Link>
             <br />
           </div>
 
           <div className="col"></div>
         </div>
+
+
       </div>
     );
   }
