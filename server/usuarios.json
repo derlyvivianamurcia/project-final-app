@@ -9,6 +9,15 @@
       "id": "2",
       "email": "luisa@hotmail.com",
       "contrasena": "12345"
+    },
+    {
+      "id": "D17ntRZ"
+    },
+    {
+      "id": "d3aUZOR"
+    },
+    {
+      "id": "MB8Pp0i"
     }
   ],
   "cursos": [
@@ -33,6 +42,7 @@
   ],
   "registro": [
     {
+      "id": "D17ntRZ",
       "nombreUsuario": "nicol dayana",
       "apellidoUsuario": "endo ruiz",
       "password": 12345,
@@ -50,6 +60,163 @@
       "tiempoEmpresa": "",
       "cargoEmpresa": "",
       "idioma": ""
+    },
+    {
+      "id": "D",
+      "nombreUsuario": "DERLY VIVIANA",
+      "apellidoUsuario": "MURCIA SERRANO",
+      "password": 12345,
+      "passwordConfirmacion": 12345,
+      "identificacionUsuer": 11756468,
+      "fechaNacimiento": "",
+      "celularUsuario": 31334577,
+      "departamento": "Antioquia",
+      "muncipio": "Medellin",
+      "genero": "Hombre",
+      "direccion": "Carrera 12",
+      "titulo": "Ingeniero de sistemas",
+      "descripcionPerfil": "",
+      "empresaExperiencia": "",
+      "tiempoEmpresa": "",
+      "cargoEmpresa": "",
+      "idioma": ""
+    },
+    {
+      "id": "_u9b_mK"
+    },
+    {
+      "id": "mYyjP6j"
+    },
+    {
+      "id": "DVi1l5o"
+    },
+    {
+      "id": "QgC0Gdx"
+    },
+    {
+      "id": "HGF",
+      "nombreUsuario": "CAMILO",
+      "apellidoUsuario": "SERRANO",
+      "password": 12345,
+      "passwordConfirmacion": 12345,
+      "identificacionUsuer": 11756468,
+      "fechaNacimiento": "",
+      "celularUsuario": 31334577,
+      "departamento": "Antioquia",
+      "muncipio": "Medellin",
+      "genero": "Hombre",
+      "direccion": "Carrera 12",
+      "titulo": "Ingeniero de sistemas",
+      "descripcionPerfil": "",
+      "empresaExperiencia": "",
+      "tiempoEmpresa": "",
+      "cargoEmpresa": "",
+      "idioma": ""
+    },
+    {
+      "id": "XXXgnlu"
+    },
+    {
+      "nombreUsuario": "AGUACATE",
+      "apellidoUsuario": "",
+      "password": "",
+      "passwordConfirmacion": "",
+      "tipoId": "",
+      "identificacionUser": "",
+      "celularUsuario": "",
+      "municipio": "",
+      "genero": "",
+      "direccion": "",
+      "titulo": "",
+      "descripcionPerfil": "",
+      "empresaExperiencia": "",
+      "rangoEmpresa": "",
+      "tiempoEmpresa": "",
+      "cargoEmpresa": "",
+      "idioma": "",
+      "nivelIdioma": "",
+      "id": "sC2iz2U"
+    },
+    {
+      "id": "AFK1D7G"
+    },
+    {
+      "id": "SnNmEH9"
+    },
+    {
+      "id": "CLuQ8yN"
+    },
+    {
+      "id": "76543",
+      "nombreUsuario": "Yeral",
+      "apellidoUsuario": "Camargo",
+      "password": 12345,
+      "passwordConfirmacion": 12345,
+      "identificacionUsuer": 11756468,
+      "fechaNacimiento": "",
+      "celularUsuario": 31334577,
+      "departamento": "Antioquia",
+      "muncipio": "Medellin",
+      "genero": "Hombre",
+      "direccion": "Carrera 12",
+      "titulo": "Ingeniero de sistemas",
+      "descripcionPerfil": "",
+      "empresaExperiencia": "",
+      "tiempoEmpresa": "",
+      "cargoEmpresa": "",
+      "idioma": ""
+    },
+    {
+      "id": "H7CyVNF"
+    },
+    {
+      "id": "7J8Pgwg"
+    },
+    {
+      "id": "plp9w2w"
+    },
+    {
+      "nombreUsuario": "pepita",
+      "apellidoUsuario": "hola",
+      "password": "",
+      "passwordConfirmacion": "",
+      "tipoId": "",
+      "identificacionUser": "",
+      "celularUsuario": "",
+      "municipio": "",
+      "genero": "",
+      "direccion": "",
+      "titulo": "",
+      "descripcionPerfil": "",
+      "empresaExperiencia": "",
+      "rangoEmpresa": "",
+      "tiempoEmpresa": "",
+      "cargoEmpresa": "",
+      "idioma": "",
+      "nivelIdioma": "",
+      "id": "ESkhWM8"
+    },
+    {
+      "nombreUsuario": "Yeral",
+      "apellidoUsuario": "Camargo",
+      "password": "12345",
+      "passwordConfirmacion": "12345",
+      "tipoId": "Cédula de extranjería",
+      "identificacionUser": "12333",
+      "celularUsuario": "",
+      "municipio": "",
+      "genero": "",
+      "direccion": "",
+      "titulo": "",
+      "descripcionPerfil": "",
+      "empresaExperiencia": "",
+      "rangoEmpresa": "",
+      "tiempoEmpresa": "",
+      "cargoEmpresa": "",
+      "idioma": "",
+      "nivelIdioma": "",
+      "email": "derlyvivianamurcia@gmail.com",
+      "id": "rdObW-O"
     }
   ]
 }

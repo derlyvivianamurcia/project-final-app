@@ -82,7 +82,7 @@ class MainInicioSesion extends React.Component {
 
               <button
                 onClick={this.handleClick}
-                className="btn btn btn-orange font-weight-bold btn-block"
+                className=" btn btn-orange btn-block"
                 type="submit"
               >
                 Iniciar Sesión

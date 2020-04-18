@@ -42,20 +42,15 @@ class MainFormularioRegistro extends React.Component {
     console.log("boton presionado");
   };
 
-
-
-
   handleSubmit = (e) => {
-    // e.preventDefault();
-    axios({
-      method: 'post',
-      url: 'http://localhost:3001/usuarios',
-      data: {
-      
-      }
-    });
-     
-  };
+    e.preventDefault();
+       axios.post(`http://localhost:3001/registro/`, { ...this.state.form })
+      .then(res => {
+        console.log(res);
+        console.log('------' + res.data);
+      })
+  }
+
 
   render() {
     return (
@@ -304,7 +299,9 @@ class MainFormularioRegistro extends React.Component {
                 </select>
               </div>
 
-              <button className="btn btn-orange font-weight-bold btn-block" type="submit">
+              <button
+              onClick={this.handleClick}
+                className="btn btn-orange  btn-block" type="submit">
                 Registrar
               </button>
             </form>
