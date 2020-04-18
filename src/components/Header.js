@@ -50,7 +50,7 @@ const Header = (props) => {
                   to="/Empleabilidad"
                   className="colorTextLink h5 text-decoration-none"
                 >
-                  <i className="fas fa-briefcase"></i> Empleabilidad
+                  <i className="fas fa-briefcase"></i> Empleos
                 </Link>
               </li>
               <li className="colorTextLink  h5 text-decoration-none">
