@@ -1,12 +1,14 @@
 import React from "react";
 import MainFormularioRegistro from "../components/MainFormularioRegistro";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import ParticleComponent from "../components/ParticleComponent";
 
 const FormularioRegistro = () => {
   return (
     <>
-      <Header />
+     <div className="particles-js">
+        <ParticleComponent /> 
+      </div>
       <MainFormularioRegistro />
       <Footer />
     </>

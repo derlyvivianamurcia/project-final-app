@@ -32,7 +32,7 @@ const Header = (props) => {
               <li className="nav-item">
                 <Link
                   className="colorTextLink h5 text-decoration-none"
-                  to="/Cursos"
+                  to="/cursos"
                 >
                   <i className="fas fa-book-reader"></i> Cursos
                 </Link>
@@ -40,14 +40,14 @@ const Header = (props) => {
               <li className="nav-item">
                 <Link
                   className="colorTextLink h5 text-decoration-none"
-                  to="/Acompanamiento"
+                  to="/acompanamiento"
                 >
                   <i className="fab fa-accessible-icon"></i> Acompañamiento
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/Empleabilidad"
+                  to="/empleos"
                   className="colorTextLink h5 text-decoration-none"
                 >
                   <i className="fas fa-briefcase"></i> Empleos
@@ -55,7 +55,7 @@ const Header = (props) => {
               </li>
               <li className="colorTextLink  h5 text-decoration-none">
                 <Link
-                  to="/InicioSesion"
+                  to="/inicioSesion"
                   className="colorTextLink h5 text-decoration-none"
                 >
                   <i className="fas fa-sign-in-alt"></i> Iniciar Sesión

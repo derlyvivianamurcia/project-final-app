@@ -6,7 +6,7 @@ import MainEmpleabilidad from "../components/MainEmpleabilidad";
 import Header from "../components/Header";
 import axios from "axios";
 
-class Empleabilidad extends React.Component {
+class Empleos extends React.Component {
   state = {
     empleos: [],
   };
@@ -48,4 +48,4 @@ class Empleabilidad extends React.Component {
     );
   }
 }
-export default Empleabilidad;
+export default Empleos;

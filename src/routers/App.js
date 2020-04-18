@@ -5,20 +5,39 @@ import Principal from "../pages/Principal";
 import FormularioRegistro from "../pages/FormularioRegistro";
 import Cursos from "../pages/Cursos";
 import Acompanamiento from "../pages/Acompanamiento";
-import Empleabilidad from "../pages/Empleabilidad";
-import VerCurso from "../pages/VerCurso";
+import Empleos from "../pages/Empleos";
+
+import PlayCursos from "../components/PlayCursos";
+// import EmpleosDetalle from "../pages/CursosDetalle";
+
+import ConAutenticacion from "../utils/autenticacion/conAutenticacion";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Principal} />
-        <Route path="/InicioSesion" component={InicioSesion} />
-        <Route path="/FormularioRegistro" component={FormularioRegistro} />
-        <Route path="/Acompanamiento" component={Acompanamiento} />
-        <Route path="/Empleabilidad" component={Empleabilidad} />
-        <Route path="/Cursos" component={Cursos} />
-        <Route path="/VerCurso" component={VerCurso} />
+
+        <Route exact path="/inicioSesion" component={InicioSesion} />
+        <Route
+          exact
+          path="/formularioRegistro"
+          component={FormularioRegistro}
+        />
+        <Route exact path="/acompanamiento" component={Acompanamiento} />
+        <Route exact path="/empleos" component={Empleos} />
+        {/* <Route
+          exact
+          path="/empleos/detalle"
+          component={ConAutenticacion(EmpleosDetalle)}
+        /> */}
+        <Route exact path="/cursos" component={Cursos} />
+        <Route
+          exact
+          path="/cursos/detalle"
+          component={ConAutenticacion(PlayCursos)}
+        />
+
       </Switch>
     </BrowserRouter>
   );

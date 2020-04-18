@@ -43,7 +43,6 @@ class FiltroEmpleos extends React.Component {
               placeholder="Puesto deseado"
             ></input>
           </div>
-
           <div className="col-md-2 form-group">
             <button className="btn btn-orange font-weight-bold">
               Buscar Empleos
