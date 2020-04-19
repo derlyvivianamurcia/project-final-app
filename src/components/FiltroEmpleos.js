@@ -23,30 +23,17 @@ class FiltroEmpleos extends React.Component {
             <h3 className="text-center">Encuentra tu siguiente empleo</h3>
           </div>
         </div>
-        <form className="form-row">
-          <div className="col-md-4 form-group">
-            <select
-              className="form-control"
-              onChange={this.props.OnchangeFiltro}
-            >
-              <option>Tipo de Contrato..</option>
-              <option value="Indefinido">Contrato Indefinido</option>
-              <option value="Fijo">Contrato Fijo</option>
-              <option value="Aprendizaje">Contrato de Aprendizaje</option>
-              <option value="Horas">Contrato por Horas</option>
-            </select>
-          </div>
-          <div className="col-md-6 form-group">
+        <form>
+          <div className="form-group">
+            <label>
+              <strong>Buscar vacante</strong>
+            </label>
             <input
+              onChange={this.props.OnchangeFiltro}
               className="form-control"
               type="text"
               placeholder="Puesto deseado"
-            ></input>
-          </div>
-          <div className="col-md-2 form-group">
-            <button className="btn btn-orange font-weight-bold">
-              Buscar Empleos
-            </button>
+            />
           </div>
         </form>
       </div>

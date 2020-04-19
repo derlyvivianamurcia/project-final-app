@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Empleos from "./empleos";
+import React from "react";
+import Empleos from "../components/empleos";
 
 class MainEmpleabilidad extends React.Component {
   render() {
@@ -12,4 +12,5 @@ class MainEmpleabilidad extends React.Component {
     );
   }
 }
+
 export default MainEmpleabilidad;

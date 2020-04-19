@@ -1,731 +1,749 @@
 {
-    "cursos": [
-      {
-        "id": "1",
-        "imagen": "https://lh3.googleusercontent.com/mAk2HmYXHq0HWBilNw05jUWCXqhJWHiwTJ1S58c0CrvJ5CoQPllfeLPEUgXptwhb9NoyyZ_5AFuuSCCgo0RuaZg=s0",
-        "nombreCurso": "Desarrollo web ",
-        "autor": "Todo tendencias ",
-        "duracion": "64 videos ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=0qOG_ZaNAO0&list=PLE8uP447fYpjqOXrkDcr5IzRlkBre2e_O"
-      },
-      {
-        "id": "2",
-        "imagen": "https://udemy-images.udemy.com/course/750x422/809410_4666_6.jpg",
-        "nombreCurso": "Aprende a crear una página web (PHP para principiantes, curso completo) ",
-        "autor": "Java Dev One ",
-        "duracion": "85 videos ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=9d2BJsxff-g&list=PLN9W6BC54TJI6mlpAT-b7nDkpHbZp73i4"
-      },
-      {
-        "id": "3",
-        "imagen": "https://obedalvarado.pw/blog/wp-content/uploads/2017/09/desarrollo-web-completo-con-html5-css3-js-php-y-mysql.png",
-        "nombreCurso": "Cómo empezar en Desarrollo Web",
-        "autor": "Fazt ",
-        "duracion": "1 video ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=s_lUd8mhPpQ"
-      },
-      {
-        "id": "4",
-        "imagen": "https://miro.medium.com/max/850/1*ouV9Krwtdqz7uvKgW_Sz0g.png",
-        "nombreCurso": "Desarrollo de Aplicaciones Web con JSP y MySQL",
-        "autor": "Formando código ",
-        "duracion": "24 videos ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=6ixCNV7kS3k&list=PLnWAzeXp9V4k74VKqXOsuWIWetveAUp_F"
-      },
-      {
-        "id": "5",
-        "imagen": "https://miracomohacerlo.com/wp-content/uploads/2019/06/C%C3%B3mo-Medir-el-Rendimiento-de-una-Aplicaci%C3%B3n-Web-F%C3%A1cil-y-R%C3%A1pido-e1559861230292.jpg",
-        "nombreCurso": "Curso de diseño y desarrollo web",
-        "autor": " Yoney Gallardo",
-        "duracion": "1 video ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=bYOjmW-740M"
-      },
-      {
-        "id": "6",
-        "imagen": "https://boluda.com/files/curso-javascript-300x157.png",
-        "nombreCurso": "Curso Javascript para Principiantes",
-        "autor": "Fazt",
-        "duracion": "1 video",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=RqQ1d1qEWlE"
-      },
-      {
-        "id": "7",
-        "imagen": "https://lenguajesdeprogramacion.net/wp-content/uploads/2018/08/c-plus-plus-lenguaje-de-programacion-logo.png",
-        "nombreCurso": "Curso Aprender a Programar en C++ desde Cero",
-        "autor": "Empieza A Programar ",
-        "duracion": "45 videos ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=9idgIGmQvAQ&list=PLw8RQJQ8K1ySN6bVHYEpDoh-CKVkL_uOF"
-      },
-      {
-        "id": "8",
-        "imagen": "https://unipython.com/wp-content/uploads/2018/03/aprenderhtml-y-css-min-641x320.jpg",
-        "nombreCurso": "HTML Y CSS Completo ",
-        "autor": "Bluuweb",
-        "duracion": "56 videos",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=rr2H086z16s&list=PLPl81lqbj-4LKo66cEts5yC_AjOvqKptm"
-      },
-      {
-        "id": "9",
-        "imagen": "https://miro.medium.com/max/1400/0*oZLL-N4dGNlBe4Oh.png",
-        "nombreCurso": "Curso de ReactJs",
-        "autor": "Raul Palacios",
-        "duracion": "38 videos ",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=yFAIMEupsuo&list=PLIddmSRJEJ0vEBB6ECegg35IQ-sWjSDdo"
-      },
-      {
-        "id": "10",
-        "imagen": "https://www.hostgator.mx/blog/wp-content/uploads/2019/11/bases-de-datos-sql-blog-v01.png",
-        "nombreCurso": "Base de datos",
-        "autor": "Código compilado",
-        "duracion": "15 videos",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=yoeV4Ex8C8U&list=PLs1sXiNvW4OyJCZs5WR3OjPZTlIqNcvQi"
-      },
-      {
-        "id": "11",
-        "imagen": "https://d3t4nwcgmfrp9x.cloudfront.net/upload/claves-crear-buena-base-datos-643x342.jpg",
-        "nombreCurso": "Diseño de bases de datos",
-        "autor": "Yacklyion",
-        "duracion": "15 videos",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=JKMEDTfUZ58&list=PLg9145ptuAig5eqBYvOuMdpTP2ORUNXbf"
-      },
-      {
-        "id": "12",
-        "imagen": "https://cdn.ticbeat.com/src/uploads/2017/11/matema%CC%81ticas-e-informa%CC%81tico-810x540.jpg",
-        "nombreCurso": "Ingeniería de software",
-        "autor": "Orel Sokol",
-        "duracion": "25 videos",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=31q9hNrd3U0&list=PLZw74zHcqsrbMU00VnVgfCXEaZdA7p73E"
-      },
-      {
-        "id": "13",
-        "imagen": "https://tutorialesenlinea.es/uploads/posts/2017-07/1500308637_herramientas-de-desarrollo-web-tutoriales-en-linea.jpg",
-        "nombreCurso": "9 herramientas de desarrollo indispensables",
-        "autor": "MRR",
-        "duracion": "1",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=qmODZUTK4BM"
-      },
-      {
-        "id": "14",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/90/Comercio_electronico.jpg",
-        "nombreCurso": "Curso práctico de comercio electrónico",
-        "autor": "Dimuagui",
-        "duracion": "25 videos",
-        "categoria": "Desarrollo",
-        "video": "https://www.youtube.com/watch?v=0jRJjBBCZQ4&list=PLElsO52gc_twKsTI_lHdECKHdJIj13HA3"
-      },
-      {
-        "id": "15",
-        "imagen": "http://matrixcpmsolutions.com/wp-content/uploads/2018/07/EL-TOP-10-DE-LAS-TENDENCIAS-EN-BI-02-300x200.png",
-        "nombreCurso": "Curso de inteligencia de negocios",
-        "autor": "AddKw",
-        "duracion": "15 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=QuCGCWbsNv0&list=PLts9PaJOt1l8KcKg_T7icqoPPZhxmo4iI"
-      },
-      {
-        "id": "16",
-        "imagen": "https://www.esan.edu.pe/apuntes-empresariales/2018/10/03/1500x844_crowdfunding.jpg",
-        "nombreCurso": "Negocios internacionales",
-        "autor": "WepWo",
-        "duracion": "18 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=dXMbx9TIaWw&list=PL_81J7rjgRMZxLoSioK7Ak6oWO8C3jS1g"
-      },
-      {
-        "id": "17",
-        "imagen": "https://soporte.mygestion.com/media/wp-content/uploads/cierre-ejercicio-contable-700x468.jpg",
-        "nombreCurso": "Curso básico de contabilidad",
-        "autor": "Academia Jaf ",
-        "duracion": "44 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=luIweQmHq94&list=PLuQITQSfEnlJTIhGdNg6l424ZFpV1_3vU"
-      },
-      {
-        "id": "18",
-        "imagen": "https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0032/5031/educacion-financiera.jpeg?1543931663",
-        "nombreCurso": "Educación financiera y liderazgo integral",
-        "autor": "Oportunity channel",
-        "duracion": "1 video",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=2CJMyFSy6L0"
-      },
-      {
-        "id": "19",
-        "imagen": "https://www.ikkonos.com/up/2017/05/blog-mi-negocio-ikkonos.jpg",
-        "nombreCurso": "Como emprender",
-        "autor": "Angel Hernandez",
-        "duracion": "220 videos ",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=-IXYw4CiK0U&list=PL_bhd7nkpa-vn3B5VqxMekscMBH_SL0og"
-      },
-      {
-        "id": "20",
-        "imagen": "https://www.tu-app.net/blog/wp-content/uploads/2019/04/como-vender-mas.jpg",
-        "nombreCurso": "Como vender",
-        "autor": "Jurgen Klaric",
-        "duracion": "12 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=SpF4PNRv8QU&list=PLhIcGTU5VSHcDLURIt9JctfsxrNqkgybV"
-      },
-      {
-        "id": "21",
-        "imagen": "https://neetwork.com/wp-content/uploads/2019/02/tv1.png",
-        "nombreCurso": "Técnicas de venta",
-        "autor": "Fernando Pena",
-        "duracion": "16 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=xqTTBD8NpXI&list=PLZZroTwsnVzZJ4y_XO1iGLeCViEMJ6oKT"
-      },
-      {
-        "id": "22",
-        "imagen": "https://colavoro.com/wp-content/uploads/aprendizajes_rrhh.jpg",
-        "nombreCurso": "Recursos humanos",
-        "autor": "Paola Moreira",
-        "duracion": "77 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=waeKEAbDcUI&list=PL5N_1ymwEmKCRbBdG9ZLNyA7jZxNklIuA"
-      },
-      {
-        "id": "23",
-        "imagen": "https://38consumerdotcom.files.wordpress.com/2017/06/imagen12.jpg?w=1000&h=750",
-        "nombreCurso": "Vender lo que sea",
-        "autor": "Paola Herrera",
-        "duracion": "1 video",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=84jzjKmX9fw"
-      },
-      {
-        "id": "24",
-        "imagen": "https://javieririondo.es/wp-content/uploads/2017/06/brain-2146168_1280.jpg",
-        "nombreCurso": "Curso de inteligencia emocional",
-        "autor": "Cultus colere",
-        "duracion": "23 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=NsbVRnjEXIM&list=PLK3J9IzePUdAQ4JFiKo-WF4c4dBrB_B2-"
-      },
-      {
-        "id": "25",
-        "imagen": "https://crecimientopersonal.tips/wp-content/uploads/2019/06/Crecimiento-Personal-Inicio-2-e1564253324272.jpg",
-        "nombreCurso": "Crecimiento personal",
-        "autor": "Samuel Gavilán",
-        "duracion": "11 videos",
-        "categoria": "Negocios",
-        "video": "https://www.youtube.com/watch?v=5_zY2Zh9gcA&list=PL_WZQpo8BKJAcULurjmlCyqgl-sT-DMlG"
-      },
-      {
-        "id": "26",
-        "imagen": "https://thumbs.dreamstime.com/z/concepto-de-contabilidad-d-30471879.jpg",
-        "nombreCurso": "Curso básico de contabilidad",
-        "autor": "Academia JAF",
-        "duracion": "44 videos",
-        "categoria": "Finanzas",
-        "video": "https://www.youtube.com/watch?v=luIweQmHq94&list=PLuQITQSfEnlJTIhGdNg6l424ZFpV1_3vU"
-      },
-      {
-        "id": "27",
-        "imagen": "https://i1.wp.com/blog.empleate.com/wp-content/uploads/2017/11/Econom%C3%ADa-cultural.png",
-        "nombreCurso": "Lecciones de economia",
-        "autor": "JHS Oficial",
-        "duracion": "37 videos",
-        "categoria": "Finanzas",
-        "video": "https://www.youtube.com/watch?v=IOtoyVhtElQ&list=PLPwIfdLw5T_RC3T1qJVd5mbsF4eO5ANIW"
-      },
-      {
-        "id": "28",
-        "imagen": "https://concepto.de/wp-content/uploads/2018/08/Estadistica-inferencial-min-e1533841684477.jpg",
-        "nombreCurso": "Curso de bolsa",
-        "autor": "Fibonacci",
-        "duracion": "47 videos",
-        "categoria": "Finanzas",
-        "video": "https://www.youtube.com/watch?v=bQcGwH91tMg&list=PLByTZ2SK-Pk25UXoUoI5UZXOcHmsYkntU"
-      },
-      {
-        "id": "29",
-        "imagen": "https://economiaresponsable.com/wp-content/uploads/2019/12/business-4576778_640-512x330.jpg",
-        "nombreCurso": "Curso de impuestos",
-        "autor": "Alejandro Terrones",
-        "duracion": "20 videos",
-        "categoria": "Finanzas",
-        "video": "https://www.youtube.com/watch?v=NviPtwD0G8w&list=PLNeqfIXANYlwN36M66cDfaN_t11UCSLhe"
-      },
-      {
-        "id": "30",
-        "imagen": "https://concepto.de/wp-content/uploads/2018/09/Red-e1537290443698.jpg",
-        "nombreCurso": "Cursos de redes",
-        "autor": "Aulaclic",
-        "duracion": "175 videos",
-        "categoria": "Informatica",
-        "video": "https://www.youtube.com/watch?v=BrqH4PVyYF4&list=PLomN84AdULIBcoI8Rb98dnompliIktJk9"
-      },
-      {
-        "id": "31",
-        "imagen": "http://4.bp.blogspot.com/-hGFP-qCqUdk/VclbEsW5LsI/AAAAAAAAAA4/NAUkTPC90kA/s1600/Hardware%25281%2529.jpg",
-        "nombreCurso": "Curso de hardware y reparación de PC",
-        "autor": "Jairo Ezequías",
-        "duracion": "62 videos",
-        "categoria": "Informatica",
-        "video": "https://www.youtube.com/watch?v=guWAXxClemk&list=PLbMXWFqeZAMg-ABPXqPGQ1WHWgAbXMQ5q"
-      },
-      {
-        "id": "32",
-        "imagen": "http://4.bp.blogspot.com/-9IeOskoky8w/VN1k2_5Tx7I/AAAAAAAAABs/BvFzUJ7dS9U/s1600/soportetecnico.png",
-        "nombreCurso": "Técnico de computadoras",
-        "autor": "GabakTech",
-        "duracion": "71 videos",
-        "categoria": "Informatica",
-        "video": "https://www.youtube.com/watch?v=irNnucKqH28&list=PLz2hfao1E1ESN7uf9BDF3CBZ3t5PDv-lY"
-      },
-      {
-        "id": "33",
-        "imagen": "https://www.areatecnologia.com/informatica/imagenes/so.jpg",
-        "nombreCurso": "Curso de sistemas operativos",
-        "autor": "Indigo",
-        "duracion": "12 videos",
-        "categoria": "Informatica",
-        "video": "https://www.youtube.com/watch?v=F3Gaqufyyi4&list=PLrL464HO43mCxgPzZ1kJwJo-xElBF-GX2"
-      },
-      {
-        "id": "34",
-        "imagen": "https://www.redeszone.net/app/uploads-redeszone.net/2017/11/instalar-linux-cosas-800x388.jpg",
-        "nombreCurso": "Administración de sistemas operativos Linux",
-        "autor": "Tkapacito TIC",
-        "duracion": "48 videos",
-        "categoria": "Informatica",
-        "video": "https://www.youtube.com/watch?v=YNWYp08QNe8&list=PLXFOGHLLtDHv48oaTwtbR5LoTA_nUGCnW"
-      },
-      {
-        "id": "35",
-        "imagen": "https://essentialinstitute.org/essentialnew/wp-content/uploads/2013/10/Transformacion-Personal-new-1000.jpg",
-        "nombreCurso": "Transformacion personal",
-        "autor": "Academy",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=_GcaHTf2SIs"
-      },
-      {
-        "id": "36",
-        "imagen": "https://elitepsicologos.es/wp-content/uploads/2018/07/crecimiento-personal.jpg",
-        "nombreCurso": "Crecimiento personal",
-        "autor": "Josep Gimbernat",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=WfJWxg1Wb7c"
-      },
-      {
-        "id": "37",
-        "imagen": "https://edikeus.com/wp-content/uploads/2017/02/productividad.jpg",
-        "nombreCurso": "Aumentar tu productividad en un 100%",
-        "autor": "BiiA LAB",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=JaSJVC6UhrI"
-      },
-      {
-        "id": "38",
-        "imagen": "https://elmetodogallardo.com/wp-content/uploads/2017/12/tecnica-productividad-pomodoro.jpg",
-        "nombreCurso": "Técnica pomodoro para gestión del tiempo y productividad",
-        "autor": "Judit Català - Ideas Empresa",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=ZfWOghy4ySQ"
-      },
-      {
-        "id": "39",
-        "imagen": "https://www.cdc.gov/hiv/images/basics/livingwithhiv/mental-health-800x400-small.png",
-        "nombreCurso": "Salud mental",
-        "autor": "Mariana Bustos",
-        "duracion": "28 videos",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=NFBnu4BizgE&list=PLBZzJ20R_A5C0rYXtLWgHDQv008ELS1HO"
-      },
-      {
-        "id": "40",
-        "imagen": "https://image.freepik.com/vector-gratis/concepto-moderno-salud-mental-diseno-plano_23-2147893370.jpg",
-        "nombreCurso": "Qué es la salud mental y emocional en el trabajo",
-        "autor": "Platzi",
-        "duracion": "1 videos",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=VkthI1IN1II"
-      },
-      {
-        "id": "41",
-        "imagen": "https://www.tuestima.com/wp-content/uploads/2015/11/meditaci%C3%B3n.jpg",
-        "nombreCurso": "Meditación",
-        "autor": "Yoga en casa",
-        "duracion": "24 videos",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=vkgNCSvzuyc&list=PLRtW50JBToVPPXxw4jzfbrSkntSrQp0F5"
-      },
-      {
-        "id": "42",
-        "imagen": "https://www.vivosano.org/wp-content/uploads/nutrici%C3%B3n-hol%C3%ADstica-e1560786714897.jpg",
-        "nombreCurso": "Principios Básicos de nutrición",
-        "autor": "Salud Realista",
-        "duracion": "16 videos",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=XoFt0730RBo&list=PL-be1zuIVyqrqSg3iHai83rlHsqrIW9Qk"
-      },
-      {
-        "id": "43",
-        "imagen": "https://www.revistamoi.com/wp-content/uploads/2018/09/fit-mitos-.png",
-        "nombreCurso": "Curso de nutrición",
-        "autor": "deporte es vida",
-        "duracion": "8 videos",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=3jYHZ-7Zz2k&list=PLfnzM1FQJiw2rOn4xBZTzGAijbqr_jiIe"
-      },
-      {
-        "id": "44",
-        "imagen": "https://www.periodistadigital.com/wp-content/uploads/2017/02/Feliz-y-felicidad.jpg",
-        "nombreCurso": "Curso de felicidad",
-        "autor": "Marissa Gómez",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=sixuaWBNR3s"
-      },
-      {
-        "id": "45",
-        "imagen": "https://lamenteesmaravillosa.com/wp-content/uploads/2012/10/mujer-con-girasol-tapandole-el-rostro.jpg",
-        "nombreCurso": "Aprender a ser feliz",
-        "autor": "BiiA",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=lPHSDlkMTg4"
-      },
-      {
-        "id": "46",
-        "imagen": "https://www.psicoayudainfantil.com/wp-content/uploads/2015/02/Mejorar-la-autoestima-de-nuestro-hijo-Psico-Ayuda-infantil-Portada-700x350.jpg",
-        "nombreCurso": "Mejorar el autoestima",
-        "autor": "Monica Celi",
-        "duracion": "55 videos",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=Oyr3LEhrd-U&list=PLyg4p6y2Li2AtaDbnkMK69k7JVNFpXCus"
-      },
-      {
-        "id": "47",
-        "imagen": "https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/otramedicina/T/Tecnicas-para-elevar-la-autoestima-2.jpg",
-        "nombreCurso": "Inteligencia emocional",
-        "autor": "Grupo motiva",
-        "duracion": "1 video",
-        "categoria": "DesarrolloPersonal",
-        "video": "https://www.youtube.com/watch?v=oa4dC6gYtFc"
-      },
-      {
-        "id": "48",
-        "imagen": "https://negociostart.com/wp-content/uploads/2019/02/programas-diseno-grafico-online.jpg",
-        "nombreCurso": "Diseño gráfico",
-        "autor": "Design",
-        "duracion": "19 videos",
-        "categoria": "Diseño",
-        "video": "https://www.youtube.com/watch?v=8E65Xl00ce4&list=PLDztup4PBlFT2ospyEvrHr2zfsY6iNq_3"
-      },
-      {
-        "id": "49",
-        "imagen": "https://einatec.com/wp-content/uploads/2019/02/diseno-grafico-publicitario-1000x570.jpg",
-        "nombreCurso": "¿Qué es Diseño Gráfico?",
-        "autor": "Trino",
-        "duracion": "48 videos",
-        "categoria": "Diseño",
-        "video": "https://www.youtube.com/watch?v=7mgxFa-3T0Q&list=PLHOYuNSVc0nQL16H44EQCTtzsooglESQX"
-      },
-      {
-        "id": "50",
-        "imagen": "https://www.cice.es/wp-content/uploads/2019/05/animac%C3%B3n-710x370.jpg",
-        "nombreCurso": "Principios de animación 3d",
-        "autor": "Domestika",
-        "duracion": "5 videos",
-        "categoria": "Diseño",
-        "video": "https://www.youtube.com/watch?v=_tKUZgemkSg"
-      },
-      {
-        "id": "51",
-        "imagen": "https://mott.pe/noticias/wp-content/uploads/2017/12/aplicaciones-para-disenar-ropa-que-todo-disenador-de-moda-debe-tener-1.png",
-        "nombreCurso": "Diseño de modas",
-        "autor": "Laura Páez",
-        "duracion": "30 videos",
-        "categoria": "Diseño",
-        "video": "https://www.youtube.com/watch?v=GCI2_Z6JDUc&list=PLMlAt-n_qylE2En0WVQW3hnNuotpnUNZD"
-      },
-      {
-        "id": "52",
-        "imagen": "https://blogs.unitec.mx/hs-fs/hubfs/Blogs_UNITEC/Corp_Samara/lo-que-tienes-que-saber-antes-de-estudiar-diseno-de-modas-6.jpg?width=1500&name=lo-que-tienes-que-saber-antes-de-estudiar-diseno-de-modas-6.jpg",
-        "nombreCurso": "Patronaje, corte y confección",
-        "autor": "Talia",
-        "duracion": "75 videos",
-        "categoria": "Diseño",
-        "video": "https://www.youtube.com/watch?v=MEw_RFEfyNs&list=PLITqKJsEFUlLWQ5_fjyM9aWPNLUsOIavX"
-      },
-      {
-        "id": "53",
-        "imagen": "https://www.hola.com/imagenes/cocina/recetas/2012091860725/marinar-alimentos-recetas/0-670-318/recetasmarinar-m.jpg",
-        "nombreCurso": "Escuela de cocina",
-        "autor": "Jaime Gutierrez",
-        "duracion": "578 videos",
-        "categoria": "EstiloVida",
-        "video": "https://www.youtube.com/watch?v=pOHTNjkBtr8&list=PLv9j97NzVZv3MhVd_TP1rpEuMXPy2MPbl"
-      },
-      {
-        "id": "54",
-        "imagen": "https://magentaig.com/wp-content/uploads/2018/01/Fast-Food.jpg",
-        "nombreCurso": "Comida rapida",
-        "autor": "Alvaro Carvajal",
-        "duracion": "31 de videos",
-        "categoria": "EstiloVida",
-        "video": "https://www.youtube.com/watch?v=SWv0O1aCwYc&list=PLuW1_NzD52IzQN97VEBeq2x1fx4dXdtly"
-      },
-      {
-        "id": "55",
-        "imagen": "https://steemitimages.com/DQmPxBrxKg1g2yf8qTZJ7fAooNQyZTi6R8mxWZXYe5AvxAr/Como-usar-colores-pastel-en-el-maquillaje-1.jpg",
-        "nombreCurso": "Curso de maquillaje",
-        "autor": "Naty Gloss",
-        "duracion": "20 de videos",
-        "categoria": "EstiloVida",
-        "video": "https://www.youtube.com/watch?v=YasB0CBBwUo&list=PLD1OdOTWur2DE_Z0u2exJuZfP_qGp65_W"
-      },
-      {
-        "id": "56",
-        "imagen": "https://e.an.amtv.pe/util-e-interesante-maquillaje-basico-verte-linda-y-natural-n323050-610x343-470629.jpg",
-        "nombreCurso": "Maquillaje básico",
-        "autor": "Anatassia",
-        "duracion": "12 videos",
-        "categoria": "EstiloVida",
-        "video": "https://www.youtube.com/watch?v=i1DZjvlRqlA&list=PLMllUncNtGiaYj9MJg4bR7lAm7XS5v8Do"
-      },
-      {
-        "id": "57",
-        "imagen": "https://lh3.googleusercontent.com/-9LKb2nf_yHU/Vf1qN8dymgI/AAAAAAAAAeQ/_Js3yKoMSA8/s640/blogger-image-1018638882.jpg",
-        "nombreCurso": "Aprende a dibujar",
-        "autor": "Arte vivo y divertido",
-        "duracion": "122 videos",
-        "categoria": "EstiloVida",
-        "video": "https://www.youtube.com/watch?v=_d5e8UOYFCs&list=PLrDxMf3us-KQUUZZQ2mkeeT1FiSr9JUK6"
-      },
-      {
-        "id": "58",
-        "imagen": "https://www.oas.org/ext/Portals/14/EasyDNNNews/1062/300300p2250EDNmainEducaci%C3%B3n_Art%C3%ADstica.png",
-        "nombreCurso": "Artes plasticas",
-        "autor": "Casa de la cultura ",
-        "duracion": "34 videos",
-        "categoria": "EstiloVida",
-        "video": "https://www.youtube.com/watch?v=iJqAjuge_nE&list=PL3TBUemL1PXHN7Kr_3d_3DOihHaJg1OU1"
-      },
-      {
-        "id": "59",
-        "imagen": "https://www.e-idiomas.com/assets/images/chino-1014.png",
-        "nombreCurso": "Idioma chino",
-        "autor": "Alfonso L.",
-        "duracion": "35 videos",
-        "categoria": "Idiomas",
-        "video": "https://www.youtube.com/watch?v=qJGaBRgnhOI&list=PLm3tNCfvzkWSVQA_asKxySFzcIZoiZr7Q"
-      },
-      {
-        "id": "60",
-        "imagen": "https://img.vixdata.io/pd/webp-large/es/sites/default/files/btg/curiosidades.batanga.com/files/Como-funciona-la-lengua-de-senas.jpg",
-        "nombreCurso": "Lenguaje de señas",
-        "autor": "Ayudas para todos",
-        "duracion": "20 videos",
-        "categoria": "Idiomas",
-        "video": "https://www.youtube.com/watch?v=-8e3FaA-Rak&list=PLI7rDimYXOdhyty-lEXsxQgiLfYKnnqmY"
-      },
-      {
-        "id": "61",
-        "imagen": "https://www.salminter.com/blog/wp-content/uploads/2020/02/27-768x360.png",
-        "nombreCurso": "Aprende español",
-        "autor": "Tu escuela español",
-        "duracion": "75 videos",
-        "categoria": "Idiomas",
-        "video": "https://www.youtube.com/watch?v=IIkXK7ezRuA&list=PL_JdwZWnDhAXgk0VA0d95JPQWO2jW651_"
-      },
-      {
-        "id": "62",
-        "imagen": "https://t2.uc.ltmcdn.com/images/9/0/2/img_como_motivarme_para_aprender_ingles_35209_600.jpg",
-        "nombreCurso": "Aprende ingles",
-        "autor": "Francisco ochoa",
-        "duracion": "114 videos",
-        "categoria": "Idiomas",
-        "video": "https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78"
-      },
-      {
-        "id": "63",
-        "imagen": "https://www.staticjbx.com/images/blog/69419/69419_desktop_83af67381d69f47f80270f847e4ad08b_photo.jpg",
-        "nombreCurso": "Aprende Frances",
-        "autor": "En simples palabras",
-        "duracion": "92 videos",
-        "categoria": "Idiomas",
-        "video": "https://www.youtube.com/watch?v=pP-m3Lr74Vk&list=PL3EB4F17D44A0F078"
-      },
-      {
-        "id": "64",
-        "imagen": "https://imagenes.universia.net/gc/net/images/educacion/c/cu/cur/curso-online-gratuito-portugues.jpg",
-        "nombreCurso": "Aprende Portugués",
-        "autor": "Tus clases",
-        "duracion": "291 videos",
-        "categoria": "Idiomas",
-        "video": "https://www.youtube.com/watch?v=TyiAN14pmVE&list=PLgXzk50PHvvXAVhFkXT8nhhHT753eeFjP"
-      }
-    ],
-    "empleos": [
-        {
-          "id": "1",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Docente",
-          "ubicacionEmpleo": "Sabaneta",
-          "descripcionEmpleo": "Prestigiosa entidad educativa requiere para su equipo de trabajo Licenciados en matemáticas, con experiencia certificable mínima de 2 años como docente después del grado, se requiere tener escalafón 7. Salario acorde a escalafón.",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "1200000",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "2",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Asesor ",
-          "ubicacionEmpleo": "LaEstrella",
-          "descripcionEmpleo": "Descripción y funciones del cargo Oferta exclusiva para persona con discapacidad física en Medellín Haz parte de nuestro equipo y vive experiencias únicas y memorables! Buscamos personas como tú, dinámicas,proactivas e innovadoras. En este cargo serás responsable de solucionar oportunamente los requerimientos de los usuarios de una importante entidad del país. En Konecta puedes encontrar oportunidades de crecimiento, innumerables actividades de bienestar y desarrollo y un excelente clima laboral. Requisitos: Bachiller culminado. Te esperamos !",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "900000",
-          "tipoContrato": "Indefinido"
-        },
-        {
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Desarrollador Java",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Actualmente nos encontramos en la búsqueda de Desarrollador/a Java junior con experiencia mínima de 6 meses. Disponibilidad Inmediata",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "A convenir",
-          "id": "3",
-          "tipoContrato": "Aprendizaje"
-        },
-        {
-          "id": "4",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Analista de Nómina",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "ISA INTERCOLOMBIA se encuentra en la búsqueda de profesionales en administración de empresas ingeniería industrial administrativa o contaduría pública Los tipos de discapacidad tenidas en cuenta para esta vacante son discapacidad física usuarios de silla de ruedas o ayudas técnicas como bastón muletas caminador amputación parcial de miembros superiores miembros inferiores con buen nivel de adaptación de prótesis",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "1200000",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "5",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Analista o Auxiliar de Comercio Exterior Rionegro",
-          "ubicacionEmpleo": "Rionegro",
-          "descripcionEmpleo": "XM se encuentra en la búsqueda de un profesional en ingeniería eléctrica, electrónica, física, industrial, matemática o afines para cubrir 1 vacante. Preferiblemente con especialización en economía, sistemas de potencia, transmisión y distribución de energía, regulación económica, mercados de energía o analítica Los tipos de discapacidad tenidas en cuenta para esta vacante son: discapacidad física con amputación parcial de miembros superiores o amputación de miembros inferiores con buen nivel de adaptación de prótesis, talla baja, discapacidad psicosocial, discapacidad auditiva parcial y discapacidad visual parcial. Las especificaciones de discapacidades mencionadas en esta convocatoria corresponden a los análisis de puestos de trabajo realizados previamente y a las posibilidades de ajustes razonables con los que la organización cuenta en este momento. Sin embargo, la organización sigue trabajando para convertirse en una empresa cada vez más incluyente",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "1500000",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Asesor comercial",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Requerimos personal con disponibilidad inmediata para laborar que cuente con el bachiller culminado y experiencia laboral mínima de 3 meses Esta oferta laboral aplica para personas que actualmente cuenten con alguna discapacidad física Funciones Servicio al cliente telefónico para reconocida entidad Los interesados deben postularse y estar atentos a sus números de contacto Requerimientos Educación mínima Bachillerato Educación Media Disponibilidad de viajar No Disponi",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "900000",
-          "id": "6",
-          "tipoContrato": "Indefinido"
-        },
-        {
-          "id": "7",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Analista Eléctrico",
-          "ubicacionEmpleo": "Itagui",
-          "descripcionEmpleo": "Se solicitan personas que cumplan con los requisitos enunciados a continuación para cubrir una vacante en condición de Discapacidad Física con amputación parcial de miembros superiores o amputación de miembros inferiores con buen nivel de adaptación de prótesis talla baja discapacidad psicosocial discapacidad auditiva parcial y discapacidad visual parcial Misión del Cargo Emitir las recomendaciones e instrucciones operativas a través del análisis de las condiciones eléctricas del sistema interconectado nacional SIN y las conexiones internacionales por escenarios para asegurar la confiabilidad seguridad y calidad de la operación Conocimientos en Análisis normativo de sistemas eléctricos y energéticos Planeación de sistemas de energía Sistemas de potencia Preferiblemente sistemas de control Preferiblemente Analítica programación aprendizaje de máquinas y minería de datos y redes neuronales Salario Régimen de salario ordinario fijo Nivel Académico Profesional en Ingeniería eléctrica",
-          "salario": "1800000",
-          "tipoEmpleo": "Jornada completa",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "8",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Analista o Auxiliar de Comercio Exterior Rionegro",
-          "ubicacionEmpleo": "Jerico",
-          "descripcionEmpleo": "Institución dedicada a la atención de personas en situación de discapacidad cognitiva y ental psicosocial, ubicada en Jerico se encuentra en la búsqueda de un a NUTRICIONISTA A para trabajar tiempo completo.Las funciones a realizar con las siguientes",
-          "salario": "900000",
-          "tipoEmpleo": "Jornada completa",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "imgEmpleo": " https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Análista de sistemas",
-          "ubicacionEmpleo": "Envigado",
-          "descripcionEmpleo": "Empresa requiere candidato para desempeñarse en el cargo de Analista de sistemas Tiempo real Vacante dirigida a personas con discapacidad Profesional en Ingeniería eléctrica, de control, comunicaciones, o electrónica Preferiblemente con especialización en ingeniería eléctrica o de control o de comunicaciones o electrónica con mínimo 1 año de experiencia de experiencia en sistemas SCADA/EMS y modelamiento de los sistemas de potencia El conocimiento de inglés no es un requisito para participar en la convocatoria, sin embargo, es importante que la persona aprenda este idioma durante la permanencia en la empresa MISIÓN DEL CARGO Soportar y dar mantenimiento a los sistemas de tiempo real SCADA/EMS/OTS y complementarios, que permitan la supervisión y control de las variables.",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "1200000",
-          "id": "9",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "10",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Recepcionista",
-          "ubicacionEmpleo": "Salgar",
-          "descripcionEmpleo": "Reconocida Empresa con perspectiva de inclusión laboral requiere para el cargo de recepcionista persona con discapacidad de movilidad reducida u otra diversidad funcional que cuente con experiencia en atención a cliente y actitud para realizar labores secretariales, manejo del conmutador",
-          "salario": "900000",
-          "tipoEmpleo": "Jornada completa",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "11",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Analista o Auxiliar de Comercio Exterior Rionegro",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Empresa requiere candidato a para desempeñarse en el cargo de Auxiliar de Recepción con Discapacidad Física visual o auditiva Técnico Auxiliar Administrativo Secretariado Ejecutivo o afines Funciones Recibir las llamadas externas o internas Coordinar la administración de salas dispuestas en la sede Caribe Coordinar solicitudes de correo y llamadas para la gestión de mensajería de la empresa Recibir las visitas y gestionar su ubicación Mantener la seguridad siguiendo los procesos y el control de acceso solicitando ingresos de personal Gestionar junto con la Secretaria la autorización de ingreso de personal de mantenimiento acuerdo al procedimiento establecido Gestionar el control de la facturación según planteamiento en las guías Gestionar la emisión y solicitud de cartas certificados y otros documentos Realizar pre revisión de facturas Generar los documentos equivalentes de caja menor y consolidación con el área contable Asegurar el ingreso y actualización en el flujo de facturas",
-          "salario": "1000000",
-          "tipoEmpleo": "media jornada",
-          "tipoContrato": "Horas"
-        },
-        {
-          "id": "12",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Auxiliar de oficina",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Importante compañía multinacional, solicita de personas con o sin experiencia, personal hombres y mujeres de 18 años en adelante para desempeñar funciones y actividades auxiliares dentro de nuestras instalaciones y oficinas, tales como: Manejo de base de datos e información. Contestación y recepción de líneas telefónicas. Organización de registro y documentación, logística supervisión de personal, entre otras funciones afines a las anteriores. Ofrecemos muy buenos ingresos y horarios totalmente flexibles medio tiempo de lunes a viernes con proyección de nuevos ascensos dentro de la compañía. No se necesita ¡experiencia! Ya que la empresa te brinda la capacitación.",
-          "salario": "1000000",
-          "tipoEmpleo": "Jornada completa",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "13",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Auxiliar de biblioteca",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Nos encontramos en la búsqueda de personas que cumplan con los requisitos enunciados a continuación, para cubrir una vacante, en condición de Discapacidad Física (Amputación parcial de miembros inferiores con buen nivel de adaptación de prótesis), Discapacidad psicosocial, Discapacidad auditiva parcial (pérdida de la audición en solo oído) y discapacidad visual parcial (pérdida de la visión de un solo ojo).",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "900000",
-          "tipoContrato": "Fijo"
-        },
-        {
-          "id": "14",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Asesor servicio al cliente",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Se requieren personas con discapacidad física para la vacante de Asesor Servicio al Cliente - Cobranzas o Televentas - personas con discapacidad física. Con conocimiento en herramientas ofimáticas (Word y Excel básico, Internet). Deberá recibir las llamadas de los usuarios sobre facturación, Soporte, quejas y reclamos, solucionar en primer contacto y realizar venta cruzada.",
-          "salario": "877.803",
-          "tipoContrato": "Indefinido"
-        },
-        {
-          "id": "15",
-          "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
-          "nameEmpleo": "Servicio al cliente",
-          "ubicacionEmpleo": "Medellin",
-          "descripcionEmpleo": "Cargo: Creador de experiencia TIGO Población con discapacidad Formación: bachiller con 6 meses de experiencia en servicio o a fines certificada.  Horario: Domingo a Domingo, 8 Horas diarias, compensatorio de descaso a la semana",
-          "tipoEmpleo": "Jornada completa",
-          "salario": "877.803",
-          "tipoContrato": "Indefinido"
-        }
-      ]
+  "usuarios": [
+    {
+      "id": "1",
+      "email": "eduard@hotmail.com",
+      "contrasena": "12345"
+    },
+    {
+      "id": "2",
+      "email": "luisa@hotmail.com",
+      "contrasena": "12345"
+    },
+    {
+      "id": "3",
+      "email": "me@felipe.com",
+      "contrasena": "12345"
     }
+  ],
+  "cursos": [
+    {
+      "id": "1",
+      "imagen": "https://lh3.googleusercontent.com/mAk2HmYXHq0HWBilNw05jUWCXqhJWHiwTJ1S58c0CrvJ5CoQPllfeLPEUgXptwhb9NoyyZ_5AFuuSCCgo0RuaZg=s0",
+      "nombreCurso": "Desarrollo web ",
+      "autor": "Todo tendencias ",
+      "duracion": "64 videos ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=0qOG_ZaNAO0&list=PLE8uP447fYpjqOXrkDcr5IzRlkBre2e_O"
+    },
+    {
+      "id": "2",
+      "imagen": "https://udemy-images.udemy.com/course/750x422/809410_4666_6.jpg",
+      "nombreCurso": "Aprende a crear una página web (PHP para principiantes, curso completo) ",
+      "autor": "Java Dev One ",
+      "duracion": "85 videos ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=9d2BJsxff-g&list=PLN9W6BC54TJI6mlpAT-b7nDkpHbZp73i4"
+    },
+    {
+      "id": "3",
+      "imagen": "https://obedalvarado.pw/blog/wp-content/uploads/2017/09/desarrollo-web-completo-con-html5-css3-js-php-y-mysql.png",
+      "nombreCurso": "Cómo empezar en Desarrollo Web",
+      "autor": "Fazt ",
+      "duracion": "1 video ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=s_lUd8mhPpQ"
+    },
+    {
+      "id": "4",
+      "imagen": "https://miro.medium.com/max/850/1*ouV9Krwtdqz7uvKgW_Sz0g.png",
+      "nombreCurso": "Desarrollo de Aplicaciones Web con JSP y MySQL",
+      "autor": "Formando código ",
+      "duracion": "24 videos ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=6ixCNV7kS3k&list=PLnWAzeXp9V4k74VKqXOsuWIWetveAUp_F"
+    },
+    {
+      "id": "5",
+      "imagen": "https://miracomohacerlo.com/wp-content/uploads/2019/06/C%C3%B3mo-Medir-el-Rendimiento-de-una-Aplicaci%C3%B3n-Web-F%C3%A1cil-y-R%C3%A1pido-e1559861230292.jpg",
+      "nombreCurso": "Curso de diseño y desarrollo web",
+      "autor": " Yoney Gallardo",
+      "duracion": "1 video ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=bYOjmW-740M"
+    },
+    {
+      "id": "6",
+      "imagen": "https://boluda.com/files/curso-javascript-300x157.png",
+      "nombreCurso": "Curso Javascript para Principiantes",
+      "autor": "Fazt",
+      "duracion": "1 video",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=RqQ1d1qEWlE"
+    },
+    {
+      "id": "7",
+      "imagen": "https://lenguajesdeprogramacion.net/wp-content/uploads/2018/08/c-plus-plus-lenguaje-de-programacion-logo.png",
+      "nombreCurso": "Curso Aprender a Programar en C++ desde Cero",
+      "autor": "Empieza A Programar ",
+      "duracion": "45 videos ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=9idgIGmQvAQ&list=PLw8RQJQ8K1ySN6bVHYEpDoh-CKVkL_uOF"
+    },
+    {
+      "id": "8",
+      "imagen": "https://unipython.com/wp-content/uploads/2018/03/aprenderhtml-y-css-min-641x320.jpg",
+      "nombreCurso": "HTML Y CSS Completo ",
+      "autor": "Bluuweb",
+      "duracion": "56 videos",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=rr2H086z16s&list=PLPl81lqbj-4LKo66cEts5yC_AjOvqKptm"
+    },
+    {
+      "id": "9",
+      "imagen": "https://miro.medium.com/max/1400/0*oZLL-N4dGNlBe4Oh.png",
+      "nombreCurso": "Curso de ReactJs",
+      "autor": "Raul Palacios",
+      "duracion": "38 videos ",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=yFAIMEupsuo&list=PLIddmSRJEJ0vEBB6ECegg35IQ-sWjSDdo"
+    },
+    {
+      "id": "10",
+      "imagen": "https://www.hostgator.mx/blog/wp-content/uploads/2019/11/bases-de-datos-sql-blog-v01.png",
+      "nombreCurso": "Base de datos",
+      "autor": "Código compilado",
+      "duracion": "15 videos",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=yoeV4Ex8C8U&list=PLs1sXiNvW4OyJCZs5WR3OjPZTlIqNcvQi"
+    },
+    {
+      "id": "11",
+      "imagen": "https://d3t4nwcgmfrp9x.cloudfront.net/upload/claves-crear-buena-base-datos-643x342.jpg",
+      "nombreCurso": "Diseño de bases de datos",
+      "autor": "Yacklyion",
+      "duracion": "15 videos",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=JKMEDTfUZ58&list=PLg9145ptuAig5eqBYvOuMdpTP2ORUNXbf"
+    },
+    {
+      "id": "12",
+      "imagen": "https://cdn.ticbeat.com/src/uploads/2017/11/matema%CC%81ticas-e-informa%CC%81tico-810x540.jpg",
+      "nombreCurso": "Ingeniería de software",
+      "autor": "Orel Sokol",
+      "duracion": "25 videos",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=31q9hNrd3U0&list=PLZw74zHcqsrbMU00VnVgfCXEaZdA7p73E"
+    },
+    {
+      "id": "13",
+      "imagen": "https://tutorialesenlinea.es/uploads/posts/2017-07/1500308637_herramientas-de-desarrollo-web-tutoriales-en-linea.jpg",
+      "nombreCurso": "9 herramientas de desarrollo indispensables",
+      "autor": "MRR",
+      "duracion": "1",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=qmODZUTK4BM"
+    },
+    {
+      "id": "14",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/90/Comercio_electronico.jpg",
+      "nombreCurso": "Curso práctico de comercio electrónico",
+      "autor": "Dimuagui",
+      "duracion": "25 videos",
+      "categoria": "Desarrollo",
+      "video": "https://www.youtube.com/watch?v=0jRJjBBCZQ4&list=PLElsO52gc_twKsTI_lHdECKHdJIj13HA3"
+    },
+    {
+      "id": "15",
+      "imagen": "http://matrixcpmsolutions.com/wp-content/uploads/2018/07/EL-TOP-10-DE-LAS-TENDENCIAS-EN-BI-02-300x200.png",
+      "nombreCurso": "Curso de inteligencia de negocios",
+      "autor": "AddKw",
+      "duracion": "15 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=QuCGCWbsNv0&list=PLts9PaJOt1l8KcKg_T7icqoPPZhxmo4iI"
+    },
+    {
+      "id": "16",
+      "imagen": "https://www.esan.edu.pe/apuntes-empresariales/2018/10/03/1500x844_crowdfunding.jpg",
+      "nombreCurso": "Negocios internacionales",
+      "autor": "WepWo",
+      "duracion": "18 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=dXMbx9TIaWw&list=PL_81J7rjgRMZxLoSioK7Ak6oWO8C3jS1g"
+    },
+    {
+      "id": "17",
+      "imagen": "https://soporte.mygestion.com/media/wp-content/uploads/cierre-ejercicio-contable-700x468.jpg",
+      "nombreCurso": "Curso básico de contabilidad",
+      "autor": "Academia Jaf ",
+      "duracion": "44 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=luIweQmHq94&list=PLuQITQSfEnlJTIhGdNg6l424ZFpV1_3vU"
+    },
+    {
+      "id": "18",
+      "imagen": "https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0032/5031/educacion-financiera.jpeg?1543931663",
+      "nombreCurso": "Educación financiera y liderazgo integral",
+      "autor": "Oportunity channel",
+      "duracion": "1 video",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=2CJMyFSy6L0"
+    },
+    {
+      "id": "19",
+      "imagen": "https://www.ikkonos.com/up/2017/05/blog-mi-negocio-ikkonos.jpg",
+      "nombreCurso": "Como emprender",
+      "autor": "Angel Hernandez",
+      "duracion": "220 videos ",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=-IXYw4CiK0U&list=PL_bhd7nkpa-vn3B5VqxMekscMBH_SL0og"
+    },
+    {
+      "id": "20",
+      "imagen": "https://www.tu-app.net/blog/wp-content/uploads/2019/04/como-vender-mas.jpg",
+      "nombreCurso": "Como vender",
+      "autor": "Jurgen Klaric",
+      "duracion": "12 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=SpF4PNRv8QU&list=PLhIcGTU5VSHcDLURIt9JctfsxrNqkgybV"
+    },
+    {
+      "id": "21",
+      "imagen": "https://neetwork.com/wp-content/uploads/2019/02/tv1.png",
+      "nombreCurso": "Técnicas de venta",
+      "autor": "Fernando Pena",
+      "duracion": "16 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=xqTTBD8NpXI&list=PLZZroTwsnVzZJ4y_XO1iGLeCViEMJ6oKT"
+    },
+    {
+      "id": "22",
+      "imagen": "https://colavoro.com/wp-content/uploads/aprendizajes_rrhh.jpg",
+      "nombreCurso": "Recursos humanos",
+      "autor": "Paola Moreira",
+      "duracion": "77 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=waeKEAbDcUI&list=PL5N_1ymwEmKCRbBdG9ZLNyA7jZxNklIuA"
+    },
+    {
+      "id": "23",
+      "imagen": "https://38consumerdotcom.files.wordpress.com/2017/06/imagen12.jpg?w=1000&h=750",
+      "nombreCurso": "Vender lo que sea",
+      "autor": "Paola Herrera",
+      "duracion": "1 video",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=84jzjKmX9fw"
+    },
+    {
+      "id": "24",
+      "imagen": "https://javieririondo.es/wp-content/uploads/2017/06/brain-2146168_1280.jpg",
+      "nombreCurso": "Curso de inteligencia emocional",
+      "autor": "Cultus colere",
+      "duracion": "23 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=NsbVRnjEXIM&list=PLK3J9IzePUdAQ4JFiKo-WF4c4dBrB_B2-"
+    },
+    {
+      "id": "25",
+      "imagen": "https://crecimientopersonal.tips/wp-content/uploads/2019/06/Crecimiento-Personal-Inicio-2-e1564253324272.jpg",
+      "nombreCurso": "Crecimiento personal",
+      "autor": "Samuel Gavilán",
+      "duracion": "11 videos",
+      "categoria": "Negocios",
+      "video": "https://www.youtube.com/watch?v=5_zY2Zh9gcA&list=PL_WZQpo8BKJAcULurjmlCyqgl-sT-DMlG"
+    },
+    {
+      "id": "26",
+      "imagen": "https://thumbs.dreamstime.com/z/concepto-de-contabilidad-d-30471879.jpg",
+      "nombreCurso": "Curso básico de contabilidad",
+      "autor": "Academia JAF",
+      "duracion": "44 videos",
+      "categoria": "Finanzas",
+      "video": "https://www.youtube.com/watch?v=luIweQmHq94&list=PLuQITQSfEnlJTIhGdNg6l424ZFpV1_3vU"
+    },
+    {
+      "id": "27",
+      "imagen": "https://i1.wp.com/blog.empleate.com/wp-content/uploads/2017/11/Econom%C3%ADa-cultural.png",
+      "nombreCurso": "Lecciones de economia",
+      "autor": "JHS Oficial",
+      "duracion": "37 videos",
+      "categoria": "Finanzas",
+      "video": "https://www.youtube.com/watch?v=IOtoyVhtElQ&list=PLPwIfdLw5T_RC3T1qJVd5mbsF4eO5ANIW"
+    },
+    {
+      "id": "28",
+      "imagen": "https://concepto.de/wp-content/uploads/2018/08/Estadistica-inferencial-min-e1533841684477.jpg",
+      "nombreCurso": "Curso de bolsa",
+      "autor": "Fibonacci",
+      "duracion": "47 videos",
+      "categoria": "Finanzas",
+      "video": "https://www.youtube.com/watch?v=bQcGwH91tMg&list=PLByTZ2SK-Pk25UXoUoI5UZXOcHmsYkntU"
+    },
+    {
+      "id": "29",
+      "imagen": "https://economiaresponsable.com/wp-content/uploads/2019/12/business-4576778_640-512x330.jpg",
+      "nombreCurso": "Curso de impuestos",
+      "autor": "Alejandro Terrones",
+      "duracion": "20 videos",
+      "categoria": "Finanzas",
+      "video": "https://www.youtube.com/watch?v=NviPtwD0G8w&list=PLNeqfIXANYlwN36M66cDfaN_t11UCSLhe"
+    },
+    {
+      "id": "30",
+      "imagen": "https://concepto.de/wp-content/uploads/2018/09/Red-e1537290443698.jpg",
+      "nombreCurso": "Cursos de redes",
+      "autor": "Aulaclic",
+      "duracion": "175 videos",
+      "categoria": "Informatica",
+      "video": "https://www.youtube.com/watch?v=BrqH4PVyYF4&list=PLomN84AdULIBcoI8Rb98dnompliIktJk9"
+    },
+    {
+      "id": "31",
+      "imagen": "http://4.bp.blogspot.com/-hGFP-qCqUdk/VclbEsW5LsI/AAAAAAAAAA4/NAUkTPC90kA/s1600/Hardware%25281%2529.jpg",
+      "nombreCurso": "Curso de hardware y reparación de PC",
+      "autor": "Jairo Ezequías",
+      "duracion": "62 videos",
+      "categoria": "Informatica",
+      "video": "https://www.youtube.com/watch?v=guWAXxClemk&list=PLbMXWFqeZAMg-ABPXqPGQ1WHWgAbXMQ5q"
+    },
+    {
+      "id": "32",
+      "imagen": "http://4.bp.blogspot.com/-9IeOskoky8w/VN1k2_5Tx7I/AAAAAAAAABs/BvFzUJ7dS9U/s1600/soportetecnico.png",
+      "nombreCurso": "Técnico de computadoras",
+      "autor": "GabakTech",
+      "duracion": "71 videos",
+      "categoria": "Informatica",
+      "video": "https://www.youtube.com/watch?v=irNnucKqH28&list=PLz2hfao1E1ESN7uf9BDF3CBZ3t5PDv-lY"
+    },
+    {
+      "id": "33",
+      "imagen": "https://www.areatecnologia.com/informatica/imagenes/so.jpg",
+      "nombreCurso": "Curso de sistemas operativos",
+      "autor": "Indigo",
+      "duracion": "12 videos",
+      "categoria": "Informatica",
+      "video": "https://www.youtube.com/watch?v=F3Gaqufyyi4&list=PLrL464HO43mCxgPzZ1kJwJo-xElBF-GX2"
+    },
+    {
+      "id": "34",
+      "imagen": "https://www.redeszone.net/app/uploads-redeszone.net/2017/11/instalar-linux-cosas-800x388.jpg",
+      "nombreCurso": "Administración de sistemas operativos Linux",
+      "autor": "Tkapacito TIC",
+      "duracion": "48 videos",
+      "categoria": "Informatica",
+      "video": "https://www.youtube.com/watch?v=YNWYp08QNe8&list=PLXFOGHLLtDHv48oaTwtbR5LoTA_nUGCnW"
+    },
+    {
+      "id": "35",
+      "imagen": "https://essentialinstitute.org/essentialnew/wp-content/uploads/2013/10/Transformacion-Personal-new-1000.jpg",
+      "nombreCurso": "Transformacion personal",
+      "autor": "Academy",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=_GcaHTf2SIs"
+    },
+    {
+      "id": "36",
+      "imagen": "https://elitepsicologos.es/wp-content/uploads/2018/07/crecimiento-personal.jpg",
+      "nombreCurso": "Crecimiento personal",
+      "autor": "Josep Gimbernat",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=WfJWxg1Wb7c"
+    },
+    {
+      "id": "37",
+      "imagen": "https://edikeus.com/wp-content/uploads/2017/02/productividad.jpg",
+      "nombreCurso": "Aumentar tu productividad en un 100%",
+      "autor": "BiiA LAB",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=JaSJVC6UhrI"
+    },
+    {
+      "id": "38",
+      "imagen": "https://elmetodogallardo.com/wp-content/uploads/2017/12/tecnica-productividad-pomodoro.jpg",
+      "nombreCurso": "Técnica pomodoro para gestión del tiempo y productividad",
+      "autor": "Judit Català - Ideas Empresa",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=ZfWOghy4ySQ"
+    },
+    {
+      "id": "39",
+      "imagen": "https://www.cdc.gov/hiv/images/basics/livingwithhiv/mental-health-800x400-small.png",
+      "nombreCurso": "Salud mental",
+      "autor": "Mariana Bustos",
+      "duracion": "28 videos",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=NFBnu4BizgE&list=PLBZzJ20R_A5C0rYXtLWgHDQv008ELS1HO"
+    },
+    {
+      "id": "40",
+      "imagen": "https://image.freepik.com/vector-gratis/concepto-moderno-salud-mental-diseno-plano_23-2147893370.jpg",
+      "nombreCurso": "Qué es la salud mental y emocional en el trabajo",
+      "autor": "Platzi",
+      "duracion": "1 videos",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=VkthI1IN1II"
+    },
+    {
+      "id": "41",
+      "imagen": "https://www.tuestima.com/wp-content/uploads/2015/11/meditaci%C3%B3n.jpg",
+      "nombreCurso": "Meditación",
+      "autor": "Yoga en casa",
+      "duracion": "24 videos",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=vkgNCSvzuyc&list=PLRtW50JBToVPPXxw4jzfbrSkntSrQp0F5"
+    },
+    {
+      "id": "42",
+      "imagen": "https://www.vivosano.org/wp-content/uploads/nutrici%C3%B3n-hol%C3%ADstica-e1560786714897.jpg",
+      "nombreCurso": "Principios Básicos de nutrición",
+      "autor": "Salud Realista",
+      "duracion": "16 videos",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=XoFt0730RBo&list=PL-be1zuIVyqrqSg3iHai83rlHsqrIW9Qk"
+    },
+    {
+      "id": "43",
+      "imagen": "https://www.revistamoi.com/wp-content/uploads/2018/09/fit-mitos-.png",
+      "nombreCurso": "Curso de nutrición",
+      "autor": "deporte es vida",
+      "duracion": "8 videos",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=3jYHZ-7Zz2k&list=PLfnzM1FQJiw2rOn4xBZTzGAijbqr_jiIe"
+    },
+    {
+      "id": "44",
+      "imagen": "https://www.periodistadigital.com/wp-content/uploads/2017/02/Feliz-y-felicidad.jpg",
+      "nombreCurso": "Curso de felicidad",
+      "autor": "Marissa Gómez",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=sixuaWBNR3s"
+    },
+    {
+      "id": "45",
+      "imagen": "https://lamenteesmaravillosa.com/wp-content/uploads/2012/10/mujer-con-girasol-tapandole-el-rostro.jpg",
+      "nombreCurso": "Aprender a ser feliz",
+      "autor": "BiiA",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=lPHSDlkMTg4"
+    },
+    {
+      "id": "46",
+      "imagen": "https://www.psicoayudainfantil.com/wp-content/uploads/2015/02/Mejorar-la-autoestima-de-nuestro-hijo-Psico-Ayuda-infantil-Portada-700x350.jpg",
+      "nombreCurso": "Mejorar el autoestima",
+      "autor": "Monica Celi",
+      "duracion": "55 videos",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=Oyr3LEhrd-U&list=PLyg4p6y2Li2AtaDbnkMK69k7JVNFpXCus"
+    },
+    {
+      "id": "47",
+      "imagen": "https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/otramedicina/T/Tecnicas-para-elevar-la-autoestima-2.jpg",
+      "nombreCurso": "Inteligencia emocional",
+      "autor": "Grupo motiva",
+      "duracion": "1 video",
+      "categoria": "DesarrolloPersonal",
+      "video": "https://www.youtube.com/watch?v=oa4dC6gYtFc"
+    },
+    {
+      "id": "48",
+      "imagen": "https://negociostart.com/wp-content/uploads/2019/02/programas-diseno-grafico-online.jpg",
+      "nombreCurso": "Diseño gráfico",
+      "autor": "Design",
+      "duracion": "19 videos",
+      "categoria": "Diseño",
+      "video": "https://www.youtube.com/watch?v=8E65Xl00ce4&list=PLDztup4PBlFT2ospyEvrHr2zfsY6iNq_3"
+    },
+    {
+      "id": "49",
+      "imagen": "https://einatec.com/wp-content/uploads/2019/02/diseno-grafico-publicitario-1000x570.jpg",
+      "nombreCurso": "¿Qué es Diseño Gráfico?",
+      "autor": "Trino",
+      "duracion": "48 videos",
+      "categoria": "Diseño",
+      "video": "https://www.youtube.com/watch?v=7mgxFa-3T0Q&list=PLHOYuNSVc0nQL16H44EQCTtzsooglESQX"
+    },
+    {
+      "id": "50",
+      "imagen": "https://www.cice.es/wp-content/uploads/2019/05/animac%C3%B3n-710x370.jpg",
+      "nombreCurso": "Principios de animación 3d",
+      "autor": "Domestika",
+      "duracion": "5 videos",
+      "categoria": "Diseño",
+      "video": "https://www.youtube.com/watch?v=_tKUZgemkSg"
+    },
+    {
+      "id": "51",
+      "imagen": "https://mott.pe/noticias/wp-content/uploads/2017/12/aplicaciones-para-disenar-ropa-que-todo-disenador-de-moda-debe-tener-1.png",
+      "nombreCurso": "Diseño de modas",
+      "autor": "Laura Páez",
+      "duracion": "30 videos",
+      "categoria": "Diseño",
+      "video": "https://www.youtube.com/watch?v=GCI2_Z6JDUc&list=PLMlAt-n_qylE2En0WVQW3hnNuotpnUNZD"
+    },
+    {
+      "id": "52",
+      "imagen": "https://blogs.unitec.mx/hs-fs/hubfs/Blogs_UNITEC/Corp_Samara/lo-que-tienes-que-saber-antes-de-estudiar-diseno-de-modas-6.jpg?width=1500&name=lo-que-tienes-que-saber-antes-de-estudiar-diseno-de-modas-6.jpg",
+      "nombreCurso": "Patronaje, corte y confección",
+      "autor": "Talia",
+      "duracion": "75 videos",
+      "categoria": "Diseño",
+      "video": "https://www.youtube.com/watch?v=MEw_RFEfyNs&list=PLITqKJsEFUlLWQ5_fjyM9aWPNLUsOIavX"
+    },
+    {
+      "id": "53",
+      "imagen": "https://www.hola.com/imagenes/cocina/recetas/2012091860725/marinar-alimentos-recetas/0-670-318/recetasmarinar-m.jpg",
+      "nombreCurso": "Escuela de cocina",
+      "autor": "Jaime Gutierrez",
+      "duracion": "578 videos",
+      "categoria": "EstiloVida",
+      "video": "https://www.youtube.com/watch?v=pOHTNjkBtr8&list=PLv9j97NzVZv3MhVd_TP1rpEuMXPy2MPbl"
+    },
+    {
+      "id": "54",
+      "imagen": "https://magentaig.com/wp-content/uploads/2018/01/Fast-Food.jpg",
+      "nombreCurso": "Comida rapida",
+      "autor": "Alvaro Carvajal",
+      "duracion": "31 de videos",
+      "categoria": "EstiloVida",
+      "video": "https://www.youtube.com/watch?v=SWv0O1aCwYc&list=PLuW1_NzD52IzQN97VEBeq2x1fx4dXdtly"
+    },
+    {
+      "id": "55",
+      "imagen": "https://steemitimages.com/DQmPxBrxKg1g2yf8qTZJ7fAooNQyZTi6R8mxWZXYe5AvxAr/Como-usar-colores-pastel-en-el-maquillaje-1.jpg",
+      "nombreCurso": "Curso de maquillaje",
+      "autor": "Naty Gloss",
+      "duracion": "20 de videos",
+      "categoria": "EstiloVida",
+      "video": "https://www.youtube.com/watch?v=YasB0CBBwUo&list=PLD1OdOTWur2DE_Z0u2exJuZfP_qGp65_W"
+    },
+    {
+      "id": "56",
+      "imagen": "https://e.an.amtv.pe/util-e-interesante-maquillaje-basico-verte-linda-y-natural-n323050-610x343-470629.jpg",
+      "nombreCurso": "Maquillaje básico",
+      "autor": "Anatassia",
+      "duracion": "12 videos",
+      "categoria": "EstiloVida",
+      "video": "https://www.youtube.com/watch?v=i1DZjvlRqlA&list=PLMllUncNtGiaYj9MJg4bR7lAm7XS5v8Do"
+    },
+    {
+      "id": "57",
+      "imagen": "https://lh3.googleusercontent.com/-9LKb2nf_yHU/Vf1qN8dymgI/AAAAAAAAAeQ/_Js3yKoMSA8/s640/blogger-image-1018638882.jpg",
+      "nombreCurso": "Aprende a dibujar",
+      "autor": "Arte vivo y divertido",
+      "duracion": "122 videos",
+      "categoria": "EstiloVida",
+      "video": "https://www.youtube.com/watch?v=_d5e8UOYFCs&list=PLrDxMf3us-KQUUZZQ2mkeeT1FiSr9JUK6"
+    },
+    {
+      "id": "58",
+      "imagen": "https://www.oas.org/ext/Portals/14/EasyDNNNews/1062/300300p2250EDNmainEducaci%C3%B3n_Art%C3%ADstica.png",
+      "nombreCurso": "Artes plasticas",
+      "autor": "Casa de la cultura ",
+      "duracion": "34 videos",
+      "categoria": "EstiloVida",
+      "video": "https://www.youtube.com/watch?v=iJqAjuge_nE&list=PL3TBUemL1PXHN7Kr_3d_3DOihHaJg1OU1"
+    },
+    {
+      "id": "59",
+      "imagen": "https://www.e-idiomas.com/assets/images/chino-1014.png",
+      "nombreCurso": "Idioma chino",
+      "autor": "Alfonso L.",
+      "duracion": "35 videos",
+      "categoria": "Idiomas",
+      "video": "https://www.youtube.com/watch?v=qJGaBRgnhOI&list=PLm3tNCfvzkWSVQA_asKxySFzcIZoiZr7Q"
+    },
+    {
+      "id": "60",
+      "imagen": "https://img.vixdata.io/pd/webp-large/es/sites/default/files/btg/curiosidades.batanga.com/files/Como-funciona-la-lengua-de-senas.jpg",
+      "nombreCurso": "Lenguaje de señas",
+      "autor": "Ayudas para todos",
+      "duracion": "20 videos",
+      "categoria": "Idiomas",
+      "video": "https://www.youtube.com/watch?v=-8e3FaA-Rak&list=PLI7rDimYXOdhyty-lEXsxQgiLfYKnnqmY"
+    },
+    {
+      "id": "61",
+      "imagen": "https://www.salminter.com/blog/wp-content/uploads/2020/02/27-768x360.png",
+      "nombreCurso": "Aprende español",
+      "autor": "Tu escuela español",
+      "duracion": "75 videos",
+      "categoria": "Idiomas",
+      "video": "https://www.youtube.com/watch?v=IIkXK7ezRuA&list=PL_JdwZWnDhAXgk0VA0d95JPQWO2jW651_"
+    },
+    {
+      "id": "62",
+      "imagen": "https://t2.uc.ltmcdn.com/images/9/0/2/img_como_motivarme_para_aprender_ingles_35209_600.jpg",
+      "nombreCurso": "Aprende ingles",
+      "autor": "Francisco ochoa",
+      "duracion": "114 videos",
+      "categoria": "Idiomas",
+      "video": "https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78"
+    },
+    {
+      "id": "63",
+      "imagen": "https://www.staticjbx.com/images/blog/69419/69419_desktop_83af67381d69f47f80270f847e4ad08b_photo.jpg",
+      "nombreCurso": "Aprende Frances",
+      "autor": "En simples palabras",
+      "duracion": "92 videos",
+      "categoria": "Idiomas",
+      "video": "https://www.youtube.com/watch?v=pP-m3Lr74Vk&list=PL3EB4F17D44A0F078"
+    },
+    {
+      "id": "64",
+      "imagen": "https://imagenes.universia.net/gc/net/images/educacion/c/cu/cur/curso-online-gratuito-portugues.jpg",
+      "nombreCurso": "Aprende Portugués",
+      "autor": "Tus clases",
+      "duracion": "291 videos",
+      "categoria": "Idiomas",
+      "video": "https://www.youtube.com/watch?v=TyiAN14pmVE&list=PLgXzk50PHvvXAVhFkXT8nhhHT753eeFjP"
+    }
+  ],
+  "empleos": [
+    {
+      "id": "1",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Docente",
+      "ubicacionEmpleo": "Sabaneta",
+      "descripcionEmpleo": "Prestigiosa entidad educativa requiere para su equipo de trabajo Licenciados en matemáticas, con experiencia certificable mínima de 2 años como docente después del grado, se requiere tener escalafón 7. Salario acorde a escalafón.",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "1200000",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "2",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Asesor ",
+      "ubicacionEmpleo": "LaEstrella",
+      "descripcionEmpleo": "Descripción y funciones del cargo Oferta exclusiva para persona con discapacidad física en Medellín Haz parte de nuestro equipo y vive experiencias únicas y memorables! Buscamos personas como tú, dinámicas,proactivas e innovadoras. En este cargo serás responsable de solucionar oportunamente los requerimientos de los usuarios de una importante entidad del país. En Konecta puedes encontrar oportunidades de crecimiento, innumerables actividades de bienestar y desarrollo y un excelente clima laboral. Requisitos: Bachiller culminado. Te esperamos !",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "900000",
+      "tipoContrato": "Indefinido"
+    },
+    {
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Desarrollador Java",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Actualmente nos encontramos en la búsqueda de Desarrollador/a Java junior con experiencia mínima de 6 meses. Disponibilidad Inmediata",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "A convenir",
+      "id": "3",
+      "tipoContrato": "Aprendizaje"
+    },
+    {
+      "id": "4",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Analista de Nómina",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "ISA INTERCOLOMBIA se encuentra en la búsqueda de profesionales en administración de empresas ingeniería industrial administrativa o contaduría pública Los tipos de discapacidad tenidas en cuenta para esta vacante son discapacidad física usuarios de silla de ruedas o ayudas técnicas como bastón muletas caminador amputación parcial de miembros superiores miembros inferiores con buen nivel de adaptación de prótesis",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "1200000",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "5",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Analista o Auxiliar de Comercio Exterior Rionegro",
+      "ubicacionEmpleo": "Rionegro",
+      "descripcionEmpleo": "XM se encuentra en la búsqueda de un profesional en ingeniería eléctrica, electrónica, física, industrial, matemática o afines para cubrir 1 vacante. Preferiblemente con especialización en economía, sistemas de potencia, transmisión y distribución de energía, regulación económica, mercados de energía o analítica Los tipos de discapacidad tenidas en cuenta para esta vacante son: discapacidad física con amputación parcial de miembros superiores o amputación de miembros inferiores con buen nivel de adaptación de prótesis, talla baja, discapacidad psicosocial, discapacidad auditiva parcial y discapacidad visual parcial. Las especificaciones de discapacidades mencionadas en esta convocatoria corresponden a los análisis de puestos de trabajo realizados previamente y a las posibilidades de ajustes razonables con los que la organización cuenta en este momento. Sin embargo, la organización sigue trabajando para convertirse en una empresa cada vez más incluyente",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "1500000",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Asesor comercial",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Requerimos personal con disponibilidad inmediata para laborar que cuente con el bachiller culminado y experiencia laboral mínima de 3 meses Esta oferta laboral aplica para personas que actualmente cuenten con alguna discapacidad física Funciones Servicio al cliente telefónico para reconocida entidad Los interesados deben postularse y estar atentos a sus números de contacto Requerimientos Educación mínima Bachillerato Educación Media Disponibilidad de viajar No Disponi",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "900000",
+      "id": "6",
+      "tipoContrato": "Indefinido"
+    },
+    {
+      "id": "7",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Analista Eléctrico",
+      "ubicacionEmpleo": "Itagui",
+      "descripcionEmpleo": "Se solicitan personas que cumplan con los requisitos enunciados a continuación para cubrir una vacante en condición de Discapacidad Física con amputación parcial de miembros superiores o amputación de miembros inferiores con buen nivel de adaptación de prótesis talla baja discapacidad psicosocial discapacidad auditiva parcial y discapacidad visual parcial Misión del Cargo Emitir las recomendaciones e instrucciones operativas a través del análisis de las condiciones eléctricas del sistema interconectado nacional SIN y las conexiones internacionales por escenarios para asegurar la confiabilidad seguridad y calidad de la operación Conocimientos en Análisis normativo de sistemas eléctricos y energéticos Planeación de sistemas de energía Sistemas de potencia Preferiblemente sistemas de control Preferiblemente Analítica programación aprendizaje de máquinas y minería de datos y redes neuronales Salario Régimen de salario ordinario fijo Nivel Académico Profesional en Ingeniería eléctrica",
+      "salario": "1800000",
+      "tipoEmpleo": "Jornada completa",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "8",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Analista o Auxiliar de Comercio Exterior Rionegro",
+      "ubicacionEmpleo": "Jerico",
+      "descripcionEmpleo": "Institución dedicada a la atención de personas en situación de discapacidad cognitiva y ental psicosocial, ubicada en Jerico se encuentra en la búsqueda de un a NUTRICIONISTA A para trabajar tiempo completo.Las funciones a realizar con las siguientes",
+      "salario": "900000",
+      "tipoEmpleo": "Jornada completa",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "imgEmpleo": " https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Análista de sistemas",
+      "ubicacionEmpleo": "Envigado",
+      "descripcionEmpleo": "Empresa requiere candidato para desempeñarse en el cargo de Analista de sistemas Tiempo real Vacante dirigida a personas con discapacidad Profesional en Ingeniería eléctrica, de control, comunicaciones, o electrónica Preferiblemente con especialización en ingeniería eléctrica o de control o de comunicaciones o electrónica con mínimo 1 año de experiencia de experiencia en sistemas SCADA/EMS y modelamiento de los sistemas de potencia El conocimiento de inglés no es un requisito para participar en la convocatoria, sin embargo, es importante que la persona aprenda este idioma durante la permanencia en la empresa MISIÓN DEL CARGO Soportar y dar mantenimiento a los sistemas de tiempo real SCADA/EMS/OTS y complementarios, que permitan la supervisión y control de las variables.",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "1200000",
+      "id": "9",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "10",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Recepcionista",
+      "ubicacionEmpleo": "Salgar",
+      "descripcionEmpleo": "Reconocida Empresa con perspectiva de inclusión laboral requiere para el cargo de recepcionista persona con discapacidad de movilidad reducida u otra diversidad funcional que cuente con experiencia en atención a cliente y actitud para realizar labores secretariales, manejo del conmutador",
+      "salario": "900000",
+      "tipoEmpleo": "Jornada completa",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "11",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Analista o Auxiliar de Comercio Exterior Rionegro",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Empresa requiere candidato a para desempeñarse en el cargo de Auxiliar de Recepción con Discapacidad Física visual o auditiva Técnico Auxiliar Administrativo Secretariado Ejecutivo o afines Funciones Recibir las llamadas externas o internas Coordinar la administración de salas dispuestas en la sede Caribe Coordinar solicitudes de correo y llamadas para la gestión de mensajería de la empresa Recibir las visitas y gestionar su ubicación Mantener la seguridad siguiendo los procesos y el control de acceso solicitando ingresos de personal Gestionar junto con la Secretaria la autorización de ingreso de personal de mantenimiento acuerdo al procedimiento establecido Gestionar el control de la facturación según planteamiento en las guías Gestionar la emisión y solicitud de cartas certificados y otros documentos Realizar pre revisión de facturas Generar los documentos equivalentes de caja menor y consolidación con el área contable Asegurar el ingreso y actualización en el flujo de facturas",
+      "salario": "1000000",
+      "tipoEmpleo": "media jornada",
+      "tipoContrato": "Horas"
+    },
+    {
+      "id": "12",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Auxiliar de oficina",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Importante compañía multinacional, solicita de personas con o sin experiencia, personal hombres y mujeres de 18 años en adelante para desempeñar funciones y actividades auxiliares dentro de nuestras instalaciones y oficinas, tales como: Manejo de base de datos e información. Contestación y recepción de líneas telefónicas. Organización de registro y documentación, logística supervisión de personal, entre otras funciones afines a las anteriores. Ofrecemos muy buenos ingresos y horarios totalmente flexibles medio tiempo de lunes a viernes con proyección de nuevos ascensos dentro de la compañía. No se necesita ¡experiencia! Ya que la empresa te brinda la capacitación.",
+      "salario": "1000000",
+      "tipoEmpleo": "Jornada completa",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "13",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Auxiliar de biblioteca",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Nos encontramos en la búsqueda de personas que cumplan con los requisitos enunciados a continuación, para cubrir una vacante, en condición de Discapacidad Física (Amputación parcial de miembros inferiores con buen nivel de adaptación de prótesis), Discapacidad psicosocial, Discapacidad auditiva parcial (pérdida de la audición en solo oído) y discapacidad visual parcial (pérdida de la visión de un solo ojo).",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "900000",
+      "tipoContrato": "Fijo"
+    },
+    {
+      "id": "14",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Asesor servicio al cliente",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Se requieren personas con discapacidad física para la vacante de Asesor Servicio al Cliente - Cobranzas o Televentas - personas con discapacidad física. Con conocimiento en herramientas ofimáticas (Word y Excel básico, Internet). Deberá recibir las llamadas de los usuarios sobre facturación, Soporte, quejas y reclamos, solucionar en primer contacto y realizar venta cruzada.",
+      "salario": "877.803",
+      "tipoContrato": "Indefinido"
+    },
+    {
+      "id": "15",
+      "imgEmpleo": "https://img.icons8.com/cotton/64/000000/group-folder.png",
+      "nameEmpleo": "Servicio al cliente",
+      "ubicacionEmpleo": "Medellin",
+      "descripcionEmpleo": "Cargo: Creador de experiencia TIGO Población con discapacidad Formación: bachiller con 6 meses de experiencia en servicio o a fines certificada.  Horario: Domingo a Domingo, 8 Horas diarias, compensatorio de descaso a la semana",
+      "tipoEmpleo": "Jornada completa",
+      "salario": "877.803",
+      "tipoContrato": "Indefinido"
+    }
+  ],
+  "detalle": []
+}

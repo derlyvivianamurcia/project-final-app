@@ -6,11 +6,10 @@ import FormularioRegistro from "../pages/FormularioRegistro";
 import Cursos from "../pages/Cursos";
 import Acompanamiento from "../pages/Acompanamiento";
 import Empleos from "../pages/Empleos";
-
 import PlayCursos from "../components/PlayCursos";
 // import EmpleosDetalle from "../pages/CursosDetalle";
 
-import ConAutenticacion from "../utils/autenticacion/conAutenticacion";
+import conAutenticacion from "../utils/autenticacion/conAutenticacion";
 
 const App = () => {
   return (
@@ -19,23 +18,22 @@ const App = () => {
         <Route exact path="/" component={Principal} />
 
         <Route exact path="/inicioSesion" component={InicioSesion} />
+
         <Route
           exact
           path="/formularioRegistro"
           component={FormularioRegistro}
         />
+
         <Route exact path="/acompanamiento" component={Acompanamiento} />
+
         <Route exact path="/empleos" component={Empleos} />
-        {/* <Route
-          exact
-          path="/empleos/detalle"
-          component={ConAutenticacion(EmpleosDetalle)}
-        /> */}
+
         <Route exact path="/cursos" component={Cursos} />
+
         <Route
-          exact
-          path="/cursos/detalle"
-          component={ConAutenticacion(PlayCursos)}
+          path="/cursos/:id"
+          component={conAutenticacion(PlayCursos)}
         />
 
       </Switch>

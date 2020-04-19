@@ -27,7 +27,20 @@ class MainFormularioRegistro extends React.Component {
     },
   };
 
-  
+  async componentDidMount () {
+    const usuarioAutenticado = JSON.parse(localStorage.getItem('access_token'))
+    if (usuarioAutenticado) {
+      const datos = await axios.get(`http://localhost:3001/usuario?email=${usuarioAutenticado.email}`)
+      const user = datos[0]
+      this.setState({
+        form : {
+          nombreussur: user.nombreUsuario
+        }
+      })
+    }
+  }
+
+
   handleChange = (e) => {
     this.setState({
       form: {
@@ -44,11 +57,17 @@ class MainFormularioRegistro extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-       axios.post(`http://localhost:3001/registro/`, { ...this.state.form })
+    const usuarioAutenticado = JSON.parse(localStorage.getItem('access_token'))
+    if (usuarioAutenticado) {
+      // patch
+    } else {
+      // post
+      axios.post(`http://localhost:3001/usuarios/`, { ...this.state.form })
       .then(res => {
         console.log(res);
         console.log('------' + res.data);
       })
+    }
   }
 
 
@@ -181,7 +200,7 @@ class MainFormularioRegistro extends React.Component {
                   <option>Homosexual</option>
                 </select>
               </div>
-             
+
 
               <div className="form-group">
                 <br />
