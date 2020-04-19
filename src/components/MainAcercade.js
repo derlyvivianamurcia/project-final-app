@@ -9,7 +9,7 @@ const Acercade = () => {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <h3 className="text-center colorTextAzul">Quienes Somos</h3>
+          <h2 className="text-center colorTextAzul">Quienes Somos</h2>
         </div>
         <div className="col-md-4 col-xs-12 text-center">
           <img src={avataruno} width="250" height="200" alt="" />
@@ -30,7 +30,7 @@ const Acercade = () => {
 
       <div className="row mt-5">
         <div className="col-12">
-          <h3 className="colorTextAzul text-right">A quien va dirigido</h3>
+          <h2 className="colorTextAzul text-right">A quien va dirigido</h2>
         </div>
 
         <div className="col-md-6 col-sm-12">
@@ -56,7 +56,7 @@ const Acercade = () => {
           <h1 className="text-center colorText">Nuestros Valores</h1>
         </div>
 
-        <div className="col-12 mt-5">
+        <div className="col-12 mt-5 colorTextAzul">
           <div className="card-group">
             <div className="card grow">
               <img
@@ -66,8 +66,8 @@ const Acercade = () => {
                 height="150"
                 alt=""
               />
-              <div class="card-body">
-                <h5 class="card-title">Perseverancia</h5>
+              <div className="card-body">
+                <h5 className="card-body text-center">Perseverancia</h5>
               </div>
             </div>
 
@@ -79,7 +79,7 @@ const Acercade = () => {
                 height="150"
                 alt=""
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h5 className="card-body text-center">Eficacia</h5>
               </div>
             </div>
@@ -105,7 +105,7 @@ const Acercade = () => {
                 height="150"
                 alt=""
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h5 className="card-body text-center">Superación</h5>
               </div>
             </div>

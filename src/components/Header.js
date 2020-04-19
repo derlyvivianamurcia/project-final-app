@@ -66,14 +66,12 @@ class Header extends React.Component {
             </button>
             <div className="navbar-collapse collapse" id="collapsingNavbar2">
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                  <Link
-                    className="colorTextLink h5 text-decoration-none"
-                    to="/"
-                  >
-                    Inicio
-                  </Link>
-                </li>
+              <li className="nav-item active">
+                <Link className="colorTextLink h5 text-decoration-none" to="/">
+                <i class="fas fa-home"></i>
+                  Inicio
+                </Link>
+              </li>
                 <li className="nav-item">
                   <Link
                     className="colorTextLink h5 text-decoration-none"

@@ -8,7 +8,7 @@
       "passwordConfirmacion": "12345",
       "tipoId": "Tarjeta de identidad",
       "identificacionUser": "1152195526",
-      "celularUsuario": "3207789736",
+      "celularUsuario": "3133144090",
       "municipio": "Medellín",
       "genero": "Masculino",
       "direccion": "calle 103 a # 50 c 55",
@@ -50,10 +50,10 @@
       "id": "1",
       "imagen": "https://lh3.googleusercontent.com/mAk2HmYXHq0HWBilNw05jUWCXqhJWHiwTJ1S58c0CrvJ5CoQPllfeLPEUgXptwhb9NoyyZ_5AFuuSCCgo0RuaZg=s0",
       "nombreCurso": "Desarrollo web ",
-      "autor": "Todo tendencias ",
-      "duracion": "64 videos ",
+      "autor": "Byte Code ",
+      "duracion": "46 videos ",
       "categoria": "Desarrollo",
-      "video": "https://www.youtube.com/watch?v=0qOG_ZaNAO0&list=PLE8uP447fYpjqOXrkDcr5IzRlkBre2e_O"
+      "video": "https://www.youtube.com/watch?v=r97u8ZwDBnI&list=PLcIHm18h1i4nGtIA1_mkIjYFlQN-tcgdb"
     },
     {
       "id": "2",
@@ -612,15 +612,6 @@
       "duracion": "92 videos",
       "categoria": "Idiomas",
       "video": "https://www.youtube.com/watch?v=pP-m3Lr74Vk&list=PL3EB4F17D44A0F078"
-    },
-    {
-      "id": "64",
-      "imagen": "https://imagenes.universia.net/gc/net/images/educacion/c/cu/cur/curso-online-gratuito-portugues.jpg",
-      "nombreCurso": "Aprende Portugués",
-      "autor": "Tus clases",
-      "duracion": "291 videos",
-      "categoria": "Idiomas",
-      "video": "https://www.youtube.com/watch?v=TyiAN14pmVE&list=PLgXzk50PHvvXAVhFkXT8nhhHT753eeFjP"
     }
   ],
   "empleos": [

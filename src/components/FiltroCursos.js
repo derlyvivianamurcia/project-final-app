@@ -4,27 +4,26 @@ class FiltroCursos extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row colorTextAzul text-center">
           <div className="col-12">
             <br />
-            <h3 className="text-center">Escuela de formación online</h3>
+            <h3>Escuela de formación online</h3>
           </div>
 
           <div className="col-12">
-            <h3 className=" text-center">
-              Construye tu propio futuro aprendiendo nuevas habilidades
-            </h3>
+            <h3>Construye tu propio futuro aprendiendo nuevas habilidades</h3>
             <br />
           </div>
         </div>
 
         <div className="row">
-          <div className="col-3 text-right">
+          <div className="col-2"></div>
+          <div className="col-sm-3 col-form-label text-right colorTextAzul">
             <label>
               <strong>Selecciona una categoría</strong>
             </label>
           </div>
-          <div className="col-6">
+          <div className="col-5">
             <form>
               <div className="form-group">
                 <select
@@ -46,7 +45,7 @@ class FiltroCursos extends React.Component {
               </div>
             </form>
           </div>
-          <div className="col-3"></div>
+          <div className="col-2"></div>
         </div>
       </div>
     );

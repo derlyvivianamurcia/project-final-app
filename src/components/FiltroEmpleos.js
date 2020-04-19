@@ -11,7 +11,7 @@ class FiltroEmpleos extends React.Component {
         <div className="row mt-4 mb-4">
           <div className="col-md-3">
             <button className="btn btn-orange font-weight-bold ">
-              Mis postulaciones
+              <i class="fas fa-list-ul"></i> Mis postulaciones
             </button>
           </div>
 
@@ -20,29 +20,40 @@ class FiltroEmpleos extends React.Component {
               onClick={() => this.IrAEditar()}
               className="btn btn-orange font-weight-bold"
             >
-              Ver su hoja de vida
+              <i class="fas fa-user-tie"></i> Ver hoja de vida
             </button>
           </div>
 
           <div className="col-md-6"></div>
 
-          <div className="col-12 mt-4">
-            <h3 className="text-center">Encuentra tu siguiente empleo</h3>
+          <div className="col-12">
+            <h3 className="text-center colorTextAzul marginTop">
+              Encuentra tu siguiente empleo
+            </h3>
           </div>
         </div>
-        <form>
-          <div className="form-group">
+
+        <div className="row">
+          <div className="col-2"></div>
+          <div className="col-sm-3 col-form-label text-right colorTextAzul">
             <label>
               <strong>Buscar vacante</strong>
             </label>
-            <input
-              onChange={this.props.OnchangeFiltro}
-              className="form-control"
-              type="text"
-              placeholder="Puesto deseado"
-            />
           </div>
-        </form>
+          <div className="col-5">
+            <form>
+              <div className="form-group">
+                <input
+                  onChange={this.props.OnchangeFiltro}
+                  className="form-control"
+                  type="text"
+                  placeholder="Puesto deseado"
+                />
+              </div>
+            </form>
+          </div>
+          <div className="col-2"></div>
+        </div>
       </div>
     );
   }
