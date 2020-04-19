@@ -1,10 +1,40 @@
 import React from "react";
 import imageacompanamiento from "../images/acompañamiento/acompañamiento.jpg";
 import pregunta from "../images/acompañamiento/signo.jpg";
+import axios from "axios";
+import InicioSesion from "../pages/InicioSesion";
 
-const Heroseccioncitas = () => {
+
+class Heroseccioncitas extends React.Component {
+  state = {
+    loading: false,
+    error: null,
+    form: {
+      nombreUsuario: "",
+      email: "",
+      preguntas: "",
+  },
+};
+
+async componentDidMount() {
+  const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
+  if (usuarioAutenticado) {
+    axios
+      .get(`http://localhost:3001/usuarios?email=${usuarioAutenticado.email}`)
+      .then((response) => {
+        const data = response.data;
+        this.setState({
+          form: {
+            nombreUsuario: data[0].nombreUsuario,
+            email: data[0].email,
+          },
+        });
+      });
+  }
+}
+render(){
   return (
-    <section className="container btext marginTop">
+    <section className="container btext marginTop" >
       <div className="row ">
         <div className="col-12">
           <h5 className="text-center mt-3">
@@ -38,53 +68,49 @@ const Heroseccioncitas = () => {
               </li>
             </ol>
           </div>
-          <form
-            enctype="multipart/form-data"
-            method="post"
-            onSubmit="formSubmit()"
-          >
-            <div className="form-group mt-3">
-              <label className="label" for="name" id="name-label">
-                Nombre
-              </label>
-              <input
-                className="form-control"
-                type="text"
-                id="name"
-                placeholder="Ingrese su nombre"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label className="label" for="email" id="email-label">
-                Email
-              </label>
-              <input
-                className="form-control"
-                type="email"
-                id="email"
-                placeholder="Ingrese su correo"
-                required
-              />
-            </div>
+          <form onSubmit={this.handleSubmit}>
+              <div className="form-group">
+                <label>Nombre</label>
+                <input
+                  onChange={this.handleChange}
+                  type="text"
+                  name="nombreUsuario"
+                  className="form-control"
+                  value={this.state.form.nombreUsuario}
+
+                />
+              </div>
+              <div className="form-group">
+                <label>Email</label>
+                <input
+                  onChange={this.handleChange}
+                  className="form-control"
+                  type="email"
+                  name="email"
+                  value={this.state.form.email}
+                />
+              </div>
             <div className="form-group">
               <textarea
+                onChange={this.handleChange}
                 className="form-control"
                 placeholder="En este espacio usted puede hacer una pregunta al especialista"
                 name="preguntas"
                 id="txt-area"
                 cols="40"
                 rows="10"
+                value={this.state.form.preguntas}
+
               ></textarea>
             </div>
             <div className="form-group d-flex justify-content-center">
-              <button
-                type="submit"
-                value="Submit"
-                className="btn btn-orange font-weight-bold"
-              >
-                Solicitar cita
-              </button>
+
+            <a
+              href={`inicioSesion/`}
+              className="btn btn-orange font-weight-bold"
+            >
+              Solicitar cita
+            </a>
             </div>
           </form>
         </div>
@@ -94,5 +120,6 @@ const Heroseccioncitas = () => {
       </div>
     </section>
   );
+}
 };
 export default Heroseccioncitas;
