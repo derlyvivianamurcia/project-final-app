@@ -2,7 +2,6 @@ import React from "react";
 import imageacompanamiento from "../images/acompañamiento/acompañamiento.jpg";
 import pregunta from "../images/acompañamiento/signo.jpg";
 
-
 const Heroseccioncitas = () => {
   return (
     <section className="container btext marginTop">
@@ -16,11 +15,11 @@ const Heroseccioncitas = () => {
             problemas concretos.
           </h5>
         </div>
-        <img className="img-fluid marginTop" src={imageacompanamiento} />
+        <img className="img-fluid marginTop" src={imageacompanamiento} alt="" />
       </div>
       <div className="row">
         <div className="col-6 mt-2 d-flex justify-content-center">
-          <img src={pregunta} width="200" height="200" />
+          <img src={pregunta} width="200" height="200" alt="" />
         </div>
         <div className="col-6 mt-2 d-flex justify-content-center align-items-center">
           <p>
@@ -60,7 +59,6 @@ const Heroseccioncitas = () => {
                   name="phone"
                   placeholder="3233456788"
                   maxlength="10"
-                  m
                   required
                 />
               </div>
@@ -102,4 +100,4 @@ const Heroseccioncitas = () => {
     </section>
   );
 };
-export default Heroseccioncitas
+export default Heroseccioncitas;

@@ -39,7 +39,7 @@ class MainInicioSesion extends React.Component {
           return alert("Usuario o Contraseña incorrectos");
         }
 
-        if (this.ValidarContrasena(data[0].contrasena)) {
+        if (this.ValidarContrasena(data[0].password)) {
           const usuario = {
             id: data[0].id,
             email: data[0].email,
@@ -47,6 +47,9 @@ class MainInicioSesion extends React.Component {
           localStorage.setItem("access_token", JSON.stringify(usuario));
 
           if (this.props.match.path === "/cursos/:id") {
+            return window.location.reload();
+          }
+          if (this.props.match.path === "/editarHojaDeVida") {
             return window.location.reload();
           }
 
@@ -64,12 +67,12 @@ class MainInicioSesion extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container mt-4">
         <div className="row">
           <div className="col"></div>
 
           <div className="col-6 border">
-            <h5 className="text-center">Iniciar Sesión</h5>
+            <h5 className="text-center mt-4">Iniciar Sesión</h5>
             <br />
             <form onSubmit={this.handleSubmit}>
               <div className="form-group">
@@ -99,14 +102,14 @@ class MainInicioSesion extends React.Component {
               </div>
 
               <button className=" btn btn-orange btn-block" type="submit">
-                Iniciar Sesión
+                <strong>Iniciar Sesión</strong>
               </button>
             </form>
             <br />
             <h6>¿Primera vez en EduSkill?</h6>
 
             <Link to="/FormularioRegistro" className="btn btn-info btn-block">
-              ¡Registrate aquí!
+              <strong>¡Registrate aquí!</strong>
             </Link>
 
             <br />

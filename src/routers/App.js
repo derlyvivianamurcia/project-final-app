@@ -7,7 +7,7 @@ import Cursos from "../pages/Cursos";
 import Acompanamiento from "../pages/Acompanamiento";
 import Empleos from "../pages/Empleos";
 import PlayCursos from "../components/PlayCursos";
-// import EmpleosDetalle from "../pages/CursosDetalle";
+import HojaDeVida from "../pages/EditarHojaDeVida";
 
 import conAutenticacion from "../utils/autenticacion/conAutenticacion";
 
@@ -29,13 +29,15 @@ const App = () => {
 
         <Route exact path="/empleos" component={Empleos} />
 
-        <Route exact path="/cursos" component={Cursos} />
-
         <Route
-          path="/cursos/:id"
-          component={conAutenticacion(PlayCursos)}
+          exact
+          path="/editarHojaDeVida"
+          component={conAutenticacion(HojaDeVida)}
         />
 
+        <Route exact path="/cursos" component={Cursos} />
+
+        <Route path="/cursos/:id" component={conAutenticacion(PlayCursos)} />
       </Switch>
     </BrowserRouter>
   );

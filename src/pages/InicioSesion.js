@@ -1,21 +1,18 @@
-import React from 'react'
-import MainInicioSesion from '../components/MainInicioSesion'
-import ParticleComponent from '../components/ParticleComponent'
-import Footer from '../components/Footer'
+import React from "react";
+import HeaderSimple from "../components/HeaderSimple";
+import MainInicioSesion from "../components/MainInicioSesion";
+import Footer from "../components/Footer";
 
 class InicioSesion extends React.Component {
   render() {
     return (
       <div>
-        <div className="particles-js">
-          <ParticleComponent />
-        </div>
+        <HeaderSimple />
         <MainInicioSesion />
-        <div></div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default InicioSesion
+export default InicioSesion;

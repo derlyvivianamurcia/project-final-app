@@ -1,19 +1,48 @@
 {
   "usuarios": [
     {
-      "id": "1",
+      "nombreUsuario": "Eduard Arley",
+      "apellidoUsuario": "Gomez Muriel",
       "email": "eduard@hotmail.com",
-      "contrasena": "12345"
+      "password": "12345",
+      "passwordConfirmacion": "12345",
+      "tipoId": "Tarjeta de identidad",
+      "identificacionUser": "1152195526",
+      "celularUsuario": "3207789736",
+      "municipio": "Medellín",
+      "genero": "Masculino",
+      "direccion": "calle 103 a # 50 c 55",
+      "titulo": "Software Engineer",
+      "descripcionPerfil": "Senior Android Developer",
+      "experienciapro": "Senior Android Developer",
+      "empresaExperiencia": "Endava SAS",
+      "rangoEmpresa": "1 año",
+      "cargoEmpresa": "Senior Android Developer",
+      "idioma": "Inglés",
+      "nivelIdioma": "Bajo",
+      "id": 1
     },
     {
-      "id": "2",
+      "nombreUsuario": "Luisa Fernanda ",
+      "apellidoUsuario": "Villa Macias",
       "email": "luisa@hotmail.com",
-      "contrasena": "12345"
-    },
-    {
-      "id": "3",
-      "email": "me@felipe.com",
-      "contrasena": "12345"
+      "password": "12345",
+      "passwordConfirmacion": "12345",
+      "tipoId": "Cédula de ciudadanía",
+      "identificacionUser": "1152195526",
+      "celularUsuario": "3207789736",
+      "municipio": "Medellín",
+      "genero": "Femenino",
+      "direccion": "calle 103 a # 50 c 55",
+      "titulo": "Software Engineer",
+      "descripcionPerfil": "Software Engineer",
+      "experienciapro": "Software Engineer",
+      "empresaExperiencia": "Software Engineer",
+      "rangoEmpresa": "1 a 3 meses",
+      "cargoEmpresa": "Software Engineer",
+      "idioma": "Inglés",
+      "nivelIdioma": "Alto",
+      "id": 2
     }
   ],
   "cursos": [
@@ -744,6 +773,5 @@
       "salario": "877.803",
       "tipoContrato": "Indefinido"
     }
-  ],
-  "detalle": []
+  ]
 }

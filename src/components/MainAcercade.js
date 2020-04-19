@@ -12,13 +12,13 @@ const Acercade = () => {
           <h3 className="text-center colorTextAzul">Quienes Somos</h3>
         </div>
         <div className="col-md-4 col-xs-12 text-center">
-          <img src={avataruno} width="250" height="200" />
+          <img src={avataruno} width="250" height="200" alt="" />
         </div>
         <div className="col-md-4 col-xs-12 text-center">
-          <img src={avatardos} width="250" height="200" />
+          <img src={avatardos} width="250" height="200" alt="" />
         </div>
         <div className="col-md-4 col-xs-12 text-center">
-          <img src={avatartres} width="250" height="200" />
+          <img src={avatartres} width="250" height="200" alt="" />
         </div>
         <div className="col-12 mt-5">
           <p className="text-center">
@@ -37,6 +37,7 @@ const Acercade = () => {
           <img
             className="img-fluid image"
             src="https://s3.amazonaws.com/cdn.wp.m4ecnet/wp-content/uploads/2018/11/05104519/atenci%C3%B3n-al-cliente.jpg"
+            alt=""
           />
         </div>
 
@@ -63,6 +64,7 @@ const Acercade = () => {
                 src="https://static.wixstatic.com/media/aa1181_e3fc6e8aa7bc47bfb9502960988d4ecc~mv2.png/v1/fill/w_626,h_470/aa1181_e3fc6e8aa7bc47bfb9502960988d4ecc~mv2.png"
                 width="100"
                 height="150"
+                alt=""
               />
               <div class="card-body">
                 <h5 class="card-title">Perseverancia</h5>
@@ -75,6 +77,7 @@ const Acercade = () => {
                 src="https://miro.medium.com/max/927/1*-Ykp48rlPOtB4obCL62HnQ.jpeg"
                 width="100"
                 height="150"
+                alt=""
               />
               <div class="card-body">
                 <h5 className="card-body text-center">Eficacia</h5>
@@ -87,6 +90,7 @@ const Acercade = () => {
                 src="https://monitoraeducacionespecial.com/wp-content/uploads/2019/07/Donde-puede-trabajar-un-Integrador-Social.png"
                 width="100"
                 height="150"
+                alt=""
               />
               <div class="card-body">
                 <h5 className="card-body text-center">Integración</h5>
@@ -99,6 +103,7 @@ const Acercade = () => {
                 src="https://imagenwhatsapp.com/wp-content/uploads/2015/11/motiv13d9451e7d6abdf40b914289846361b6.jpg"
                 width="100"
                 height="150"
+                alt=""
               />
               <div class="card-body">
                 <h5 className="card-body text-center">Superación</h5>

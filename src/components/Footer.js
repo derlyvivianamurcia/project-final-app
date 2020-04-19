@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="container-fluid bgColor ">
+    <footer className="container-fluid bgColor">
       <div className="row justify-content-center">
         <div className="icons text-center">
           <a href="" target="_blank">
@@ -21,10 +21,11 @@ const Footer = () => {
       </div>
       <div className="row d-flex justify-content-center">
         <span className="font-italic text-white">
-          Copyright© | EduSkill especializada en educación PMR{" "}
+          Copyright© | EduSkill especializada en educación PMR
         </span>
       </div>
     </footer>
   );
 };
+
 export default Footer;

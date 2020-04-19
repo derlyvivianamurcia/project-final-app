@@ -23,13 +23,15 @@ const MainPrincipal = () => {
           <img
             className="img-fluid imagen shadow-lg p-3 mb-3 mt-3 rounded"
             src={imagenuno}
-          ></img>
+            alt=""
+          />
         </div>
         <div className="col-6 contenedor">
           <img
             className="img-fluid imagen shadow-lg p-3 mb-3 mt-3 rounded"
             src={imagendos}
-          ></img>
+            alt=""
+          />
         </div>
       </div>
 
@@ -37,29 +39,21 @@ const MainPrincipal = () => {
       <div className="row marginTop">
         <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
           <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-            <img
-              src={cardcurso}
-              className="card-img-top "
-              alt="Image responsive"
-            />
+            <img src={cardcurso} className="card-img-top" alt="" />
             <div className="card-body">
               <h4 className="colorText text-decoration-none mb-4">
                 CURSOS<span>:</span>
               </h4>
               <p className="card-text text-justify mt-2">
                 Esta sección esta diseñada, para que puedas realizar los cursos
-                que desees <span>✌</span>{" "}
+                que desees <span>✌</span>
               </p>
             </div>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
           <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-            <img
-              src={cardacompanamiento}
-              className="card-img-top "
-              alt="Image responsive"
-            />
+            <img src={cardacompanamiento} className="card-img-top " alt="" />
             <div className="card-body">
               <h4 className="text-decoration-none colorText mb-4 ">
                 ACOMPAÑAMIENTO EMOCIONAL<span>:</span>
@@ -72,11 +66,7 @@ const MainPrincipal = () => {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
           <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-            <img
-              src={cardempleo}
-              className="card-img-top"
-              alt="Image responsive"
-            />
+            <img src={cardempleo} className="card-img-top" alt="" />
             <div className="card-body">
               <h4 className="text-decoration-none colorText  mb-4 ">
                 EMPLEABILIDAD<span>:</span>
@@ -88,9 +78,8 @@ const MainPrincipal = () => {
             </div>
           </div>
         </div>
-        </div>
-        <Acercade />
-      
+      </div>
+      <Acercade />
     </div>
   );
 };

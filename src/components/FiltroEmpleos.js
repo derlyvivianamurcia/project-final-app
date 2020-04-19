@@ -1,6 +1,10 @@
 import React from "react";
 
 class FiltroEmpleos extends React.Component {
+  IrAEditar() {
+    window.location = "/editarHojaDeVida";
+  }
+
   render() {
     return (
       <div className="container">
@@ -12,8 +16,11 @@ class FiltroEmpleos extends React.Component {
           </div>
 
           <div className="col-md-3">
-            <button className="btn btn-orange font-weight-bold">
-              Ingrese su hoja de vida
+            <button
+              onClick={() => this.IrAEditar()}
+              className="btn btn-orange font-weight-bold"
+            >
+              Ver su hoja de vida
             </button>
           </div>
 
