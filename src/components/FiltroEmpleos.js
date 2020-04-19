@@ -7,13 +7,13 @@ class FiltroEmpleos extends React.Component {
         <div className="row mt-4 mb-4">
           <div className="col-md-3">
             <button className="btn btn-orange font-weight-bold ">
-              Mis postulaciones
+              <i class="fas fa-list-ul"></i> Mis postulaciones
             </button>
           </div>
 
           <div className="col-md-3">
             <button className="btn btn-orange font-weight-bold">
-              <i class="fas fa-list-ul"></i> Ver hoja de vida
+              <i class="fas fa-user-tie"></i> Ver hoja de vida
             </button>
           </div>
 

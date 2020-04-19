@@ -5,7 +5,7 @@ function InformacionCurso(props) {
   return cursos.map((curso) => {
     return (
       <div key={curso.id} className="col-sm-4 col-md-4 col-lg-4">
-        <div className="card" style={{ width: "18rem", height: "430px" }}>
+        <div className="card" style={{ width: "18rem", height: "433px" }}>
           <img
             src={curso.imagen}
             className="card-img-top"

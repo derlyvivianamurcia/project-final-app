@@ -55,7 +55,7 @@ const Acercade = () => {
           <h1 className="text-center colorText">Nuestros Valores</h1>
         </div>
 
-        <div className="col-12 mt-5">
+        <div className="col-12 mt-5 colorTextAzul">
           <div className="card-group">
             <div className="card grow">
               <img
