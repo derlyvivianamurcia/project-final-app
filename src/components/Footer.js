@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="container-fluid bgColor ">
+    <footer className="container-fluid bgColor">
       <div className="row justify-content-center">
         <div className="icons text-center">
           <a href="" target="_blank">
