@@ -64,7 +64,7 @@ class MainInicioSesion extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container btext">
         <div className="row">
           <div className="col"></div>
 

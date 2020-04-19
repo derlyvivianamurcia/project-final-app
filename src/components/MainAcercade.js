@@ -9,15 +9,15 @@ const Acercade = () => {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <h3 className="text-center colorTextAzul">Quienes Somos</h3>
+          <h2 className="text-center colorTextAzul">Quienes Somos</h2>
         </div>
-        <div className="col-md-4 col-xs-12 text-center">
+        <div className="col-md-4 col-xs-12 text-center marginTop">
           <img src={avataruno} width="250" height="200" />
         </div>
-        <div className="col-md-4 col-xs-12 text-center">
+        <div className="col-md-4 col-xs-12 text-center marginTop">
           <img src={avatardos} width="250" height="200" />
         </div>
-        <div className="col-md-4 col-xs-12 text-center">
+        <div className="col-md-4 col-xs-12 text-center marginTop">
           <img src={avatartres} width="250" height="200" />
         </div>
         <div className="col-12 mt-5">
@@ -30,7 +30,7 @@ const Acercade = () => {
 
       <div className="row mt-5">
         <div className="col-12">
-          <h3 className="colorTextAzul text-right">A quien va dirigido</h3>
+          <h2 className="colorTextAzul text-right">A quien va dirigido</h2>
         </div>
 
         <div className="col-md-6 col-sm-12">

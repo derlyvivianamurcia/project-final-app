@@ -6,7 +6,7 @@ import FormularioRegistro from "../pages/FormularioRegistro";
 import Cursos from "../pages/Cursos";
 import Acompanamiento from "../pages/Acompanamiento";
 import Empleos from "../pages/Empleos";
-import PlayCursos from "../components/PlayCursos";
+import PlayCursos from "../pages/PlayCursos";
 // import EmpleosDetalle from "../pages/CursosDetalle";
 
 import conAutenticacion from "../utils/autenticacion/conAutenticacion";
@@ -31,11 +31,7 @@ const App = () => {
 
         <Route exact path="/cursos" component={Cursos} />
 
-        <Route
-          path="/cursos/:id"
-          component={conAutenticacion(PlayCursos)}
-        />
-
+        <Route path="/cursos/:id" component={conAutenticacion(PlayCursos)} />
       </Switch>
     </BrowserRouter>
   );
