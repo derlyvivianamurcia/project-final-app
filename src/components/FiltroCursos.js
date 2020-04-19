@@ -4,24 +4,28 @@ class FiltroCursos extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row colorTextAzul text-center">
           <div className="col-12">
             <br />
-            <h3 className="text-center">Escuela de formación online</h3>
+            <h3>Escuela de formación online</h3>
           </div>
 
           <div className="col-12">
-            <h3 className=" text-center">
-              Construye tu propio futuro aprendiendo nuevas habilidades
-            </h3>
+            <h3>Construye tu propio futuro aprendiendo nuevas habilidades</h3>
             <br />
           </div>
         </div>
 
         <div className="row">
-          <div className="col-12">
-            <form className="form-row">
-              <div className="col-md-4 form-group">
+          <div className="col-2"></div>
+          <div className="col-sm-3 col-form-label text-right colorTextAzul">
+            <label>
+              <strong>Selecciona una categoría</strong>
+            </label>
+          </div>
+          <div className="col-5">
+            <form>
+              <div className="form-group">
                 <select
                   onChange={this.props.onChangeFiltro}
                   className="form-control"
@@ -39,22 +43,9 @@ class FiltroCursos extends React.Component {
                   <option value="Idiomas">Idiomas</option>
                 </select>
               </div>
-
-              <div className="col-md-6 form-group">
-                <input
-                  className="form-control"
-                  type="text"
-                  placeholder="Buscar curso"
-                ></input>
-              </div>
-
-              <div className="col-md-2 form-group">
-                <button className="btn btn-orange font-weight-bold">
-                  Buscar Cursos
-                </button>
-              </div>
             </form>
           </div>
+          <div className="col-2"></div>
         </div>
       </div>
     );

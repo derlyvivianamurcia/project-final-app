@@ -1,45 +1,54 @@
 import React from "react";
 
-function Empleos(props) {  
-  const datos= props.listaEmpleos;
-  return (
-    <>
-      {datos.map((item) => {
-        return (
-          <div className="card-deck" key={item.id}>
-            <div className="card mt-2">
-              <div className="row">
-                <div className="col-2 justify-content-center align-items-center d-flex">
-                  <img
-                    src={item.imgEmpleo}
-                    alt="..."
-                  ></img>
-                </div>
-                <div className="col-10">             
-                    <h5 className="card-title">{item.nameEmpleo}</h5>
-                    <p>{item.ubicacionEmpleo}</p>
-                    <p className="card-text">
-                      <strong>Descripción: </strong>
-                      {item.descripcionEmpleo}
-                    </p>
-                    <p>
-                      <strong>Tipo empleo:</strong> {item.tipoEmpleo}{"  "}
-                      <strong>Tipo de contrato:</strong>{item.tipoContrato}{"  "}
-                      <strong>Salario:</strong>
-                      {item.salario}
-                    </p>
-                </div>
-                <div className="mx-auto ">
-                <a href="#" className="btn mb-1 btn-orange ">
+class Empleos extends React.Component {
+  handleClick = (event) => {
+    const idCurso = event.target.id;
+    // Peticion
+
+    return (window.location = "/#");
+  };
+
+  render() {
+    const datos = this.props.listaEmpleos;
+    return (
+      <React.Fragment>
+        {datos.map((item) => {
+          return (
+            <div className="card mt-4" key={item.id}>
+              <h5 className="card-header colorTextAzul">
+                <strong className="colorTextAzul">Vacante: </strong>
+                {item.nameEmpleo}
+              </h5>
+              <div className="card-body">
+                <p>
+                  <strong>Empresa: </strong> {item.ubicacionEmpleo}
+                </p>
+                <p>
+                  <strong>Ubicación: </strong> {item.ubicacionEmpleo}
+                </p>
+                <p>
+                  <strong>Descripción: </strong> {item.descripcionEmpleo}
+                </p>
+                <p>
+                  <strong>Tipo de contrato: </strong> {item.tipoContrato}
+                </p>
+                <p>
+                  <strong>Salario: </strong> ${item.salario}
+                </p>
+                <button
+                  onClick={this.handleClick}
+                  id={item.id}
+                  className="btn btn-orange font-weight-bold"
+                >
                   Postularme
-                </a>
-                </div>
+                </button>
               </div>
             </div>
-          </div>
-        );
-      })}
-      </>
-  );
+          );
+        })}
+      </React.Fragment>
+    );
+  }
 }
+
 export default Empleos;

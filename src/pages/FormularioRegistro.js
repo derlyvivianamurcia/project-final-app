@@ -1,14 +1,16 @@
 import React from "react";
+import HeaderSimple from "../components/HeaderSimple";
 import MainFormularioRegistro from "../components/MainFormularioRegistro";
 import Footer from "../components/Footer";
-import ParticleComponent from "../components/ParticleComponent";
 
 const FormularioRegistro = () => {
+  const token = localStorage.getItem("access_token");
+
+  if (token) return (window.location = "/");
+
   return (
     <>
-     <div className="particles-js">
-        <ParticleComponent /> 
-      </div>
+      <HeaderSimple />
       <MainFormularioRegistro />
       <Footer />
     </>

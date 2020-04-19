@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, withRouter } from "react-router-dom";
 import axios from "axios";
 
 class MainInicioSesion extends React.Component {
@@ -13,6 +13,10 @@ class MainInicioSesion extends React.Component {
     },
   };
 
+  componentDidMount() {
+    console.log("**", this.props);
+  }
+
   handleChange = (e) => {
     this.setState({
       form: {
@@ -22,47 +26,53 @@ class MainInicioSesion extends React.Component {
     });
   };
 
-  handleClick = (e) => {
-    //
-  };
-  handleSubmitEditar = (e) => {
-    e.preventDefault();
-    axios
-      .get(`http://localhost:3004/usuarios}`)
-      .then((respuesta) => {
-        this.setState({ usuarioConsultado: respuesta.data[0] });
-        this.state();
-      });
-  };
-
-
-
   handleSubmit = (e) => {
     e.preventDefault();
+    const { email } = this.state.form;
+
     axios
-      .get(`http://localhost:3004/usuarios?email=${this.state.form.email}`)
-      .then((respuesta) => {
-        this.setState({ usuarioConsultado: respuesta.data[0] });
-        this.ValidarContrasena();
+      .get(`http://localhost:3001/usuarios?email=${email}`)
+      .then((response) => {
+        const { data } = response;
+
+        if (data[0] == undefined) {
+          return alert("Usuario o Contraseña incorrectos");
+        }
+
+        if (this.ValidarContrasena(data[0].password)) {
+          const usuario = {
+            id: data[0].id,
+            email: data[0].email,
+          };
+          localStorage.setItem("access_token", JSON.stringify(usuario));
+
+          if (this.props.match.path === "/cursos/:id") {
+            return window.location.reload();
+          }
+          if (this.props.match.path === "/editarHojaDeVida") {
+            return window.location.reload();
+          }
+
+          return (window.location = "/");
+        }
+
+        alert("Usuario o Contraseña incorrectos");
       });
   };
 
-  ValidarContrasena() {
-    if (this.state.form.contrasena == this.state.usuarioConsultado.contrasena) {
-      window.location = "/";
-    } else {
-      window.location.reload();
-    }
+  ValidarContrasena(password) {
+    const { contrasena } = this.state.form;
+    return contrasena === password;
   }
 
    render() {
     return (
-      <div className="container">
+      <div className="container mt-4">
         <div className="row">
           <div className="col"></div>
 
           <div className="col-6 border">
-            <h5 className="text-center">Iniciar Sesión</h5>
+            <h5 className="text-center mt-4">Iniciar Sesión</h5>
             <br />
             <form onSubmit={this.handleSubmit}>
               <div className="form-group">
@@ -91,19 +101,15 @@ class MainInicioSesion extends React.Component {
                 />
               </div>
 
-              <button
-                onClick={this.handleClick}
-                className=" btn btn-orange btn-block"
-                type="submit"
-              >
-                Iniciar Sesión
+              <button className=" btn btn-orange btn-block" type="submit">
+                <strong>Iniciar Sesión</strong>
               </button>
             </form>
             <br />
             <h6>¿Primera vez en EduSkill?</h6>
 
             <Link to="/FormularioRegistro" className="btn btn-info btn-block">
-              ¡Registrate aquí!
+              <strong>¡Registrate aquí!</strong>
             </Link>
             {/* hoja de vida  */}
             <Link to="/hojadevida" className="btn btn-info btn-block">
@@ -121,4 +127,4 @@ class MainInicioSesion extends React.Component {
   }
 }
 
-export default MainInicioSesion;
+export default withRouter(MainInicioSesion);

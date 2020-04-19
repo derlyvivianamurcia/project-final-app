@@ -1,7 +1,3 @@
-.marginTop {
-  margin-top: 30px;
-}
-
 .textMain {
   color: orange;
 }
@@ -23,10 +19,10 @@
   color: orange;
   margin-left: 12px;
 }
-.colorTextAzul{
+.colorTextAzul {
   color: #0e294b;
 }
-.colorTextLink:hover{
+.colorTextLink:hover {
   color: #0e294b;
 }
 .grow:hover {
@@ -44,19 +40,40 @@
   margin-top: 15px;
   margin-bottom: 10px;
 }
-.image:hover {opacity: 0.5;}
+.image:hover {
+  opacity: 0.5;
+}
 
-.contenedor:hover .imagen {-webkit-transform:scale(1.3);
-  transform:scale(1.3); }
-.contenedor {overflow:hidden; border-radius: 3%;}
-.imagen{
-
+.contenedor:hover .imagen {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.contenedor {
+  overflow: hidden;
+  border-radius: 3%;
+}
+.imagen {
   border-radius: 3%;
 }
 
-.tamano{
+.tamano {
   height: 100vh;
 }
-.botonColor{
+.botonColor {
   background-color: orange;
+}
+
+.marginTop {
+  margin-top: 18px;
+}
+
+.iconoText {
+  color: orange;
+  font-size: 25px;
+}
+
+.video {
+  width: 90%;
+  height: 450px;
+  display: block;
 }

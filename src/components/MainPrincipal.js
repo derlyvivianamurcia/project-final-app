@@ -12,25 +12,27 @@ import { Link } from "react-router-dom";
 
 const MainPrincipal = () => {
   return (
-    <div className="container">
-      <div className=" mt-5 text-justify ">
-        <h3 className="colorTextAzul">
+    <div className="container  btext">
+      <div className=" mt-5">
+        <h1 className="colorTextAzul text-center">
           Bienvenido<span>(a)</span> a la plataforma creada para personas en
           condición de movilidad reducida.
-        </h3>
+        </h1>
       </div>
       <div className="row">
         <div className="col-6 contenedor">
           <img
             className="img-fluid imagen shadow-lg p-3 mb-3 mt-3 rounded"
             src={imagenuno}
-          ></img>
+            alt=""
+          />
         </div>
         <div className="col-6 contenedor">
           <img
             className="img-fluid imagen shadow-lg p-3 mb-3 mt-3 rounded"
             src={imagendos}
-          ></img>
+            alt=""
+          />
         </div>
       </div>
 
@@ -38,46 +40,34 @@ const MainPrincipal = () => {
       <div className="row marginTop">
         <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
           <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-            <img
-              src={cardcurso}
-              className="card-img-top "
-              alt="Image responsive"
-            />
+            <img src={cardcurso} className="card-img-top" alt="" />
             <div className="card-body">
               <h4 className="colorText text-decoration-none mb-4">
                 CURSOS<span>:</span>
               </h4>
               <p className="card-text text-justify mt-2">
                 Esta sección esta diseñada, para que puedas realizar los cursos
-                que desees <span>✌</span>{" "}
+                que desees <span>✌</span>
               </p>
             </div>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
           <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-            <img
-              src={cardacompanamiento}
-              className="card-img-top "
-              alt="Image responsive"
-            />
+            <img src={cardacompanamiento} className="card-img-top " alt="" />
             <div className="card-body">
               <h4 className="text-decoration-none colorText mb-4 ">
                 ACOMPAÑAMIENTO EMOCIONAL<span>:</span>
               </h4>
               <p className="card-text text-justify mt-2  overflow-auto">
-                En este espacio podrá recibir ayuda de profesionales
+                En este espacio podrás recibir ayuda de profesionales
               </p>
             </div>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4 mt-2">
           <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-            <img
-              src={cardempleo}
-              className="card-img-top"
-              alt="Image responsive"
-            />
+            <img src={cardempleo} className="card-img-top" alt="" />
             <div className="card-body">
               <h4 className="text-decoration-none colorText  mb-4 ">
                 EMPLEABILIDAD<span>:</span>
@@ -90,8 +80,7 @@ const MainPrincipal = () => {
           </div>
         </div>
         </div>
-        <Acercade />
-
+      <Acercade />
     </div>
   );
 };

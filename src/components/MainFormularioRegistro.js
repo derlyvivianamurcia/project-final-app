@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import axios from "axios";
 
 class MainFormularioRegistro extends React.Component {
@@ -8,26 +8,62 @@ class MainFormularioRegistro extends React.Component {
     form: {
       nombreUsuario: "",
       apellidoUsuario: "",
+      email: "",
       password: "",
       passwordConfirmacion: "",
-      tipoId:"",
+      tipoId: "Cédula de ciudadanía",
       identificacionUser: "",
       celularUsuario: "",
-      municipio: "",
-      genero: "",
+      municipio: "Medellín",
+      genero: "Femenino",
       direccion: "",
       titulo: "",
       descripcionPerfil: "",
+      experienciapro: "",
       empresaExperiencia: "",
-      rangoEmpresa:"",
-      tiempoEmpresa: "",
+      rangoEmpresa: "1 a 3 meses",
       cargoEmpresa: "",
-      idioma: "",
-      nivelIdioma: "",
+      idioma: "Inglés",
+      nivelIdioma: "Alto",
     },
   };
 
-  
+  async componentDidMount() {
+    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
+    if (usuarioAutenticado) {
+      axios
+        .get(`http://localhost:3001/usuarios?email=${usuarioAutenticado.email}`)
+        .then((response) => {
+          const data = response.data;
+          this.setState({
+            form: {
+              nombreUsuario: data[0].nombreUsuario,
+              apellidoUsuario: data[0].apellidoUsuario,
+              email: data[0].email,
+              password: data[0].password,
+              passwordConfirmacion: data[0].passwordConfirmacion,
+              tipoId: data[0].tipoId ? data[0].tipoId : "Cédula de ciudadanía",
+              identificacionUser: data[0].identificacionUser,
+              celularUsuario: data[0].celularUsuario,
+              municipio: data[0].municipio ? data[0].municipio : "Medellín",
+              genero: data[0].genero ? data[0].genero : "Femenino",
+              direccion: data[0].direccion,
+              titulo: data[0].titulo,
+              descripcionPerfil: data[0].descripcionPerfil,
+              experienciapro: data[0].experienciapro,
+              empresaExperiencia: data[0].empresaExperiencia,
+              rangoEmpresa: data[0].rangoEmpresa
+                ? data[0].rangoEmpresa
+                : "1 a 3 meses",
+              cargoEmpresa: data[0].cargoEmpresa,
+              idioma: data[0].idioma ? data[0].idioma : "Inglés",
+              nivelIdioma: data[0].nivelIdioma ? data[0].nivelIdioma : "Alto",
+            },
+          });
+        });
+    }
+  }
+
   handleChange = (e) => {
     this.setState({
       form: {
@@ -35,7 +71,6 @@ class MainFormularioRegistro extends React.Component {
         [e.target.name]: e.target.value,
       },
     });
-    console.log(this.state.form);
   };
 
   handleClick = (e) => {
@@ -44,23 +79,50 @@ class MainFormularioRegistro extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-       axios.post(`http://localhost:3001/registro/`, { ...this.state.form })
-      .then(res => {
-        console.log(res);
-        console.log('------' + res.data);
-      })
-  }
-
+    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
+    if (usuarioAutenticado) {
+      // editar put
+      axios
+        .put(`http://localhost:3001/usuarios/${usuarioAutenticado.id}`, {
+          ...this.state.form,
+        })
+        .then((respuesta) => {
+          if (respuesta.status == 200) {
+            window.confirm("Usuario editado exitosamente");
+          }
+        });
+    } else {
+      // registrar post
+      axios
+        .post(`http://localhost:3001/usuarios/`, { ...this.state.form })
+        .then((respuesta) => {
+          if (respuesta.status == 201) {
+            if (window.confirm("Usuario registrado exitosamente")) {
+              window.location = "/inicioSesion";
+            } else {
+              window.location = "/inicioSesion";
+            }
+          }
+        });
+    }
+  };
 
   render() {
+    let mensajeBoton;
+    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
+    if (usuarioAutenticado) {
+      mensajeBoton = "Editar";
+    } else {
+      mensajeBoton = "Registrar";
+    }
+
     return (
       <div className="container">
         <div className="row">
           <div className="col"></div>
 
           <div className="col-6 border">
-          <h5 className="text-center">Formulario de Registro</h5>
-
+            <h5 className="text-center mt-3">Formulario de Registro</h5>
             <form onSubmit={this.handleSubmit}>
               <div className="form-group">
                 <label>Nombre</label>
@@ -123,7 +185,7 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   className="form-control"
                   name="tipoId"
-                  value={this.state.form.tipoId}>
+                >
                   <option>Cédula de ciudadanía</option>
                   <option>Cédula de extranjería</option>
                   <option>Tarjeta de identidad</option>
@@ -137,7 +199,7 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   name="identificacionUser"
                   className="form-control"
-                  type="text"
+                  type="number"
                   value={this.state.form.identificacionUser}
                 />
               </div>
@@ -147,7 +209,7 @@ class MainFormularioRegistro extends React.Component {
                 <input
                   onChange={this.handleChange}
                   name="celularUsuario"
-                  type="tel"
+                  type="number"
                   className="form-control"
                   value={this.state.form.celularUsuario}
                 />
@@ -159,7 +221,8 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   className="form-control"
                   name="municipio"
-                  value={this.state.form.municipio}>
+                  value={this.state.form.municipio}
+                >
                   <option>Medellín</option>
                   <option>Bello</option>
                   <option>Envigado</option>
@@ -170,18 +233,18 @@ class MainFormularioRegistro extends React.Component {
 
               <h6>Genero</h6>
               <div className="form-check form-check-inline">
-              <select
+                <select
                   onChange={this.handleChange}
                   className="form-control"
                   name="genero"
-                  value={this.state.form.genero}>
+                  value={this.state.form.genero}
+                >
                   <option>Femenino</option>
                   <option>Masculino</option>
                   <option>Bisexual</option>
                   <option>Homosexual</option>
                 </select>
               </div>
-             
 
               <div className="form-group">
                 <br />
@@ -252,7 +315,8 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   className="form-control"
                   name="rangoEmpresa"
-                  value={this.state.form.rangoEmpresa}>
+                  value={this.state.form.rangoEmpresa}
+                >
                   <option>1 a 3 meses</option>
                   <option>3 a 6 meses</option>
                   <option>1 año</option>
@@ -277,7 +341,8 @@ class MainFormularioRegistro extends React.Component {
                 <select
                   onChange={this.handleChange}
                   className="form-control"
-                  name="idioma">
+                  name="idioma"
+                >
                   <option>Inglés</option>
                   <option>Español</option>
                   <option>Frances</option>
@@ -292,7 +357,8 @@ class MainFormularioRegistro extends React.Component {
                   onChange={this.handleChange}
                   className="form-control"
                   name="nivelIdioma"
-                  value={this.state.form.nivelIdioma}>
+                  value={this.state.form.nivelIdioma}
+                >
                   <option>Alto</option>
                   <option>Intermedio</option>
                   <option>Bajo</option>
@@ -300,9 +366,11 @@ class MainFormularioRegistro extends React.Component {
               </div>
 
               <button
-              onClick={this.handleClick}
-                className="btn btn-orange  btn-block" type="submit">
-                Registrar
+                onClick={this.handleClick}
+                className="btn btn-orange btn-block"
+                type="submit"
+              >
+                <strong>{mensajeBoton}</strong>
               </button>
             </form>
             <br />
