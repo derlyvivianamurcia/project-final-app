@@ -64,8 +64,8 @@ const Acercade = () => {
                 width="100"
                 height="150"
               />
-              <div class="card-body">
-                <h5 class="card-title">Perseverancia</h5>
+              <div className="card-body">
+                <h5 className="card-body text-center">Perseverancia</h5>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ const Acercade = () => {
                 width="100"
                 height="150"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h5 className="card-body text-center">Eficacia</h5>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Acercade = () => {
                 width="100"
                 height="150"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h5 className="card-body text-center">Superación</h5>
               </div>
             </div>

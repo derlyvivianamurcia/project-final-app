@@ -12,11 +12,11 @@ import imagendos from "../images/principal/personadiscapacitadados.jpg";
 const MainPrincipal = () => {
   return (
     <div className="container">
-      <div className=" mt-5 text-justify ">
-        <h3 className="colorTextAzul">
+      <div className=" mt-5">
+        <h1 className="colorTextAzul text-center">
           Bienvenido<span>(a)</span> a la plataforma creada para personas en
           condición de movilidad reducida.
-        </h3>
+        </h1>
       </div>
       <div className="row">
         <div className="col-6 contenedor">

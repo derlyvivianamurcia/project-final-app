@@ -19,7 +19,8 @@
     "react-iframe": "^1.8.0",
     "react-particles-js": "2.7.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "emailjs-com": "^2.4.1"
   },
   "scripts": {
     "start": "concurrently -n \"frontend,api\" \"react-scripts start\" \"npm run jserver\"",

@@ -26,6 +26,7 @@ const Header = (props) => {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <Link className="colorTextLink h5 text-decoration-none" to="/">
+                <i class="fas fa-home"></i>
                   Inicio
                 </Link>
               </li>
