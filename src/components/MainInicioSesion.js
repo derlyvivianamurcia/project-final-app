@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 class MainInicioSesion extends React.Component {
   state = {
@@ -12,6 +13,22 @@ class MainInicioSesion extends React.Component {
       contrasena: "",
     },
   };
+
+  _Alerta() {
+    Swal.fire(
+      "Has iniciado sesión con éxito!😃",
+      "Has clic en el botón",
+      "success"
+    );
+  }
+
+  _AlertaDos() {
+    Swal.fire(
+      "Usuario o Contraseña incorrectos! 😔 ",
+      "Has clic en el botón",
+      "success"
+    );
+  }
 
   componentDidMount() {
     console.log("**", this.props);
@@ -36,7 +53,11 @@ class MainInicioSesion extends React.Component {
         const { data } = response;
 
         if (data[0] == undefined) {
-          return alert("Usuario o Contraseña incorrectos");
+          return Swal.fire(
+            'Usuario o Contraseña incorrectos',
+            'Has clic en el botón :)',
+            'error'
+          )
         }
 
         if (this.ValidarContrasena(data[0].password)) {
@@ -56,7 +77,11 @@ class MainInicioSesion extends React.Component {
           return (window.location = "/");
         }
 
-        alert("Usuario o Contraseña incorrectos");
+        Swal.fire(
+          'Usuario o Contraseña incorrectos',
+          'Has clic en el botón :)',
+          'error'
+        )
       });
   };
 
@@ -65,7 +90,7 @@ class MainInicioSesion extends React.Component {
     return contrasena === password;
   }
 
-   render() {
+  render() {
     return (
       <div className="container mt-4">
         <div className="row">
@@ -101,7 +126,7 @@ class MainInicioSesion extends React.Component {
                 />
               </div>
 
-              <button className=" btn btn-orange btn-block" type="submit">
+              <button className=" btn btn-orange btn-block" type="submit" >
                 <strong>Iniciar Sesión</strong>
               </button>
             </form>
@@ -111,17 +136,12 @@ class MainInicioSesion extends React.Component {
             <Link to="/FormularioRegistro" className="btn btn-info btn-block">
               <strong>¡Registrate aquí!</strong>
             </Link>
-            {/* hoja de vida  */}
-            <Link to="/hojadevida" className="btn btn-info btn-block">
-              Editar hoja de vida
-            </Link>
+
             <br />
           </div>
 
           <div className="col"></div>
         </div>
-
-
       </div>
     );
   }

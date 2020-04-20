@@ -1,4 +1,6 @@
 import React from "react";
+import Swal from "sweetalert2";
+
 
 class Empleos extends React.Component {
   handleClick = (event) => {
@@ -6,10 +8,18 @@ class Empleos extends React.Component {
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     // lograr imprimir propiedades, ejemplo -> empleo.nameEmpleo
     if (usuarioAutenticado){
-      window.confirm("Su postulación fue exitosa");
+      Swal.fire(
+        'Su postulación fue exitosa',
+        'Has clic en el botón :)',
+        'error'
+      )
       console.log(usuarioAutenticado + empleo);
     }else {
-      window.confirm("Para aplicar a la vacante debe registrarse");
+      Swal.fire(
+        '"Para aplicar a la vacante debe registrarse',
+        'Has clic en el botón :)',
+        'error'
+      )
     }
     
   };
