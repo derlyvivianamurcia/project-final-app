@@ -33,6 +33,25 @@ class Heroseccioncitas extends React.Component {
         });
     }
   }
+
+  handleChange = (e) => {
+    this.setState({
+      form: {
+        ...this.state.form,
+        [e.target.name]: e.target.value,
+      },
+    });
+  };
+
+  handleSubmit = (e) => {
+    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
+    if (usuarioAutenticado) {
+      window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
+  }   else {
+    window.confirm("Para realizar la solicitud, debe iniciar sesión");
+    window.location = "/inicioSesion";
+  }
+};
   render() {
     return (
       <section className="container btext marginTop">
@@ -101,14 +120,16 @@ class Heroseccioncitas extends React.Component {
                   rows="10"
                   value={this.state.form.preguntas}
                 ></textarea>
-              </div>
-              <div className="form-group d-flex justify-content-center">
-                <a
-                  href={`inicioSesion/`}
-                  className="btn btn-orange font-weight-bold"
-                >
-                  Solicitar cita
-                </a>
+                </div>
+            <div className="form-group d-flex justify-content-center">
+              <button
+                type="submit"
+                className="btn btn-orange font-weight-bold"
+                onClick={this.handleSubmit}
+
+              >
+                Solicitar cita
+              </button>
               </div>
             </form>
           </div>

@@ -96,12 +96,12 @@ class MainFormularioRegistro extends React.Component {
     } else {
       // registrar post
       axios
-        .post(`https://api-eduskill.now.sh/usuarios/`, { ...this.state.form })
+       .post(`https://api-eduskill.now.sh/usuarios/`, { ...this.state.form })
         .then((respuesta) => {
           if (respuesta.status == 201) {
             if (window.confirm("Usuario registrado exitosamente")) {
               window.location = "/inicioSesion";
-            } else {
+            } else { 
               window.location = "/inicioSesion";
             }
           }
@@ -111,11 +111,18 @@ class MainFormularioRegistro extends React.Component {
 
   render() {
     let mensajeBoton;
+    let mensajeTitulo;
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       mensajeBoton = "Editar";
     } else {
       mensajeBoton = "Registrar";
+    }
+
+    if (usuarioAutenticado) {
+      mensajeTitulo = "Editar hoja de ida";
+    } else {
+      mensajeTitulo = "Formulario de Registro";
     }
 
     return (
@@ -124,8 +131,7 @@ class MainFormularioRegistro extends React.Component {
           <div className="col"></div>
 
           <div className="col-6 border">
-            <h5 className="text-center mt-3">Formulario de Registro</h5>
-
+            <h5 className="text-center mt-3">{mensajeTitulo}</h5>
             <form onSubmit={this.handleSubmit}>
               <div className="form-group">
                 <label>Nombre</label>
