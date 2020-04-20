@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 class MainFormularioRegistro extends React.Component {
   state = {
@@ -79,6 +80,14 @@ class MainFormularioRegistro extends React.Component {
     console.log("boton presionado");
   };
 
+  
+  _Alerta() {
+    Swal.fire(
+      "Registro exitoso!😃",
+      "Has clic en el botón",
+      "success"
+    );
+  }
   handleSubmit = (e) => {
     e.preventDefault();
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
@@ -99,7 +108,7 @@ class MainFormularioRegistro extends React.Component {
        .post(`https://api-eduskill.now.sh/usuarios/`, { ...this.state.form })
         .then((respuesta) => {
           if (respuesta.status == 201) {
-            if (window.confirm("Usuario registrado exitosamente")) {
+              if (this._Alerta) {
               window.location = "/inicioSesion";
             } else { 
               window.location = "/inicioSesion";
@@ -209,6 +218,7 @@ class MainFormularioRegistro extends React.Component {
                   name="identificacionUser"
                   className="form-control"
                   type="number"
+                  required
                   value={this.state.form.identificacionUser}
                 />
               </div>
@@ -378,6 +388,7 @@ class MainFormularioRegistro extends React.Component {
                 onClick={this.handleClick}
                 className="btn btn-orange btn-block"
                 type="submit"
+                onClick={this._Alerta} 
               >
                 <strong>{mensajeBoton}</strong>
               </button>

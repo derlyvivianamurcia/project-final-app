@@ -26,11 +26,17 @@ class Citas extends React.Component {
   
     handleSubmit(event) {
     console.log(event)
-      alert(
-        "Tus datos se han enviado muy pronto nos comunicaremos contigo " +
-          this.state.value
+    Swal.fire(
+      'Tus datos se han enviado muy pronto nos comunicaremos contigo',
+      'Has clic en el botón :)',
+      'error' + this.state.value
+    )
+
+      // alert(
+      //   "Tus datos se han enviado muy pronto nos comunicaremos contigo " +
+      //     this.state.value
           
-      );
+      // );
       event.preventDefault();
     }
   

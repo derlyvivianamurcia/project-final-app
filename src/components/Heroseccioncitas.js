@@ -3,6 +3,7 @@ import imageacompanamiento from "../images/acompañamiento/acompañamiento.jpg";
 import pregunta from "../images/acompañamiento/signo.jpg";
 import axios from "axios";
 import InicioSesion from "../pages/InicioSesion";
+import Swal from "sweetalert2";
 
 class Heroseccioncitas extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Heroseccioncitas extends React.Component {
     },
   };
 
-  async componentDidMount() {
+   async componentDidMount() {
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       axios
@@ -47,10 +48,20 @@ class Heroseccioncitas extends React.Component {
     e.preventDefault();
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
-      window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
+      Swal.fire(
+        'Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo',
+        'Has clic en el botón :)',
+        'error'
+      )
+      // window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
      
   }   else {
-    window.confirm("Para realizar la solicitud, debe iniciar sesión");
+    Swal.fire(
+      'Para realizar la solicitud, debe iniciar sesión',
+      'Has clic en el botón :)',
+      'error'
+    )
+    // window.confirm("Para realizar la solicitud, debe iniciar sesión");
    
   }
 };

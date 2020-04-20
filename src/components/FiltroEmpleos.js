@@ -1,5 +1,5 @@
 import React from "react";
-
+import Swal from "sweetalert2";
 class FiltroEmpleos extends React.Component {
   IrAEditar() {
     window.location = "/editarHojaDeVida";
@@ -7,6 +7,13 @@ class FiltroEmpleos extends React.Component {
 
   Postularme() {
     console.log("ir a pagina de mis postulaciones");
+  }
+  _Alerta() {
+    Swal.fire(
+      "Para poder ingresar debe obtener un plan premium!😃",
+      "Has clic en el botón",
+      "success"
+    );
   }
 
   render() {
@@ -16,6 +23,7 @@ class FiltroEmpleos extends React.Component {
           <div className="col-md-3">
             <button
               onClick={() => this.Postularme()}
+              onClick={this._Alerta} 
               className="btn btn-orange font-weight-bold "
             >
               <i class="fas fa-list-ul"></i> Mis postulaciones

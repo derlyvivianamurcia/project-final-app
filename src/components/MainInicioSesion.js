@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 class MainInicioSesion extends React.Component {
   state = {
@@ -36,7 +37,11 @@ class MainInicioSesion extends React.Component {
         const { data } = response;
 
         if (data[0] == undefined) {
-          return alert("Usuario o Contraseña incorrectos");
+          return Swal.fire(
+            'Usuario o Contraseña incorrectos',
+            'Has clic en el botón :)',
+            'error'
+          )
         }
 
         if (this.ValidarContrasena(data[0].password)) {
@@ -55,8 +60,11 @@ class MainInicioSesion extends React.Component {
 
           return (window.location = "/");
         }
-
-        alert("Usuario o Contraseña incorrectos");
+        Swal.fire(
+          'Usuario o Contraseña incorrectos',
+          'Has clic en el botón :)',
+          'error'
+        )
       });
   };
 
