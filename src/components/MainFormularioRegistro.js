@@ -32,7 +32,9 @@ class MainFormularioRegistro extends React.Component {
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       axios
-        .get(`http://localhost:3001/usuarios?email=${usuarioAutenticado.email}`)
+        .get(
+          `https://api-eduskill.now.sh/usuarios?email=${usuarioAutenticado.email}`
+        )
         .then((response) => {
           const data = response.data;
           this.setState({
@@ -83,7 +85,7 @@ class MainFormularioRegistro extends React.Component {
     if (usuarioAutenticado) {
       // editar put
       axios
-        .put(`http://localhost:3001/usuarios/${usuarioAutenticado.id}`, {
+        .put(`https://api-eduskill.now.sh/usuarios/${usuarioAutenticado.id}`, {
           ...this.state.form,
         })
         .then((respuesta) => {
@@ -94,12 +96,12 @@ class MainFormularioRegistro extends React.Component {
     } else {
       // registrar post
       axios
-        .post(`http://localhost:3001/usuarios/`, { ...this.state.form })
+       .post(`https://api-eduskill.now.sh/usuarios/`, { ...this.state.form })
         .then((respuesta) => {
           if (respuesta.status == 201) {
             if (window.confirm("Usuario registrado exitosamente")) {
               window.location = "/inicioSesion";
-            } else {
+            } else { 
               window.location = "/inicioSesion";
             }
           }
@@ -109,6 +111,7 @@ class MainFormularioRegistro extends React.Component {
 
   render() {
     let mensajeBoton;
+    let mensajeTitulo;
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       mensajeBoton = "Editar";
@@ -116,13 +119,18 @@ class MainFormularioRegistro extends React.Component {
       mensajeBoton = "Registrar";
     }
 
+    if (usuarioAutenticado) {
+      mensajeTitulo = "Editar hoja de Vida";
+    } else {
+      mensajeTitulo = "Formulario de Registro";
+    }
+
     return (
       <div className="container">
         <div className="row">
           <div className="col"></div>
-
           <div className="col-6 border">
-            <h5 className="text-center mt-3">Formulario de Registro</h5>
+            <h5 className="text-center mt-3">{mensajeTitulo}</h5>
             <form onSubmit={this.handleSubmit}>
               <div className="form-group">
                 <label>Nombre</label>

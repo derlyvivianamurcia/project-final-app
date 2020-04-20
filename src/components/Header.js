@@ -28,8 +28,8 @@ class Header extends React.Component {
           </Link>
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <Link to="" onClick={this.DestroySession} className="dropdown-item">
-              Cerrar Sesión
-            </Link>
+            <i className="fas fa-sign-in-alt">Cerrar Sesión</i>
+              </Link>
           </div>
         </li>
       );
@@ -40,7 +40,7 @@ class Header extends React.Component {
             to="/InicioSesion"
             className="colorTextLink h5 text-decoration-none"
           >
-            <i className="fas fa-sign-in-alt"></i> Iniciar Sesión
+            <i class="fas fa-user-shield">Iniciar Sesión</i>
           </Link>
         </li>
       );
