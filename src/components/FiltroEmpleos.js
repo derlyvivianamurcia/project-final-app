@@ -5,12 +5,19 @@ class FiltroEmpleos extends React.Component {
     window.location = "/editarHojaDeVida";
   }
 
+  Postularme() {
+    console.log("ir a pagina de mis postulaciones");
+  }
+
   render() {
     return (
       <div className="container">
         <div className="row mt-4 mb-4">
           <div className="col-md-3">
-            <button className="btn btn-orange font-weight-bold ">
+            <button
+              onClick={() => this.Postularme()}
+              className="btn btn-orange font-weight-bold "
+            >
               <i class="fas fa-list-ul"></i> Mis postulaciones
             </button>
           </div>

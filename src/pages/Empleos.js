@@ -17,7 +17,7 @@ class Empleos extends React.Component {
   }
 
   traerEmpleosDeApi() {
-    axios.get("http://localhost:3001/empleos").then((respuesta) => {
+    axios.get("https://api-eduskill.now.sh/empleos").then((respuesta) => {
       this.setState({ empleos: respuesta.data, empleosBackup: respuesta.data });
     });
   }

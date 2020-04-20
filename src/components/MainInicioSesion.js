@@ -31,7 +31,7 @@ class MainInicioSesion extends React.Component {
     const { email } = this.state.form;
 
     axios
-      .get(`http://localhost:3001/usuarios?email=${email}`)
+      .get(`https://api-eduskill.now.sh/usuarios?email=${email}`)
       .then((response) => {
         const { data } = response;
 
