@@ -120,7 +120,7 @@ class MainFormularioRegistro extends React.Component {
     }
 
     if (usuarioAutenticado) {
-      mensajeTitulo = "Editar hoja de vida";
+      mensajeTitulo = "Editar hoja de Vida";
     } else {
       mensajeTitulo = "Formulario de Registro";
     }
