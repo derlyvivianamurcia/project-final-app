@@ -6,6 +6,20 @@ import InicioSesion from "../pages/InicioSesion";
 import Swal from "sweetalert2";
 
 class Heroseccioncitas extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { 
+      form: {
+        nombreUsuario: "",
+        email: "",
+        preguntas: "",
+      }
+    };
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
   state = {
     loading: false,
     error: null,
@@ -46,25 +60,53 @@ class Heroseccioncitas extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
-    if (usuarioAutenticado) {
+  //   const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
+  //   if (usuarioAutenticado) {
+  //     Swal.fire(
+  //       'Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo',
+  //       'Has clic en el botón :)',
+  //       'error'
+  //     )
+  //     // window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
+     
+  // }   else {
+  //   Swal.fire(
+  //     'Para realizar la solicitud, debe iniciar sesión',
+  //     'Has clic en el botón :)',
+  //     'error'
+  //   )
+  //   // window.confirm("Para realizar la solicitud, debe iniciar sesión");
+   
+  // }
+
+    if (usuarioAutenticado){
+      const templateId = 'template_bYLUDNF1';
+      this.sendFeedback(templateId, {message_html: this.state.form.preguntas, 
+                                    from_name: this.state.form.nombreUsuario,
+                                    reply_to: this.state.form.email})
+    } else {
       Swal.fire(
-        'Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo',
+        'Por favor inicia sesion para realizar tu solicitud',
         'Has clic en el botón :)',
         'error'
       )
-      // window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
-     
-  }   else {
-    Swal.fire(
-      'Para realizar la solicitud, debe iniciar sesión',
-      'Has clic en el botón :)',
-      'error'
-    )
-    // window.confirm("Para realizar la solicitud, debe iniciar sesión");
-   
-  }
+      // alert("Por favor inicia sesion para realizar tu solicitud")
+    }
 };
+
+sendFeedback (templateId, variables) {
+  console.log(variables)
+	window.emailjs.send(
+  	'gmail', templateId,
+    variables
+  	).then(res => {
+      alert("Solicitud enviada correctamente")
+    	//console.log('Email successfully sent!')
+  	})
+  	// Handle errors here however you like, or use a React error boundary
+  	.catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+  }
+
   render() {
     return (
       <section className="container btext marginTop">
@@ -84,7 +126,7 @@ class Heroseccioncitas extends React.Component {
           <div className="col-6 d-flex align-items-center colorTextAzul">
             <h5>¡Que estás esperando, solicita tu cita ya!</h5>
           </div>
-          <div className="col-6">
+          <div className="col-sm-12 col-md-6">
             <div>
               <p className="text-center mt-3">
                 A continuación encontraras un formulario con tus datos
@@ -101,7 +143,7 @@ class Heroseccioncitas extends React.Component {
                 </li>
               </ol>
             </div>
-            <form onSubmit={this.handleSubmit}>
+            <form>
               <div className="form-group">
                 <label>Nombre</label>
                 <input
@@ -134,19 +176,13 @@ class Heroseccioncitas extends React.Component {
                   value={this.state.form.preguntas}
                 ></textarea>
                 </div>
+                
             <div className="form-group d-flex justify-content-center">
-              <button
-                type="submit"
-                className="btn btn-orange font-weight-bold"
-                onClick={this.handleSubmit}
-
-              >
-                Solicitar cita
-              </button>
+            <input type="button" value="Solicitar cita" className="btn btn-orange font-weight-bold" onClick={this.handleSubmit} />
               </div>
             </form>
           </div>
-          <div className="col-6">
+          <div className="col-sm-12 col-md-6">
             <img className="img-fluid marginTop" src={imageacompanamiento} />
           </div>
         </div>

@@ -20,22 +20,22 @@ class FiltroEmpleos extends React.Component {
     return (
       <div className="container">
         <div className="row mt-4 mb-4">
-          <div className="col-md-3">
+          <div className="col-md-3 mt-2">
             <button
               onClick={() => this.Postularme()}
               onClick={this._Alerta} 
               className="btn btn-orange font-weight-bold "
             >
-              <i class="fas fa-list-ul"></i> Mis postulaciones
+              <i className="fas fa-list-ul"></i> Mis postulaciones
             </button>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-3 mt-2">
             <button
               onClick={() => this.IrAEditar()}
               className="btn btn-orange font-weight-bold"
             >
-              <i class="fas fa-user-tie"></i> Ver hoja de vida
+              <i className="fas fa-user-tie"></i> Ver hoja de vida
             </button>
           </div>
 

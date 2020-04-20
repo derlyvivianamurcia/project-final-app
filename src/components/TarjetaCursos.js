@@ -4,7 +4,7 @@ function InformacionCurso(props) {
   const cursos = props.EjemploDAlgoQueMando;
   return cursos.map((curso) => {
     return (
-      <div key={curso.id} className="col-sm-4 col-md-4 col-lg-4">
+      <div key={curso.id} className="d-flex justify-content-center col-sm-12 col-md-6 col-lg-4 mt-3">
         <div className="card" style={{ width: "18rem", height: "433px" }}>
           <img
             src={curso.imagen}

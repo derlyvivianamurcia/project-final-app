@@ -40,7 +40,7 @@ class Header extends React.Component {
             to="/InicioSesion"
             className="colorTextLink h5 text-decoration-none"
           >
-            <i class="fas fa-user-shield">Iniciar Sesión</i>
+            <i className="fas fa-user-shield">Iniciar Sesión</i>
           </Link>
         </li>
       );
@@ -68,7 +68,7 @@ class Header extends React.Component {
               <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <Link className="colorTextLink h5 text-decoration-none" to="/">
-                <i class="fas fa-home"></i>
+                <i className="fas fa-home"></i>
                   Inicio
                 </Link>
               </li>
