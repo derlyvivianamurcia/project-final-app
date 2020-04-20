@@ -10,7 +10,7 @@ class Empleos extends React.Component {
       Swal.fire(
         'Su postulación fue exitosa',
         'Has clic en el botón :)',
-        'error'
+        'error' + this.state
       )
       console.log(usuarioAutenticado + empleo);
     }else {

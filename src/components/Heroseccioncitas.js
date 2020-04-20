@@ -5,6 +5,7 @@ import axios from "axios";
 import InicioSesion from "../pages/InicioSesion";
 import Swal from "sweetalert2";
 
+
 class Heroseccioncitas extends React.Component {
 
   constructor(props) {
@@ -30,7 +31,7 @@ class Heroseccioncitas extends React.Component {
     },
   };
 
-   async componentDidMount() {
+  async componentDidMount() {
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       axios
@@ -60,25 +61,7 @@ class Heroseccioncitas extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-  //   const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
-  //   if (usuarioAutenticado) {
-  //     Swal.fire(
-  //       'Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo',
-  //       'Has clic en el botón :)',
-  //       'error'
-  //     )
-  //     // window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
-     
-  // }   else {
-  //   Swal.fire(
-  //     'Para realizar la solicitud, debe iniciar sesión',
-  //     'Has clic en el botón :)',
-  //     'error'
-  //   )
-  //   // window.confirm("Para realizar la solicitud, debe iniciar sesión");
-   
-  // }
-
+    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado){
       const templateId = 'template_bYLUDNF1';
       this.sendFeedback(templateId, {message_html: this.state.form.preguntas, 
@@ -88,23 +71,26 @@ class Heroseccioncitas extends React.Component {
       Swal.fire(
         'Por favor inicia sesion para realizar tu solicitud',
         'Has clic en el botón :)',
-        'error'
+        'error' + this.state.value
       )
-      // alert("Por favor inicia sesion para realizar tu solicitud")
     }
 };
 
 sendFeedback (templateId, variables) {
   console.log(variables)
 	window.emailjs.send(
-  	'gmail', templateId,
+    'gmail', templateId,
     variables
-  	).then(res => {
-      alert("Solicitud enviada correctamente")
+    ).then(res => {
+      Swal.fire(
+        'Solicitud enviada correctamente',
+        'Has clic en el botón :)',
+        'error' + this.state.value
+      )
     	//console.log('Email successfully sent!')
-  	})
+    })
   	// Handle errors here however you like, or use a React error boundary
-  	.catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
   }
 
   render() {
