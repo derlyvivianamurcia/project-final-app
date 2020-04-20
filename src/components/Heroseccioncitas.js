@@ -44,12 +44,14 @@ class Heroseccioncitas extends React.Component {
   };
 
   handleSubmit = (e) => {
+    e.preventDefault();
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       window.confirm("Su petición fue realizada con éxito, muy pronto nos comunicaremos contigo");
+     
   }   else {
     window.confirm("Para realizar la solicitud, debe iniciar sesión");
-    window.location = "/inicioSesion";
+   
   }
 };
   render() {

@@ -2,12 +2,17 @@ import React from "react";
 
 class Empleos extends React.Component {
   handleClick = (event) => {
-    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     const empleo = event.target.id;
+    const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     // lograr imprimir propiedades, ejemplo -> empleo.nameEmpleo
-    console.log(empleo);
+    if (usuarioAutenticado){
+      window.confirm("Su postulación fue exitosa");
+      console.log(usuarioAutenticado + empleo);
+    }else {
+      window.confirm("Para aplicar a la vacante debe registrarse");
+    }
+    
   };
-
   render() {
     const datos = this.props.listaEmpleos;
     return (
