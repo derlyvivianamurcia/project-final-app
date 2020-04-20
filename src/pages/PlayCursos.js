@@ -18,7 +18,7 @@ class PlayCursos extends React.Component {
       match: { params },
     } = this.props;
     const { data } = await axios.get(
-      `http://localhost:3001/cursos/${params.id}`
+      `https://api-eduskill.now.sh/cursos/${params.id}`
     );
     this.setState({
       curso: data,

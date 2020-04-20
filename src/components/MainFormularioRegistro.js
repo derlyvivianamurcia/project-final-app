@@ -32,7 +32,9 @@ class MainFormularioRegistro extends React.Component {
     const usuarioAutenticado = JSON.parse(localStorage.getItem("access_token"));
     if (usuarioAutenticado) {
       axios
-        .get(`http://localhost:3001/usuarios?email=${usuarioAutenticado.email}`)
+        .get(
+          `https://api-eduskill.now.sh/usuarios?email=${usuarioAutenticado.email}`
+        )
         .then((response) => {
           const data = response.data;
           this.setState({
@@ -83,7 +85,7 @@ class MainFormularioRegistro extends React.Component {
     if (usuarioAutenticado) {
       // editar put
       axios
-        .put(`http://localhost:3001/usuarios/${usuarioAutenticado.id}`, {
+        .put(`https://api-eduskill.now.sh/usuarios/${usuarioAutenticado.id}`, {
           ...this.state.form,
         })
         .then((respuesta) => {
@@ -94,7 +96,7 @@ class MainFormularioRegistro extends React.Component {
     } else {
       // registrar post
       axios
-        .post(`http://localhost:3001/usuarios/`, { ...this.state.form })
+        .post(`https://api-eduskill.now.sh/usuarios/`, { ...this.state.form })
         .then((respuesta) => {
           if (respuesta.status == 201) {
             if (window.confirm("Usuario registrado exitosamente")) {
