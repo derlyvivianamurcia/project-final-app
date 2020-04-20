@@ -30,7 +30,7 @@ class Empleos extends React.Component {
                 <p>
                   <strong>Ubicación:</strong> {item.ubicacionEmpleo}
                 </p>
-                <p>
+                <p className="text-justify">
                   <strong>Descripción:</strong> {item.descripcionEmpleo}
                 </p>
                 <p>

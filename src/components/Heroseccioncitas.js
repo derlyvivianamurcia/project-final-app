@@ -73,7 +73,7 @@ class Heroseccioncitas extends React.Component {
           <div className="col-6 d-flex align-items-center colorTextAzul">
             <h5>¡Que estás esperando, solicita tu cita ya!</h5>
           </div>
-          <div className="col-6">
+          <div className="col-sm-12 col-md-6">
             <div>
               <p className="text-center mt-3">
                 A continuación encontraras un formulario con tus datos
@@ -135,7 +135,7 @@ class Heroseccioncitas extends React.Component {
               </div>
             </form>
           </div>
-          <div className="col-6">
+          <div className="col-sm-12 col-md-6">
             <img className="img-fluid marginTop" src={imageacompanamiento} />
           </div>
         </div>
